@@ -1,0 +1,47 @@
+
+<div class="topic_{$lvl}">
+
+	<div class="topic_title">{$question} {if $group == 'simple'}( всего голосов: {$votes_total} ){elseif $group == 'evaluative'}( всего голосов: {$votes_max} ){/if}</div>
+	<div class="question_comment">{$comment}</div>
+	
+	{if $group == 'simple'}
+		<div class="answer_simple">
+			<table class="form">
+				<tmpl:answers>
+				<tr>
+					<td style="vertical-align:middle;" width="40%">{$answer}</td>
+					<td style="vertical-align:middle;" width="10%">{$votes} ({$percent}%)</td>
+					<td style="vertical-align:middle;" width="50%"><img src="/img/vote/bar.gif" alt="{$votes} ({$percent}%)" border="0" height="10" width="{$width}" vspace="10"></td>
+				</tr>
+				</tmpl:answers> 
+			</table>
+		</div>
+		
+	{elseif $group == 'evaluative'}
+		<div class="answer_simple">
+			<table class="form">
+				<tmpl:answers>
+				<tr>
+					<td style="vertical-align:middle;" width="40%">{$answer}</td>
+					<td style="vertical-align:middle;" width="10%">{$average_point} (ср. оц.)</td>
+					<td style="vertical-align:middle;" width="50%"><img src="/img/vote/bar.gif" alt="cр. оценка: {$average_point}" border="0" height="10" width="{$width}" vspace="10"></td>
+				</tr>
+				</tmpl:answers> 
+			</table>
+		</div>
+		
+	{elseif $group == 'comment'}
+		<div class="answer_comment">
+			{if $comment_rows.$id == 0}<center><div style="font-size:10px; color:#777;">Комментариев от пользователей нет</div></center>
+			{else}
+				<table class="form">
+					<tmpl:answers>
+						<tr><td colspan="3"><div style="font-size:11px; border-bottom:1px dotted #777; width:50%;">{$tstamp} {if IS_DEVELOPER}[<span style="color:#777;"> {$ip} </span>]{/if}</div></td></tr> 
+						<tr><td colspan="3">{$value}</td></tr> 
+					</tmpl:answers>
+				</table>
+			{/if}
+		</div>
+	{/if}
+  
+</div>

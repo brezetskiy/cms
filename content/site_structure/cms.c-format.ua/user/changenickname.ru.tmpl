@@ -1,0 +1,26 @@
+<center>
+
+<form action="/{#LANGUAGE_URL}action/user/changenickname/" method="POST">
+	<input type="hidden" name="_return_path" value="/User/Info/">
+	<input type="hidden" name="_error_path" value="{#CURRENT_URL_FORM}">
+	
+	<table  class="form">
+		<tr>   
+			<td class="title">Ник имя:</td>
+			<td> 
+				<input class="wide" type="text" name="nickname" value="{$nickname}">
+			</td>
+		</tr>
+		<tr>
+			<td class="title">Ваш пароль:</td>
+			<td>
+				<input class="wide" type="password" name="passwd" value=""><br>
+				<span class="comment">Подтвердите изменения указанием Вашего пароля</span>
+			</td>
+		</tr>
+		<tr>  
+			<td class="title"></td>
+			<td><input type="submit" value="Изменить ник"></td>
+		</tr>
+	</table>
+</form>

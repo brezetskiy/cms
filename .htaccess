@@ -1,0 +1,80 @@
+# Parse robots.txt as php script
+<Files robots.txt>
+	AddType application/x-httpd-php .txt
+</Files>
+	
+# Deny all php files except *.php
+<Files "*\.*\.php">
+	Order allow,deny
+	Deny from all
+</Files>
+
+# Deny all ini files
+<Files "*\.ini"> 
+	Order allow,deny
+	Deny from all
+</Files>
+
+# Deny all .tmpl files
+<Files "*\.tmpl">
+	Order allow,deny
+	Deny from all
+</Files>
+
+Options -Indexes
+
+RewriteEngine On
+
+RewriteBase /
+#RewriteCond %{HTTP_HOST}   ^www.dev.delta-x\.com\.ua [NC]
+#RewriteRule ^(.*)          http://dev.delta-x.com.ua/$1 [L,R=301]
+
+
+RewriteRule ^testxxx /phpinfo.php
+RewriteRule ^.htaccess$ - [F]
+
+RewriteRule ^sitemap\.xml$ /sitemap.php [L,NC]
+RewriteRule ^robots\.txt$ /robots.php [L,NC]
+
+
+#RewriteCond %{REQUEST_FILENAME} !-d [OR]
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+
+# Если убрать эти директивы, то если css или js не найден, то будет грузиться основная страница сайта делая нагрузку на сервер
+# В /extras могут содержаться php файлы (например, редактор) - поэтому блокировать все запросы туда нельзя
+RewriteRule ^css/ / [L,R=404,NC]
+RewriteRule .css$ / [L,R=404,NC]
+RewriteRule ^js/ / [L,R=404,NC]
+RewriteRule ^extras/.+(js|css)$ / [L,R=404,NC]
+
+#RewriteRule ^ru/(.*)$ /$1 [L,R=301]
+
+### Admin:
+RewriteRule ^admin/$ /cms1/tools/cms/admin/welcome.php [L,NC]
+RewriteRule ^admin/Edit/([0-9a-zA-Z_/]*)$ /cms1/index_admin_edit.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^admin/([0-9a-zA-Z_/]+)$ /cms1/index_admin.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+###################################################
+
+
+### CMS Actions:
+RewriteRule ^i/([a-z0-9_]+)/(.+)$ /cms1/tools/cms/site/resize.php?parser=$1&url=$2 [L,NC]
+RewriteRule ^download/(.+)$ /cms1/tools/cms/site/download.php?url=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^action/admin/([0-9a-zA-Z_/-]+)$ /cms1/actions_admin.php?_event=$1 [L,NC,QSA]
+RewriteRule ^action/([0-9a-zA-Z_/-]+)$ /cms1/actions_site.php?_event=$1 [L,NC,QSA]
+RewriteRule ^([a-z]{2})/action/([0-9a-zA-Z_/-]+)$ /cms1/action/$2?_language=$1 [L,NC,QSA]
+RewriteRule ^([a-z]{2}/)$ /cms1/index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^$ /index_site.php?_REWRITE_URL=&%{QUERY_STRING} [L,NC]
+###################################################
+
+
+### Gallery:
+#RewriteRule ^gallery/(.+)/?$ /index_site.php?_REWRITE_URL=gallery&_GALLERY_URL=$1 [L,NC,QSA]
+###################################################
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([0-9a-zA-Z\._/-]+)$ /cms1/index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+
+

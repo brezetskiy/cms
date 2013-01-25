@@ -1,0 +1,133 @@
+body {background-color: #fff6d8; font: normal 12px Verdana, Tahoma, sans-serif; color:#464341; position: relative;min-width:1072px;}
+html, body {height:100%; padding:0px;margin:0px; }
+html{width:100%;min-width:1072px;}
+a {color:#083b76;}
+a:hover, a:link, a:active, a:focus{border:none;outline:none;}
+ a:focus img{border:none;outline:none;}
+a{outline:none;}
+p{margin:5px 0px;}
+ul{list-style:none;}
+ul ,li {margin:0px; padding:0px;}
+
+h1, h2, h3, h4, h5, h6 { color:#7c6413; margin:0px; padding:0px;}
+
+h1 {font-size:18px;text-align:center;}
+h2 {font-size:16px;text-align:center;}
+h3 {font-size:15px;}
+h4 {font-size:14px;}
+h5, h6 {font-size:13px;}
+
+img{border:none;}
+input { 
+border:none;
+font-size: 11px;
+margin: 0px;
+padding: 0px;
+}
+input, input[type="password"]:focus, input[type="search"]:focus,input:focus{border: none;}
+
+/* begin header */
+
+
+div.logo{width: 380px;
+height: 257px;
+display: block;
+background: url('/design/dev/img/sanocorpore/bg-logo.png') 0 0 no-repeat;}
+a#header_logo {
+width: 127px;
+height: 159px;
+display: block;
+background: url('/design/dev/img/sanocorpore/logo.png') 0 0 no-repeat;
+}
+div#header_menu {width:160px; }
+div#header-menu ul.menu .submenu__list__item a:hover, div#header-menu ul.menu .submenu__list__item a.selected,
+div#right-menu ul.menu .submenu__list__item a:hover,div#right-menu ul.menu .submenu__list__item a.selected{background: url('/design/dev/img/sanocorpore/h-menu-a-h-small.png') 0px 7px no-repeat;height:28px;}
+ul.menu{ font-size:13px; line-height: 38px; list-style:none;}
+ul.menu a{ color:#5f0b01; padding: 0px 0 0 18px; 
+background: url('/design/dev/img/sanocorpore/h-menu-a.png') 0px 14px no-repeat; display:block; height:33px;}
+ul.menu a:hover, ul.menu a.selected{ background: url('/design/dev/img/sanocorpore/h-menu-a-h.png') 0px 14px no-repeat;}
+div#header_menu ul ul, div#right-menu ul ul{margin-left:20px; font-size:12px; line-height: 22px; display:none;}
+div#header_menu ul.submenu__list a, div#right-menu ul.submenu__list a{ background: url('/design/dev/img/sanocorpore/h-menu-a-small.png') 0px 7px no-repeat;height:28px;}
+
+
+
+div#phone{background: url('/design/dev/img/sanocorpore/phone.png') no-repeat;
+color:#94884d;
+font-size:12px; 
+}
+#phone span {font-size:30px; line-height:28px;}
+#phone span.phone{color:#083b76;}
+
+/*end header */
+
+/* main part */
+
+/* banner right*/
+#block-banner{width:277px; overflow:hidden;}
+#block-banner img{margin-bottom:20px;}
+
+/* end banner right */
+
+/*center column */
+.block-center{margin:20px 0px 20px 32px; line-height:16px;}
+.block-center p{ padding: 15px 0px 10px 0px;}
+.vote-title{background: url('/design/dev/img/sanocorpore/quest.png') no-repeat 0 0; padding-left:40px; color:#083b76; font-weight:bold;line-height:30px;}
+.vote-form {margin-top:20px;}
+.vote-form label{cursor: pointer}
+.vote-form  input[type="radio"] {margin-left: 15px;}
+.vote-form  input[type="submit"]{margin-top:15px;}
+/*end center column */
+
+/* end main part */
+/*Footer*/
+#footer {
+background: transparent url('/design/dev/img/sanocorpore/footer.jpg') repeat;
+min-width:1072px;
+}
+
+.footer-top{background: transparent url('/design/dev/img/sanocorpore/bg-top.jpg') repeat-x; height:34px;}
+.footer-wrap{position:relative;background: url('/design/dev/img/sanocorpore/footer-wrap.png') 100% 30% no-repeat; }
+.footer-logo{display:block; height:52px; width:42px;background: url('/design/dev/img/sanocorpore/mini-logo.png') no-repeat; }
+.footer-search{display:block; height:36px; width:195px;background: url('/design/dev/img/sanocorpore/search.png') no-repeat; padding:10px 0px 0px 20px;}
+.search_input_text{color:#766413; font-size:15px; font-weight:bold; border:none; background:none;outline: none;}
+/*Footer*/
+/* button content */
+.buttoncontent{line-height:38px;  background: url('/design/dev/img/sanocorpore/button-l.png') no-repeat 0 0; padding-left:17px;display: inline-block;text-decoration:none;cursor:pointer;}
+.buttoncontent span{background: transparent url('/design/dev/img/sanocorpore/button-r.png') no-repeat 100% 0;display: inline-block;
+line-height:40px;
+color: #7c6413; padding:0px 25px 0px 8px;
+font-size:15px; font-weight:bold;}
+
+input[type="submit"]{height:40px; background: url('/design/dev/img/sanocorpore/submit.png') no-repeat 0 0; padding-left:17px;display: inline-block; border:none; width:127px;
+color: #7c6413; padding:0px 25px 0px 25px;
+font-size:15px; font-weight:bold;cursor: pointer;
+}
+/* end buttoncontent */
+/* typical class */
+.clear{clear:both; height:1px;}
+.left{float:left;}
+.right{float:right;}
+.margintop{display:block; min-height:20px;}
+
+.readmore{text-align:left; 
+	margin:0px;
+	display:block; min-width:250px; line-height:24px; padding-left:10px;font-size:10px;
+}
+.light{background: url('/design/dev/img/sanocorpore/readmore-light.png') no-repeat; }
+.dark{background: url('/design/dev/img/sanocorpore/readmore-dark.png') no-repeat; }
+
+/*type radio */
+.RadioClass{		display: none;	}
+.RadioLabelClass:hover{text-decoration: underline;	}
+.LabelSelected{	background: url("/design/dev/img/sanocorpore/checkradio.png") 0px 3px no-repeat;	}
+.RadioLabelClass{
+		background: url("/design/dev/img/sanocorpore/unradio.png") 0px 3px no-repeat;
+		padding-left: 30px;
+		padding-top: 3px;
+		margin: 2px 0px 2px 15px;
+		height: 20px;	
+		width: 80%;
+		display: block;	
+		float: left;
+}
+.RadioSelected{		background: url("/design/dev/img/sanocorpore/checkradio.png") 0px 3px no-repeat;	}

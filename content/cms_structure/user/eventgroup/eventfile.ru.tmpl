@@ -1,0 +1,14 @@
+{$cms_view}
+
+<DIV class="context_help">
+	В колонке "Название" указано имя файла - скрипта.
+	Если текст в этой колонке имеет серый цвет, то значит файла со скриптом - не существует.
+</DIV>
+
+{if !empty($action_files)}
+	<H2>Файлы событий, которые не заведены в систему:</H2>
+	
+	<tmpl:file>
+	<li><a onclick="EditWindow(0, {@table_id}, '{#CMS_STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', 'name={$file}&module_id={@module_id}&description_ru={$description}')" href="javascript:void();">{$file}</a></li>
+	</tmpl:file>
+{/if}

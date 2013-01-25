@@ -1,0 +1,82 @@
+#wrap{ background: url('/design/dev/img/sanocorpore/bg-inside.png') 50% 0 no-repeat;}
+
+#wrap-content2{margin-left:8px;background: url('/design/dev/img/sanocorpore/header-inside.png') 0 0 no-repeat;}
+
+/*header*/
+.page-inside #header{padding: 280px 0px 0px 0px;}
+#header-image{position:absolute; top:97px; left:255px;; width:503px; height:237px;}
+.page-inside div.logo{top:25px;}
+/*end header*/
+
+/*breadcrumbs*/
+#breadcrumbs{ height:60px; display:block; width:720px; background: url('/design/dev/img/sanocorpore/nav-line.png') 13px 40px no-repeat; margin-left:25px;}
+#breadcrumbs div{height:60px; display:block;padding:8px 0px 0px 32px;background: url('/design/dev/img/sanocorpore/nav-home.png') 0px 0px no-repeat;font-size:11px;}
+#breadcrumbs div a{color:#5f0b01;background: url('/design/dev/img/sanocorpore/nav-k.png') 100% 55% no-repeat;padding:0px 16px 0px 8px;}
+#breadcrumbs div span{color:#7c6413;background: url('/design/dev/img/sanocorpore/nav-here.png') 100% 55% no-repeat;padding:0px 16px 0px 8px;}
+/*end breadcrumbs */
+
+/* content */
+div#center-column {margin: 0px 340px 0px 45px;}
+#content-wrap{margin-top:44px; line-height:15px;}
+#content-wrap p{margin-top:15px;}
+#content-wrap h1{text-align:left; font-size:21px; margin-bottom:20px;}
+#content-article .img { background-color: #fff; -moz-border-radius: 10px;padding:10px;
+border-radius: 10px; border:1px solid #f3e7b5;float:left; margin:0px 25px 20px 0px;}
+#content-article img{ background-color: #fff; -moz-border-radius: 10px;padding:10px;
+border-radius: 10px; border:1px solid #f3e7b5;}
+#content-article img.non-style{background: none; border:none;padding:0px;}
+
+#content-wrap .img-specoffer, #content-wrap .img-news { padding:10px;
+float:left; margin:0px 25px 20px 0px;}
+
+.faq-list, .faq-list p{margin-bottom:20px;}
+/*end content */
+
+/* right column */
+.page-inside #right-column{margin-top:28px; margin-right:10px;}
+#right-column .menu{margin-bottom:35px;}
+/* end right column */
+
+/*content-bottom*/
+/* news */
+.content-bottom{width:100%; margin-top:45px; padding:0px;}
+.title-block{width:250px; float:left;}
+.title-m{background: url('/design/dev/img/sanocorpore/title-m.png') no-repeat; text-align:left; 
+	padding:15px 0px 15px 30px; font-size:18px; line-height:18px; margin:0px;
+	display:block; width:100%;
+}
+.title-m a{text-decoration:none; color:#7C6413;}
+.content-bottom .title-news {background-position: 0px 0px; padding-left:30px;}
+
+
+/* news left */
+div.scrollable-news-inside {height: 200px;width: 1072px;overflow: hidden;position: relative;}
+.scrollable-news-inside .items {position: absolute;clear: both;}
+.items .section {float: left;width: 1072px;}
+
+.news_next{width:85px;}
+.news-prev, .news-next, .trener-prev, .trener-next {display:inline-block; width: 38px; height:40px;text-decoration: none;}
+.news-prev{background: url('/design/dev/img/sanocorpore/new-arrow-l.png') 0px 2px no-repeat; }
+.news-next{background: url('/design/dev/img/sanocorpore/new-arrow-r.png') 0px 2px no-repeat;}
+
+.content-bottom  ul.news{list-style:none;font-family: Verdana, Tahoma, sans-serif;margin-top:45px; }
+.content-bottom ul.news li{float:left; width:340px; display:inline-block; margin-left:21px;}
+.content-bottom ul.news li:first-child{margin-left:0px;}
+
+ul.news img{float:left; padding-right:10px;}
+ul.news .date{font-size:10px;}
+ul.news p{line-height:16px; margin-top:8px;}
+
+/* end news */
+
+td.news_date, td#head-date{width:130px; font-weight:bold; padding:5px;}
+.link_arhiv{float:right; font-weight:bold;}
+.news_title a{font-weight:bold; padding-top:15px;}
+.news_title div {padding-top:15px;}
+.year{font-size:18px; padding:15px 0px 5px 0px;}
+
+.contetn-article td{padding-top:20px;}
+.img-article{
+/*background-color: #fff; -moz-border-radius: 5px;border-radius: 5px; border:1px solid #f3e7b5;*/
+padding:5px;float:left; margin:0px 10px 5px 0px;
+}

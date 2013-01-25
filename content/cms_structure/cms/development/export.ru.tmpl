@@ -1,0 +1,34 @@
+<h1>Экспорт данных</h1>
+<form method="GET" action="./Table/">
+<table class="vertical" width="500">
+<tr>
+	<td class="title">Таблица:</td>
+	<td>
+		<select name="table_id">
+			<option value="0">Сделайте выбор...</option>
+			<tmpl:table>
+			<option value="{$id}">{$table_name}</option>
+			</tmpl:table>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td class="title">parent_id:</td>
+	<td><input type="text" size="5" name="parent_id"></td>
+</tr>
+<tr>
+	<td class="title">export_id:</td>
+	<td><input type="text" size="15" name="export_id"></td>
+</tr>
+<tr>
+	<td class="title"></td>
+	<td><input type="submit" value="Далее&gt;&gt;"></td>
+</tr>
+</table>
+</form>
+
+<div class="context_help" style="width:500px;">
+Укажите номер родительского раздела (parent_id), или 
+в поле export_id укажите номера разделов, которе надо экспортировать.
+Разделять номера разделов в поле export_id можно запятой.
+</div>

@@ -1,0 +1,55 @@
+<script language="JavaScript">
+function go(status) {
+	if (status) {
+		document.getElementById('subscribers').style.display = 'none';
+		document.getElementById('subscribers2').style.display = 'block';
+	} else {
+		document.getElementById('subscribers').style.display = 'block';
+		document.getElementById('subscribers2').style.display = 'none';
+	}
+}
+function send() {
+	AjaxRequest.form('maillist', 'Сохраняем...', {});
+}
+</script>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/maillist/groupedit/" id="maillist" onsubmit="send();return false;">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+
+<h1>Групповое изменение параметров подписки</h1>
+<a href="../">Подписчики</a> <img src="/design/cms/img/ui/selector.gif" align="absmiddle"> Групповое изменение
+<p><b>Подписчики:</b><br>
+<input onclick="go(this.checked);" type="checkbox" name="all_subscribers" value="1" id="all_subscribers"><label for="all_subscribers">Применить ко всем подписчикам</label>
+<br>
+
+<div id="subscribers">
+	<textarea cols="50" rows="10" name="subscribers"></textarea>
+	<br>
+	<span class="comment">Электронные адреса указываются в свободном формате. <br>
+	Допустимо использование с посторонним текстом.</span>
+	</p>
+	
+	<p><b>Если подписчик, указанный в поле "Подписчики" - существует, то:</b><br>
+	<input name="mode" checked type="radio" value="ignore" id="ignore"><label for="ignore">Не производить никаких действий.</label><br>
+	<input name="mode" type="radio" value="add" id="add"><label for="add">Добавить к существующим группам те группы, на которые пользователь не подписан.</label><br>
+	<input name="mode" type="radio" value="replace" id="replace"><label for="replace">Подписать существующих пользователей только на указанные группы, от остальных он будет отписан.</label>
+	</p>
+</div>
+
+<div style="display:none;" id="subscribers2">
+	<b>Которые зарегистрированы на сайте:</b><br>
+	<select name="site_id">
+		<option value="0" selected>На любом</option>
+		{html_options options=$site}
+	</select>
+	<p><b>Действие:</b><br>
+	<input name="mode2" checked type="radio" value="add" id="add"><label for="add">Добавить к существующим группам те группы, на которые пользователь не подписан.</label><br>
+	<input name="mode2" type="radio" value="replace" id="replace"><label for="replace">Подписать на указанные группы, от остальных он будет отписан.</label>
+</div>
+
+<p><b>Категории рассылок:</b><br>
+{$category}
+</p>
+
+
+<p><input type="submit" value="Применить"></p>
+</form>

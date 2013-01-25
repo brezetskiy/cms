@@ -1,0 +1,137 @@
+fdsfldksjfl
+{if empty($content)}
+		<table class="news_archive">
+
+	{if $show_subcont == 0}
+	<tmpl:news>
+		{if !empty($subtitle_year)}
+			<tr class="year">
+				<td></td>
+				<td>{$subtitle_year}</td>
+			</tr>
+		{/if}
+		<tr>
+			<td class="news_date">
+				{$date}
+				{if !empty($image_src)}<br><div class="news_image"><img src="{$image_src}"></div>{/if}
+			</td>
+			<td class="news_title">
+				{if $has_content}
+					<a href="/{#LANGUAGE_URL}news/{$url}.html">{$headline}</a>
+				{else}
+					{$headline}
+				{/if}
+				{if !empty($announcement)}
+					<br><br><span class="comment">{$announcement}</span>
+				{/if}
+			</td>
+		</tr>
+	</tmpl:news>
+	{else}
+		<tmpl:news>
+		{if !empty($subtitle_year)}
+			<tr class="year">
+				<td></td>
+				<td><div class="year">{$subtitle_year}</div></td>
+			</tr>
+		{/if}
+		<tr>
+			<td class="news_date">
+				{$date}
+				{if !empty($image_src)}<br><div class="news_image"><img src="{$image_src}"></div>{/if}
+			</td>
+			<td class="news_title">
+				{if $has_content}
+					<a href="/{#LANGUAGE_URL}news/{$url}.html">{$headline}</a>
+				{else}
+					{$headline}
+				{/if}
+				<div>{$desc}</div>
+				
+			</td>
+		</tr>
+	</tmpl:news>
+	{/if}
+	<tr><td colspan="2" style="text-align:center;padding-top:20px;">{$pages_list}</td></tr>
+	{if $remove_date_filter}
+	<tr>
+		<td></td>
+		<td><a href="/{#LANGUAGE_URL}news/{@type}.htm">Убрать фильтр по дате</a></td>
+	</tr>
+	{/if}
+	</table>
+{else}
+	<div id="content">
+		{if $is_previous == 1 || $is_next == 1}
+		<div class="post-nav">
+		   {if $is_previous == 1}<div class="previous"><a href="/{#LANGUAGE_URL}news/{$previous_url}.html">{$previous_name}</a></div>{/if}
+		   {if $is_next == 1}<div class="next"><a href="/{#LANGUAGE_URL}news/{$next_url}.html">{$next_name}</a></div>{/if}
+		</div>
+		{/if}
+		<div class="post" id="post-{$message_id}" style="margin-top: 0;">
+			<table id="post-head">
+				 <tr>
+				  	<td id="head-date">
+			     		<div class="date">
+			     			{$day_from} <span>{$month_from}</span> 	
+			     		</div>
+			     	</td>
+			     	<td>
+			     	 <div class="title">
+			            <h2>{$headline}</h2>
+			          <!-- <div class="postdata">
+			               <span class="category">
+			               		<a href="/news/{$type_uniq_name}.htm">{$type_name}</a>
+			               </span>
+			               <span class="right mini-add-comment">  
+			               	  <a href="#comment" onclick="$('#form_start').css('display', 'block');">Добавить комментарий</a>
+			               </span>
+			            </div> /-->
+			         </div>
+			     	</td>
+			     </tr>
+			</table>
+		         
+		    <div class="entry">
+				
+		       	<p>{$content}</p>
+			</div><!--/entry -->
+		
+			<!-- <a style="float:left;margin-right:25px;margin-top:1px;" class="addthis_counter addthis_pill_style"></a> /-->
+			<!--<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="delta-x">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>-->
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=YOUR-ACCOUNT-ID"></script>
+           	
+			<!--{comment table_name='news_message' object_id=$message_id} /-->
+			
+		</div><!--/post -->
+		
+	</div><!--/content -->
+	<br/>
+	<div class="link_arhiv">
+		{if !empty($archive_name)}
+	   		<a href="/arhiv/news/">{$archive_name}</a>
+   		{else}
+	   		<a href="/arhiv/news/">{$type_name}</a>
+   		{/if}
+	</div>
+	<br />	<br />
+	<h3>Другие новости:</h3>
+		<br />
+	<table>
+		<tmpl:nearby>
+			<tr>
+				<td class="news_date">
+					{$date} 
+				</td>
+				<td class="news_title">
+				{if $content}
+					<a class="{$class}" href="/{#LANGUAGE_URL}news/{$url}.html">{$headline}</a>
+				{else}
+					{$headline}
+				{/if}
+				</td>
+			</tr>
+		</tmpl:nearby>
+	</table>
+
+{/if}

@@ -1,0 +1,18 @@
+{$cmsTable}
+
+<br/>
+
+{if IS_DEVELOPER}
+<div id="structure_xml">
+	<form action="/action/admin/sdk/structure_xml_upload/" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+		<input type="hidden" name="structure_id" value="{$structure_id}"> 
+		<input type="hidden" name="table" value="cms_structure"> 
+		
+		<h4 align="center">Импорт структуры</h4>
+		XML файл структуры:<br/><input type="file" name="structure">
+		<input type="submit" value="Импорт" >
+	</form>
+</div>
+
+{/if}

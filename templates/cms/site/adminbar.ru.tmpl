@@ -1,0 +1,29 @@
+<div id="adminbar_holder" {if $adminbar_mode=='hidden'}style='width:140px;'{/if}>
+
+<script language="JavaScript">
+var adminbar_mode = '{$adminbar_mode}';
+</script>
+
+<div id="adminbar_logo"><a href='/Admin/'><img alt='Система управления сайтом "Пилот"' border=0 src="/design/cms/img/ui/delta_logo_small_color.gif"></a> <a href="#" onclick="return toggleAdminBar();"><img id="adminbar_toggle" src="/design/cms/img/ui/fam/control_{if $adminbar_mode=='hidden'}play{else}back{/if}_blue.gif"></a></div>
+<div id="adminbar_panel">
+	<tmpl:button>
+		{if ($type == 'editor')}
+			<a href="#" onclick="EditorWindow('event=editor/content&id={$id}&table_name={$table_name}&field_name=content_{#LANGUAGE_CURRENT}', 'editor{$id}'); return false;" title="{$name}"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{elseif $type == 'cms_edit'}
+			<a href="#" onclick="EditWindow('{$id}', '{$table_name}', 'Structure/', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '');return false;" title="{$name}"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{elseif $type == 'link'}
+			<a title="{$name}" href="{$url}" title="{$name}"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{elseif $type == 'cms_add'}
+			<a title="{$name}" href="#" onclick="EditWindow(0, '{$table_name}', 'Structure/', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '{$param}');return false;"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{elseif $type == 'editor_php'}
+			<a title="{$name}" href="#" onclick="EditScript('id={$id}&extention=php&table_name={$table_name}&field_name=content_{#LANGUAGE_CURRENT}&file=1', 'editor{$id}'); return false;"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{elseif $type == 'editor_tmpl'}
+			<a title="{$name}" href="#" onclick="EditScript('id={$id}&extention=tmpl&table_name={$table_name}&field_name=content_{#LANGUAGE_CURRENT}&file=1', 'editor{$id}'); return false;"><img class="ico" align="absmiddle" src="/img/cms/adminbar/{$img}" alt="{$name}" hspace="10">{if !@short}{$name}{/if}</a>&nbsp;&nbsp;
+		{/if}  
+	</tmpl:button>
+	{if !empty($cvs_versions)}
+		История: <form id="cvs_form" action="" method="get"><select onchange="byId('cvs_form').submit();" name="cvs_version"><option value=0></option>{html_options options=$cvs_versions selected=$cvs_version}</select></form>
+	{/if} 
+</div>
+<div id="adminbar_user"><img class="ico" src="/design/cms/img/ui/fam/key.gif"><b>{%_SESSION.auth.login}</b>&nbsp;&nbsp;<a href="/{#LANGUAGE_URL}action/cms/logout/?_return_path={#CURRENT_URL_LINK}">Выход</a></div>
+</div>

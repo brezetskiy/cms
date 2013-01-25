@@ -1,0 +1,66 @@
+<h1>Поиск в структуре БД</h1>
+<form action="/Admin/CMS/Development/DbStructureSearch/" method="POST">
+<input type="hidden" name="go" value="true">
+<table class="vertical" width="100%">
+	<tr>
+		<td class="title">Соединение:</td>
+		<td>
+			<select name="db_alias">
+				{html_options options=$connections selected=#DB_ALIAS}
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="title">RegExp поиска:</td>
+		<td>
+			<input class="flexible" type="text" name="search_text" value="{$search_text}">
+			<span class="comment">Регулярное выражение в формате PCRE.</span>
+		</td>
+	</tr>
+	<tr>
+		<td class="title">Искать в:</td>
+		<td>
+			<input type="checkbox" value="true" name="search_table" id="search_table" {$search_table_checked}> 
+			<label for="search_table">Структуре таблиц</label><br>
+
+			<input type="checkbox" value="true" name="search_trigger" id="search_trigger" {$search_trigger_checked}> 
+			<label for="search_trigger">Триггерах</label><br>
+
+			<input type="checkbox" value="true" name="search_routine" id="search_routine" {$search_routine_checked}> 
+			<label for="search_routine">Функциях и процедурах</label><br>
+
+		</td>
+	</tr>
+	<tr>
+		<td class="title"></td>
+		<td><input type="submit" value="Искать"></td>
+	</tr>
+</table>
+</form>
+
+{if $found.table == 'true'}
+<h2>Структура таблиц</h2><br>
+<tmpl:result_table>
+<li><a href="javascript:;" onclick="byId('table_{$name}').style.display = (byId('table_{$name}').style.display == 'block' ? 'none' : 'block');">{$name}</a><br>
+<pre style="display: none;" id="table_{$name}">{$def}</pre></li>
+</tmpl:result_table>
+<br>
+{/if}
+
+{if $found.trigger == 'true'}
+<h2>Триггеры</h2><br>
+<tmpl:result_trigger>
+<li><a href="javascript:;" onclick="byId('trigger_{$trigger}').style.display = (byId('trigger_{$trigger}').style.display == 'block' ? 'none' : 'block');">{$table} {$timing} {$event} </a><br>
+<pre style="display: none;" id="trigger_{$trigger}">{$def}</pre></li>
+</tmpl:result_trigger>
+<br>
+{/if}
+
+{if $found.routine == 'true'}
+<h2>Процедуры и функции</h2><br>
+<tmpl:result_routine>
+<li><a href="javascript:;" onclick="byId('routine_{$routine_name}').style.display = (byId('routine_{$routine_name}').style.display == 'block' ? 'none' : 'block');">{$routine_type} {$routine_name}</a><br>
+<pre style="display: none;" id="routine_{$routine_name}">{$def}</pre></li>
+</tmpl:result_routine>
+<br>
+{/if}

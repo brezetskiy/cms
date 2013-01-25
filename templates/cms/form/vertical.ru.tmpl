@@ -1,0 +1,19 @@
+<form action="{$form->getAction()}" method="{$form->getMethod()}">
+<input type="hidden" name="_return_path" value="{$form->getReturnPath()}">
+<input type="hidden" name="_error_path" value="{$form->getErrorPath()}">
+<table class="tform" width="100%">
+<tmpl:hidden_field>
+{$field->render()}
+</tmpl:hidden_field>
+<tmpl:field>
+<tr {if $form->getFieldError($field)}class="error"{/if}>
+	<td class="title">{$field->getTitle()}{if $field->isRequired()}<span style='color:red'>*</span>{/if}:</td>
+	<td>
+		{$field->render()} 
+		{if $field->getComment()}<br><span class="comment">{$field->getComment()}</span>{/if} 
+		<br><span class="error">{$form->getFieldError($field)}</span>
+	</td>
+</tr>
+</tmpl:field>
+</table>
+</form>

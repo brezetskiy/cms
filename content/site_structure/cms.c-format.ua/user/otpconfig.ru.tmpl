@@ -1,0 +1,47 @@
+
+<link rel="stylesheet" type="text/css" href="/css/user/otp_config.css" />
+<!--[if IE]><style>div.otp_content { margin-top:-20px; }</style><![endif]-->
+
+<script type="text/javascript" src="/js/user/otp_config.js"></script>  
+
+  
+
+<div style="margin:20px 0px;">
+	<p>
+		Функция двухэтапной проверки позволяет защитить вашу учетную запись от злоумышленников.
+	</p>
+	<p>
+		После активации двухэтапной проверки, для авторизации, помимо Вашего стандартного пароля, также необходимо будет указывать код доступа,
+		<br/>что будет сгенерирован в зависимости от выбранного вами метода двухэтапной авторизации.
+	</p>
+	<p>Методы генерации кодов представлены ниже:</p>
+</div>
+  
+  
+<div id="otp_main" class="otp_menu">     
+	<div id="button_activate_disable" class="button button_gray" onclick="config_step(2, 'disable', 0);"> 
+		<img src="/img/user/otp/cancel.png" border="0" align="absmiddle" > 
+		<span>Выключено</span> 
+	</div>  
+	
+	<div id="button_activate_mobile" class="button button_gray" onclick="config_step('2', 'mobile', 0);"> 
+		<img src="/img/user/otp/mobile.png" border="0" align="absmiddle" > 
+		<span>Программа в телефоне</span> 
+	</div>
+
+	<div id="button_activate_etoken" class="button button_gray" onclick="config_step('2', 'etoken', 0);">
+		<img src="/img/user/otp/etoken_notxt.png" border="0" align="absmiddle" > 
+		<span>eToken PASS</span> 
+	</div>
+	   
+	{if is_module("SMS") && is_module("GSM")}  
+		<div id="button_activate_sms" class="button button_gray" onclick="config_step('2', 'sms', 0);">
+			<img src="/img/user/otp/sms.png" border="0" align="absmiddle" > 
+			<span>SMS авторизация</span> 
+		</div>
+	{/if}
+	<div style="clear:both;"></div>
+</div> 
+	   
+<input type="hidden" id="otp_current_type" value="">
+<div id="otp_content" class="otp_content otp_content_gray"></div>

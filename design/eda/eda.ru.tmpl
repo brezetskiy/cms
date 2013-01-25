@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<META name="Keywords" content="{$keywords}">
+	<META name="Description" content="{$description}">
+	<META name="X-Change-Frequency" content="{$change_frequency}">
+	<META name="X-Page-Priority" content="{$page_priority}">
+	<META name="X-Last-Modified" content="{$last_modified}">
+	<LINK href="{#CMS_URL}favicon.ico" rel="shortcut icon">
+	<title>{$title}</title>
+
+	<!-- стили шаблона /-->
+	<link href="/design/eda/css/main.css" rel="stylesheet" type="text/css" media="screen, projection" />
+	<link href="/design/eda/css/form_overlow.css" rel="stylesheet" type="text/css" media="screen, projection" />
+		<!-- скрипты шаблона /-->
+	<script type="text/javascript" src="/design/eda/js/jquery-1.6.4.js"></script>
+	<script type="text/javascript" src="/design/eda/js/jquery.roundabout.js"></script>
+	<script type="text/javascript" src="/design/eda/js/start.js"></script>	
+	<script type="text/javascript" src="/design/eda/js/imagesize.js"></script>	
+	
+
+	<!-- скрипты по умолчанию /-->
+	<SCRIPT type="text/javascript" language="JavaScript" src="/js/shared/jshttprequest.js"></SCRIPT>
+	<SCRIPT type="text/javascript" language="JavaScript" src="/js/shoporder/shoporder.js"></SCRIPT>
+	<SCRIPT type="text/javascript" language="JavaScript" src="/js/shop/shop.js"></SCRIPT> 
+	<!--<SCRIPT type="text/javascript" language="JavaScript" src="/js/shared/global.js"></SCRIPT>/-->
+	<SCRIPT type="text/javascript" language="JavaScript" src="/design/eda/js/global.js"></SCRIPT>
+	
+	<script type="text/javascript" src="/design/eda/js/jquery.simplemodal.js"></script>	
+	<script type="text/javascript" src="/design/eda/js/function.js"></script>	
+
+	
+	<!--[if lt IE 9]>
+			<link href="/design/eda/css/style-ie-lt8.css" rel="stylesheet" type="text/css" />
+			<script src="/design/eda/js/start-ie.js"></script>		
+	<![endif]-->
+		<!--[if IE]>
+			<link href="/design/eda/css/style-ie.css" rel="stylesheet" type="text/css" />			
+		<![endif]-->
+
+	<!--	
+		<script>
+		$(document).ready(function() {
+		  $('#sliderscroll ul').roundabout({
+			 btnNext: ".sliderscroll-next",
+			 btnPrev: ".sliderscroll-prev",
+			 minOpacity: -1.0,
+			 maxOpacity: 1.0,
+			 minScale: 0.1
+		  });
+		  
+		 
+	   });
+</script>
+/-->
+</head>
+
+<body>
+
+<!-- Вся страница /-->
+<div id="wrap">
+
+	
+		<div id="wrap-header"><div class="content">
+		<!-- Шапка /-->
+
+		<div id="header"> 
+			<a class="logo" alt="" title="Козачок" href="/"></a>
+			
+			<div class="search"><form action="/search/" method="GET" name="search_form">
+						<input type="text" id="keyword_serch" name="text" value="Поиск" class="search_input_text" onblur="if(this.value=='') this.value='Поиск';" onfocus="if(this.value=='Поиск') this.value='';">
+					</form>
+			</div>
+			
+			<div class="logining">
+				<tmpl:top_menu>
+					{if empty($url)}
+					<span>{$name}</span>
+					{else}
+					<a href="{$url}">{$name}</a>
+					{/if}
+				</tmpl:top_menu>
+				
+			</div>
+			
+			<div class="phone">044 345 300 200</div>
+		</div>
+
+		<!-- menu /-->
+		<div id="container">
+			<div class="topmenu">
+					<ul class="menu">
+						<tmpl:catalogmenu>
+								<li><a href="{#CMS_URI}/{$url}/"><img src="{$image}" class="expando" width="107px" height="107px"/></a></li>
+						</tmpl:catalogmenu>
+					</ul>
+			</div>
+			
+			<a href="/ShopOrder/" id="cart">
+				<div class="cart" >
+					<ul>
+						<li class="ico"><span>в корзине:</span> <span id="bsk-amount">{$amount} 
+							{if $amount == 1}
+								товар
+							{elseif ($amount >= 2)&&($amount <= 4)}
+								товара
+							{else}
+								товаров
+							{/if}
+							</span>
+						</li>
+						<li><span>на сумму:</span> <span id="bsk-pr">{$sum}</span> грн.						
+						</li>
+					</ul>
+				</div><!--cart end-->
+			
+			</a>
+		</div>
+
+		<!-- slider /-->
+		<div id="sliderscroll-wrap">
+		<div id="sliderscroll">
+						<!-- Go buttons -->
+
+
+					<!-- Panels container -->
+					<ul class="slider-panels">    
+						<tmpl:slider>			
+						<li>
+
+							<div class="sliderkit-image"><a href="{#CMS_URI}{$link}" ><img src="{$image_url}" ></a></div>
+							<div class="sliderkit-content">						
+								<div class="title">{$name}</div>
+																
+								<div class="weight">1000 {$measure}</div>
+								<div class="price">{$price}</div>	
+								<div class="want"><a href="#" onclick="return showFadeCart({$product_id}, this);" class="wants">хочу</a></div>
+							</div>					
+						</li>
+						</tmpl:slider>	
+						
+						
+					</ul>
+		</div><!-- // end of Slider container -->
+						<div class="slider-go-button sliderscroll-prev"><a rel="nofollow" href="#" title="Previous"></a></div>
+						<div class="slider-go-button sliderscroll-next"><a rel="nofollow" href="#" title="Next"></a></div>
+		</div>			
+		
+	</div>
+	</div>
+	<div id="wrap-content">
+
+			<div class="content">
+				
+				{if $stock_flag}
+				<div class="topblock marginTop">
+					<tmpl:stock>
+					<div class="shares {$mclass}">
+						{if $image_src}<img src="{$image_src}">{/if}
+						<div><a href="/{$url}.html">{$headline}</a></div>
+					</div>
+					</tmpl:stock>
+					
+				</div>
+				{/if}
+				
+				<div class="newsblock marginTop">
+					<div class="title-news"><span class="n-left"></span>Новости и события<span class="n-right"></span></div>
+					<tmpl:news>
+						<div class="news marginTop">{if $image_src} 
+							<div class="imgn"><img src="{$image_src}">
+							<div class="news-mask"></div></div>{/if}
+							<p>{$date}&nbsp;{$year_from}</p>
+							<a href="/news/{$url}.html">{$headline}</a>
+						</div>
+					</tmpl:news>
+					<div class="clear"></div>
+					<div class="block-rss"><a href="#" onclick="smform.init('rss', '/action/eda/loadform/'); return false;" >Подписка на новости</a></div>
+				</div>
+							
+				<div class="banner marginTop">
+					<tmpl:banner_bottom>
+					<a href="{#CMS_URI}{$link}"><img src="{$image_url}" ></a>
+					</tmpl:banner_bottom>
+				</div>
+				
+			</div>
+		<div id="hFooter"></div>
+		</div>
+		
+	
+</div>
+<div id="footer">
+	<div id="footer-wrap">
+	<div class="footer-menu">
+	<tmpl:catalogmenu>
+	<a href="{#CMS_URI}/{$url}/">{$name}</a>
+	</tmpl:catalogmenu>
+	</div>
+	</div>
+</div>
+
+</body>
+</html>

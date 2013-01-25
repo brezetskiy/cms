@@ -1,0 +1,66 @@
+<form id="form_{$form_name}" action="/actions_site.php" enctype="multipart/form-data" method="POST" onsubmit="AjaxRequest.form('form_{$form_name}', 'Отправка данных...', {});return false;">
+<input type="hidden" name="_event" value="form/send">
+<input type="hidden" name="_return_path" value="{#SITE_STRUCTURE_URL}/Ok/">
+<input type="hidden" name="form_name" value="{$form_name}">
+<tmpl:hidden>
+	<input type="hidden" name="form[{$uniq_name}]" value="{$default_value}">
+</tmpl:hidden>
+<table id="myform" cellpadding="1" cellspacing="1" class="form">
+{if Auth::isAdmin()}
+	<tr>
+		<td align="center" colspan="2"><a href="/Admin/Site/Forms/Fields/?form_id={$form_id}" target="_blank">Редактировать форму</a></td>
+	</tr>
+{/if}
+	<tmpl:row>
+		{if $type == 'devider'}
+		<tr>
+			<td></td>
+			<td class="devider">{$title}</td>
+		</tr>	
+		{elseif $type == 'textarea'}
+		<tr>
+			<td colspan="2" class="title">{if $required}<span style="color:red;">*</span>{/if}{$title}:</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea name="form[{$uniq_name}]">{$default_value}</textarea>
+			</td>
+		</tr>
+		{elseif $type == 'enum'}
+		<tr>
+			<td colspan="2" class="title">{if $required}<span style="color:red;">*</span>{/if}{$title}:</td>	
+		</tr>
+		<tr>
+			<td colspan="2"> 
+				<select name="form[{$uniq_name}]">
+					{html_options options=$info}
+				</select>
+			</td>
+		</tr>
+		{else}
+			<tr>
+				<td class="title">{if $required}<span style="color:red;">*</span>{/if}{$title}:</td>
+				<td>
+				{if $type == 'text'}
+					<input class="text" type="text" name="form[{$uniq_name}]" value="{$default_value}">
+				{elseif $type == 'integer'}
+					<input class="text" type="text" name="form[{$uniq_name}]" value="{$default_value}">
+				{elseif $type == 'file'}
+					<input type="file" name="form[{$uniq_name}]">
+				{elseif $type == 'set'}
+					<tmpl:info>
+					<input type="checkbox" name="form[{$uniq_name}][]" value="{$value}" id="{$uniq_name}_{$key}"><label for="{$uniq_name}_{$key}">{$value}</label><br>
+					</tmpl:info>
+				{/if}
+				</td>
+			</tr>
+		{/if}
+		
+	</tmpl:row>
+	<tr>
+		<td align="center" colspan="2">
+			<input onclick="$('#myform').submit();" class="send" type="image" src="/design/ipu/img/send.gif" />
+		</td>
+	</tr>
+</table>
+</form>

@@ -1,0 +1,39 @@
+/**
+ * Новости на главной странице 
+ */
+table.news_main {
+	width:100%;
+}
+table.news_main td {
+	padding-top:5px;
+}
+table.news_main td.date {
+	width:50px;
+}
+table.news_main td.date span {
+	padding: 0 4px;
+	background-color:#f8f8dc;
+	border:1px solid #dadac1;
+}
+
+/**
+ * Список новостей в архиве
+ */
+TABLE.news_archive TD.news_date {
+	vertical-align: top;
+	text-align:right;
+	padding-top:10px;
+	padding-right:10px;
+	color:#999999;
+	width:150px;
+}
+TABLE.news_archive TD.news_title {
+	padding-top:10px;
+	vertical-align: top;
+}
+table.news_archive tr.year td {
+	padding:15px 0 2px 0;
+	color:#636358;
+	font-size:12px;
+	font-weight:bold;
+}

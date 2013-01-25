@@ -1,0 +1,20 @@
+<h1>Статистика регистрации за год</h1>
+<br>
+<form action="" method="GET">
+<table class="vertical">
+<tr>
+	<td>
+		<select name="site_id"><option value="0">Все сайты</option>{html_options options=$sites selected=$site_id}</select>
+	</td>
+	<td><input type="submit" value="Показать"></td>
+</tr>
+</table>
+</form>
+
+<div id="chartdiv"></div>
+<script>
+var xml = "{$chart_xml}";
+renderDataChart('{$type}Line.swf', 800, 400, 'chart', xml);
+</script>
+
+{$cms_table}

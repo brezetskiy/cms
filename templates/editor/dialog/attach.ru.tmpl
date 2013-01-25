@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Вставка файла</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript">
+function checkForm() {
+	var currentForm = document.all.Form;
+	var textRegExp = /^[a-z0-9_]+$/i;
+	
+	if (currentForm.uploadFile.value == '') {
+		alert('Вы не выбрали файл');
+		currentForm.uploadFile.focus();
+		return false;
+	}
+	document.getElementById("submitButton").disabled = true;
+	return true;
+}
+</script>
+</head>
+<body onContextMenu="return false;" onKeyPress="EnterEsc(event);">
+<form onSubmit="return checkForm();" name="Form" action="/actions_admin.php" enctype="multipart/form-data" method="POST">
+<input type="hidden" name="_event" value="editor/file_upload">
+<input type="hidden" name="id" value="{$id}">
+<input type="hidden" name="field_name" value="{$field_name}">
+<input type="hidden" name="table_name" value="{$table_name}">
+<table border="0" cellpadding="1" cellspacing="0" width="100%" height="100%">
+<tr>
+	<td align="title"></td>
+	<td>Допустимый размер файла - {$max_size}байт</td>
+</tr>
+<tr>
+	<td align="title">Файл:</td>
+	<td><input type="file" name="uploadFile" size="30"></td>
+</tr>
+<tr>
+	<td align="title">Доступ:</td>
+	<td>
+		<select name="access">
+			<option value="all">Для всех</option>
+			<option value="registered">Для зарегистрированных</option>
+			<option value="confirmed">Для подтвердивших e-mail</option>
+			<option value="checked">Для проверенных</option>
+		</select>
+	</td>
+</tr>
+<tr><td colspan="2" align="center"><INPUT id="submitButton" class="clsbtn" type="submit" value="OK"><INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close()"></td></tr>
+</table>
+
+</form>
+</body>
+</html>

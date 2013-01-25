@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE>Изменение параметров картинки</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript" src="/js/editor/dialog.js"></script>
+<script language="JavaScript">
+function save() {
+	Dialog.SaveAll();
+	if (document.getElementById('border').checked == true) {
+		Dialog.editObject.setAttribute('border', '1', 0);
+	} else {
+		Dialog.editObject.setAttribute('border', '0', 0);
+	}
+	return true;
+}
+function init() {
+	if (Dialog.editObject.getAttribute('border') == 'true') {
+		document.getElementById('border').checked = true;
+	} else {
+		document.getElementById('border').checked = false;
+	}
+}
+</script>
+</HEAD>
+<body 
+	onContextMenu="return false;" 
+	onKeyPress="Esc(event);" 
+	onload="Dialog.Init(window.opener.Editor.current['IMG'], 'Выберите картинку для редактирования');init();"
+>
+<form name="Form" method="POST" action="/actions_admin.php" onSubmit="return save();">
+<input type="hidden" name="_event" value="editor/image_update">
+<input type="hidden" name="src" value="" id="src">
+<fieldset><LEGEND>Картинка</LEGEND>
+<table>
+
+<tr>
+	<td class="title">Выравнивание:</td>
+	<td>
+		<input id="align" type="hidden" name="align" value="">
+		<img onclick="Dialog.Img(this);" id="align." src="/design/cms/img/editor/image/default.gif" width="21" height="22" border="0" hspace="2" alt="По умолчанию">
+		<img onclick="Dialog.Img(this);" id="align.left" src="/design/cms/img/editor/image/left.gif" width="21" height="22" border="0" hspace="2" alt="По левому краю">
+		<img onclick="Dialog.Img(this);" id="align.right" src="/design/cms/img/editor/image/right.gif" width="21" height="22" border="0" hspace="2" alt="По правому краю">
+		<img onclick="Dialog.Img(this);" id="align.top" src="/design/cms/img/editor/image/top.gif" width="21" height="22" border="0" hspace="2" alt="По верхнему краю">
+		<img onclick="Dialog.Img(this);" id="align.bottom" src="/design/cms/img/editor/image/bottom.gif" width="21" height="22" border="0" hspace="2" alt="По нижнему краю">
+		<img onclick="Dialog.Img(this);" id="align.center" src="/design/cms/img/editor/image/center.gif" width="21" height="22" border="0" hspace="2" alt="По центру">
+	</td>
+</tr>
+<tr>
+	<td class="title">Подсказка:</td>
+	<td><input name="alt" id="alt" value="" size="32"></td>
+</tr>
+<tr>
+	<td class="title"><label for="border">Рамка:</label></td>
+	<td><input type="checkbox" id="border" value="1"></td>
+</tr>
+
+<tr>
+	<td class="title">Отступ по оси X:</td>
+	<td><input id="hspace" size="15" onKeyPress="return digitsOnly(event);"> px</td>
+</tr>
+<tr>
+	<td class="title">Отступ по оси Y:</td>
+	<td><input id="vspace" size="15" onKeyPress="return digitsOnly(event);"> px</td>
+</tr>
+</table>
+</fieldset>
+
+<center><INPUT class="clsbtn" type="submit" value="OK"> <INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close()"></center>
+</form>
+</body>
+</html>

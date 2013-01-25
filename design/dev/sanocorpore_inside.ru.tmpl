@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+<html>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<META name="Keywords" content="{$keywords}">
+	<META name="Description" content="{$description}">
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+	
+	<TITLE>{$title}</TITLE> 
+	<LINK href="{#CMS_URL}favicon.ico" rel="shortcut icon">
+	
+	<!-- СТИЛИ ДИЗАЙНА -->
+	<link rel="stylesheet" type="text/css" href="/design/dev/css/main.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/design/dev/css/style-inside.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/design/dev/css/layout.css" media="screen" />	
+
+	<!-- СКРИПТЫ ДИЗАЙНА -->
+	<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>	
+	<script type="text/javascript" src="/design/dev/js/form.js"></script>
+	
+	<!-- ПО УМОЛЧАНИЮ -->
+	<script type="text/javascript" src="/js/shared/jshttprequest.js"></script>
+	<script type="text/javascript" src="/js/shared/global.js"></script>
+	
+				<!--[if IE 7]>
+		<link href="/design/dev/css/style-ie.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+	
+</head> 
+
+<body>
+
+<body>
+<!-- Вся страница /-->
+
+<div id="wrap" class="page-inside">
+
+	<!-- Основная часть страницы /-->
+	<div id="wrap-content">	<div id="wrap-content1"><div id="wrap-content2">
+	<div id="body_right"></div>
+    <!-- Шапка /-->
+    <div id="header"> 
+		<div id="phone">наш телефон <br /><span>044</span>&nbsp;&nbsp;<span class="phone">3740626</span></div>
+		<div class="logo"><a href="/" title="Sano Corpore" id="header_logo"></a></div>
+		<div id="header-image"><img src="/design/dev/img/sanocorpore/header-st-page.png" title="Image"/></div>
+		
+	</div>
+	<!-- Шапка /-->
+	
+	<!-- Основной текст /-->
+	<div id="content">
+	
+		<!-- begin right-column /-->
+		<div id="right-column" >
+			<!-- begin right menu /-->
+			<div id="right-menu">
+				<ul class="menu">
+				<tmpl:top_menu>				
+				<li class="menu__list__item"><a href="{#CMS_URI}{$url}" class="menu__list__item__link {$class}" {if $clickable==0}onClick="return false;"{/if}>{$name}</a>
+				<ul class="submenu__list" {if $submenuactive}style="display:block"{/if}>
+				{if $show_submenu}
+							
+								<tmpl:submenu>
+									<li class="submenu__list__item"><a href="{$url}" class="submenu__list__item__link {$class} ">{$name}</a>
+									{if $show_menu}
+										<div class="submenu__in">
+											<ul class="submenu__in__list">
+											<tmpl:nextlevel>
+												<li class="submenu__list__item"><a href="http://{$url}" class="submenu__list__item__link "><span>&nbsp;</span>{$name}</a></li>
+											</tmpl:nextlevel>
+											<ul>
+										</div>
+									{/if}
+									</li>
+								</tmpl:submenu>
+					{/if}
+					</ul>
+				</li>
+				</tmpl:top_menu>
+			</ul>
+			</div>
+			<!-- end right menu /-->
+			
+			<!-- banner /-->
+			<div id="block-banner">
+				<tmpl:banners_right>
+					<a href="{#CMS_URI}{$link}"><img src="{$image_url}" title="" width="277px" height="119px" class="img"/></a>					
+				</tmpl:banners_right>
+			</div>
+			<!-- end banner /-->
+		</div>
+		<!-- end right-column /-->
+
+								
+		<!-- begin center-column /-->
+		<div id="center-column" class="center-column-inside">
+			<!-- Навигация /-->
+			<div id="breadcrumbs">
+				<div>
+					<tmpl:path>
+						<a href="{$url}">{$name}</a> 
+					</tmpl:path>
+					{if $last_word_in_path}<span>{$last_word_in_path}</span>{/if}
+				</div>
+			</div>
+			<!-- end Навигация /-->
+			<div id="content-wrap">
+			<h2>{$headline}</h2>
+			{$content}
+			</div>
+		</div>	
+		<!-- end center-column /-->
+		<div class="clear">&nbsp;</div>
+		
+		{if $show_news}
+		<div class="content-bottom">
+			<div class="left title-block"><h2 class="title-m title-news"><a href="{#CMS_URL}arhiv/news">Новости</a></h2></div> 
+			<div class="right news_next"><a class="news-prev">&nbsp;</a>&nbsp;&nbsp;<a class="news-next">&nbsp;</a></div>		
+			<div class="clear">&nbsp;</div>
+			<div class="scrollable-news-inside">
+				<div class="items" style="width:6000px;">
+					<ul class="news section">
+						<tmpl:news>
+						<li>
+							<img src="{$image_src}" title="News"/>
+							<div class="date">{$day_from}.&nbsp;{$month_from}.&nbsp;{$year_from}</div>
+							<h5><a href="{$url}" class="title">{$headline}</a></h5>
+							<p>{$desc}
+							</p>
+						</li>
+						{if $i == 0 }</ul><ul class="section news">{/if}
+						</tmpl:news>
+					</ul>					
+			</div></div>
+		</div>
+		{/if}
+		
+	</div>
+	<!-- #end Основной текст /-->
+	
+	</div></div></div>
+	<!--End Основная часть страницы /-->
+	<div id="hFooter"></div>
+</div>
+<div id="footer"><div class="footer-top"></div>
+		<div class="footer-wrap">
+				<div id="phone">наш телефон <br /><span>044</span>&nbsp;&nbsp;<span class="phone">5903400</span></div>
+				<div class="footer-logo"></div>
+				<div class="footer-search"><form action="/search/" method="GET" name="search_form">				
+                    <input type="text" id=keyword_serch name=text value="Поиск" class="search_input_text"  onblur="if(this.value=='') this.value='Поиск';" onfocus="if(this.value=='Поиск') this.value='';" />
+				</form></div>
+		</div>
+</div>
+<script type="text/javascript" src="/design/dev/js/global.js"></SCRIPT>
+
+</body>
+</html>

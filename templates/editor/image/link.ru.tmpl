@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Вставка изображения</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript">
+function checkForm() {
+	var imgRegExp = /\.(jpg)|(gif)|(png)$/i;
+	var currentForm = document.all.Form;
+	
+	currentForm.normalImage.focus();
+	
+	if (currentForm.normalImage.value == "") {
+		alert("Введите адрес изображения");
+		return false;
+	} else if(null == currentForm.normalImage.value.match(imgRegExp)) {
+		alert ("Internet Explorer не поддерживает данный тип файлов")
+		return false;
+	} else {
+		document.getElementById("submitButton").disabled = true;
+		return true;
+	}
+	return false;
+}
+
+function loadForm() {
+	var range = window.opener.frames.EditFrame.document.selection.createRange();
+	var alt_text = range.htmlText;
+	var trimRegexp = /(^[\s\n\r\t]+)|([\s\n\r\t]+$)/g
+	
+	alt_text = alt_text.replace(trimRegexp, '');
+	document.all.Form.alt_text.value = alt_text;
+	
+}
+</script>
+</head>
+<body onContextMenu="return false;" onLoad="loadForm();" onKeyPress="EnterEsc(event);">
+<form onSubmit="return checkForm();" name="Form" action="/actions_admin.php" enctype="multipart/form-data" method="POST">
+<input type="hidden" name="_event" value="editor/img_upload">
+<input type="hidden" name="alt_text" value="">
+<input type="hidden" name="id" value="{$id}">
+<input type="hidden" name="table_name" value="{$table_name}">
+<input type="hidden" name="field_name" value="{$field_name}">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+	<tr style="vertical-align:top;">
+		<td>
+
+<fieldset><LEGEND>Картинка</LEGEND>
+<table border="0" cellpadding="1" cellspacing="0" width="100%" height="100%">
+
+<tr>
+	<td class="title">Адрес изображения:</td>
+	<td><input type="file" name="normalImage" id="normalImage" size="20" onChange="imagesOnly(this);"></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input id="watermark" type="checkbox" name="watermark" value="true" {$watermark}><label for="watermark">Водяной знак</label></td>
+</tr>
+</table>
+</fieldset>
+<BR>
+<center><INPUT id="submitButton" class="clsbtn" type="submit" value="OK"> <INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close()"></center>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

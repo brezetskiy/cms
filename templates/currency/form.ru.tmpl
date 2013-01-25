@@ -1,0 +1,19 @@
+
+<script type="text/javascript" language="JavaScript" src="/js/shared/currency-2.0.js"></script>
+
+<script>
+	$(document).ready(function() { 
+		currency_init({@currency_rates}, {@currency_current});  
+		currency_switch(currency_current, {@only_value}, '{@trigger_before}', '{@trigger_after}');  
+	});
+</script>
+
+
+<div id="switcher" class="switcher" style="margin:0px;">
+    показать цены в: 
+    <tmpl:currencies> 
+    	<a name="currency_switch_{$id}" {if $id == @currency_current}class="switched"{/if} href="javascript:void(0);" onclick="currency_switch({$id}, {@only_value}, '{@trigger_before}', '{@trigger_after}');">
+    		{$code}
+    	</a>
+    </tmpl:currencies>
+</div>

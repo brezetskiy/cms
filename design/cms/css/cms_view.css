@@ -1,0 +1,219 @@
+/**
+* Выравнивает сообщение об ошибке для view страниц по центру
+*/
+DIV.message_align {
+	text-align: center;
+	width: 100%;
+}
+img.event {
+	border:none;
+}
+
+INPUT.alpha {
+	border: 1px solid silver;
+	background-color: #f9f9f9;
+	width: 100%;
+}
+INPUT.transparent {
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	text-align: center;
+	color: #339900;
+}
+INPUT.wide {
+	width:100%;
+}
+
+TR.yellow TD {
+	background-color:#FFF4D0;
+}
+
+
+/* Таблица в разделе просмотра */
+
+TABLE.cms_view {
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+table.cms_view td,
+table.cms_view th {
+	padding:2px;
+}
+TABLE.cms_view CAPTION {
+	text-align: right;
+	font-size: 11px;
+}
+
+TABLE.cms_view THEAD TD {
+	background:#CBE0FF url(/design/cms/img/cms_table_bg.png) top left repeat-x; 
+	text-align : center;
+	font-size: 12px;
+	font-weight : bold;
+	height : 25px;
+}
+TABLE.cms_view THEAD TD A {
+	color: blue;
+}
+TABLE.cms_view THEAD TD A:HOVER {
+	color: #009900;
+}
+TABLE.cms_view TH {
+	background-color : #E0EDFF;
+	text-align : center;
+	font-size: 11px;
+	font-weight : bold;
+	height : 22px;
+}
+
+TABLE.cms_view THEAD SELECT,
+TABLE.cms_view TH SELECT {
+	background-color : #CBE0FF;
+	text-align : center;
+	font-size: 12px;
+	font-weight : bold;
+}
+TABLE.cms_view THEAD A,
+TABLE.cms_view TH A {
+	color : black;
+}
+TABLE.cms_view TFOOT TD,
+TABLE.cms_view TFOOT TABLE TD,
+TABLE.cms_view TFOOT SELECT,
+TABLE.cms_view TFOOT INPUT
+{
+	vertical-align : middle;
+	background-color : #CBE0FF;
+	text-align : center;
+	font-weight : bold;
+	font-size : 10px;
+}
+
+TABLE.cms_view PRE {
+	font-family : Verdana,Geneva,Arial;
+	font-size : 12px;
+}
+DIV.cms_view_type,
+DIV.cms_view_type INPUT
+{
+	text-align : right;
+	margin-right : 10px;
+	vertical-align : middle;
+	font-weight : bold;
+	font-size : 10px;
+}
+/**
+* Ячейка, в которой пишется что нет данных для вывода, когда таблица - пустая
+*/
+TABLE.cms_view TD.no_content {
+	background-color: #EEEEEE; 
+	height: 50px; 
+	text-align: center;
+}
+
+/**
+* Ячейки с контентом
+*/
+TABLE.cms_view TBODY TD {
+	vertical-align: middle;
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+TABLE.cms_view TBODY TR.odd,
+TABLE.cms_view TBODY TD.odd {
+	background-color: #F7F7F7;
+}
+TABLE.cms_view TBODY TR.even,
+TABLE.cms_view TBODY TD.even {
+	background-color: #F0F0F0;
+}
+TABLE.cms_view TBODY TR.red {
+	background-color: #fbbac6;
+}
+TABLE.cms_view TBODY TR.blue {
+	background-color: #bac6fb;
+}
+TABLE.cms_view TBODY TR.green {
+	background-color: #cffbba;
+}
+TABLE.cms_view TBODY TR.violet {
+	background-color: #e6bafb;
+}
+TABLE.cms_view TBODY TR.orange {
+	background-color: #fbefba;
+}
+TABLE.cms_view TBODY TR.last_inserted {
+	background-color: #E0E0FF;
+}
+
+TABLE.cms_view TBODY TR.selected {
+	background-color: #ffeacb;
+}
+TABLE.cms_view TBODY TR.over,
+TABLE.cms_view TBODY TD.over
+{
+	background-color: #CBE0FF;
+}
+table.cms_view tr td a {
+	color:blue;
+}
+table.cms_view tr td a:hover {
+	color:blue;
+	text-decoration:underline;
+}
+
+
+
+/* Filter */
+div.filter-separator-section { border-left: 1px solid #A6B2D5; border-right: 1px solid #A6B2D5; height: 15px; margin: 1px 6px 0; width: 3px; display:inline; }
+div.filter-separator-row { border-left: 1px solid #A6B2D5; height: 15px; margin: 1px 6px 0; width: 3px; display:inline; }
+div.filter-comment { color:#777; font-size:10px; }
+
+table.filter-form {  margin-bottom:15px; border:1px solid #BDC6E0; width: 600px; }
+table.filter-form tr td { font-size:11px; padding:3px 5px; }
+
+table.filter-form tr.filter-control th {background-color:#F9FAFD;}
+table.filter-form tr.filter-control td.filter-control-row { padding:5px;  background-color:#f7f7f7; }  
+table.filter-form tr.filter-control td.filter-control-row a.button { padding:2px 3px 4px; color:#444444 }
+table.filter-form tr.filter-control td.filter-control-row a.button:hover { background-color:#f0f0f0; border:1px solid #ddd; padding:2px 2px 4px; }
+
+table.filter-form tr.filter-table-title th { 
+	background:#f0f0f0 url(/design/cms/img/filter/table_title_bg.png) top left repeat-x; 
+	text-align:center; 
+	font-size:11px; 
+	font-weight:bold; 
+	border-bottom:1px solid #BDC6E0; 
+	padding:5px; 
+	border-top:none; 
+}
+
+table.filter-form tr.filter-row td input, select { font-size:11px; border:1px solid #7F9DB9; color:#333; } 
+table.filter-form tr.filter-row td input { padding:3px;  } 
+table.filter-form tr.filter-row td select { padding:3px; }  
+table.filter-form tr.filter-row td input.filter-wide { width:400px;  }
+table.filter-form tr.filter-row td select.filter-wide { width:400px;  }
+table.filter-form tr.filter-row td input.filter-short, select.filter-short { width:100px; }
+table.filter-form tr.filter-row td.title { text-align:right; font-size:11px; border-right:1px dotted #BDC6E0; }
+table.filter-form tr.filter-row td { border-bottom:1px solid #BDC6E0; }
+table.filter-form tr.filter-row:hover { background-color:#f7f7f7; }
+
+div.filter-select-box { 
+	-moz-user-select: none; 
+	position: absolute; 
+	display:none; 
+	z-index: 100; 
+	background:#FCFCFC url(/design/cms/img/filter/window_bg.png) repeat-y; 
+	border: 1px solid #CCCCCC; 
+	padding: 1px; 
+	margin: 5px 0px 0px 95px; 
+	min-width:250px; 
+	min-height:50px;
+	box-shadow: 2px 2px 2px #777; 
+}
+
+div.filter-select-box div.filter-select-list { padding:1px; cursor:pointer; }
+div.filter-select-box div.filter-select-list:hover{ border:1px solid #ccc; background-color:#f3f3f3; padding:0px; }
+div.filter-select-box div.filter-select-list div.checkbox{ float:left; margin:2px 5px; } 
+div.filter-select-box div.filter-select-list div.title{ float:left; margin:2px 5px; }
+div.filter-select-box div.table { border-bottom: 1px solid #DCDCDC; color: #333; font-size: 10px; font-weight: bold; margin: 5px 0 5px 31px; padding-left:4px; }

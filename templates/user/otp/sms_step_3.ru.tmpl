@@ -1,0 +1,28 @@
+
+
+<script type="text/javascript" src="/js/user/phone.js"></script>
+<script>
+	function sms_install_send(){
+		AjaxRequest.send('', '/action/user/otp/config_sms_send/', 'Отправка смс. Пожалуйста, подождите...');
+		return false;
+	}
+
+</script>
+
+
+<form id="otp_form" action="/action/user/otp/config_save/" method="POST" enctype="multipart/form-data"  onsubmit="config_save(); return false;">
+	<input type="hidden" name="_return_path" value="/User/OtpConfig/">
+
+	<div class="otp_mobile_content">	
+		На телефонный номер <b>{$phone.phone_original}</b> отправлено СМС сообщение с кодом подтверждения.
+		<br/>Для завершения настройки SMS авторизации, пожалуйста, введите код и нажмите кнопку <b>Подтвердить</b>.
+		
+		<p>Код: <input type="text" name="otp_code" maxlength="4" class="wide"  style="width:186px;"> <input type="button" value="Подтвердить" onclick="config_save();"></p>
+		<div id="otp_error"></div>
+	</div>	
+</form>	 
+
+<input id="otp_sms_button" type="button" onclick="config_enable_sms_clean();" value="Отправить смс еще раз">	
+		
+
+

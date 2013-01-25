@@ -1,0 +1,53 @@
+<style>
+
+div.vote_complex { padding:5px; } 
+div.vote_complex h1.title { font-size:16px; border-bottom:1px dotted #CCCCCC; margin: 3px 90px 2px 0px; color:#000; }
+div.vote_complex div.description { padding:5px 10px; margin:5px 10px; font-size: 12px;  } 
+div.vote_complex div.submit_button { margin:20px 0px;  }
+
+div.vote_complex div.total{ margin:10px 0px; font-weight:bold; } 
+ 
+div.vote_complex div.topic_1 { margin:15px 0px 10px 10px; }
+div.vote_complex div.topic_2 { margin:15px 0px 10px 20px; } 
+div.vote_complex div.topic_3 { margin:15px 0px 10px 30px; }
+div.vote_complex div.topic_4 { margin:15px 0px 10px 40px; }  
+div.vote_complex div.topic_5 { margin:15px 0px 10px 50px; }
+
+div.vote_complex div.topic_title { font-weight:bold; color:#000;  }
+div.vote_complex div.question_comment { padding:5px 5px; font-size: 11px; color:#777; }
+
+ 
+div.vote_complex div.answer_simple {}
+div.vote_complex div.answer_simple div { margin-left:10px; }
+div.vote_complex div.answer_simple div span.title {}
+
+div.vote_complex div.answer_evaluative {}
+div.vote_complex div.answer_evaluative table { margin-left:10px; }  
+div.vote_complex div.answer_evaluative table tr td { text-align:center; }
+div.vote_complex div.answer_evaluative table tr td.answer_title { text-align:left; }
+   
+div.vote_complex div.answer_comment {} 
+div.vote_complex div.answer_comment textarea { margin-left:10px; width:60%;  height: 70px;}     
+
+</style>
+
+{if @question != ''}
+
+<div class="vote_complex">
+	<h1 class="title">{@question}</h1> 
+	{if !empty(@comment)}<div class="description">{@comment}</div>{/if}
+	
+	{$tree_content}
+	<br/>
+	<!--<div class="total">Всего голосов: {@votes_total}</div>-->
+</div>
+
+	<B>Посмотреть результаты других опросов:</B>
+{else}
+	<b>Посмотреть результаты опросов:</b>
+{/if}
+<ul>
+<tmpl:vote>
+	<li><a style="{$style}" href="/Vote/?id={$id}">{$question}</a>
+</tmpl:vote>
+</ul>

@@ -1,0 +1,12 @@
+
+<link rel="stylesheet" type="text/css" href="/css/user/oid/box.css" />
+<script type="text/javascript" src="/js/user/oid/box.js"></script> 
+
+{if !empty(%_SESSION.oid_widget_active) && %_SESSION.oid_widget_active == 'global_'.$action.'_form' && (!empty(%_SESSION.oid_clarify_auto) || !empty(%_SESSION.oid_clarify_manual))}
+	<script> oid_widget__box__start('global_{$action}_form', 'box', '{%_SESSION.oid_widget.return_path}', '{$action}'); </script>
+{/if}	  
+   
+<a href="javascript:void(0);" onclick="oid_widget__box__start('global_{$action}_form', 'box', '{#CURRENT_URL_FORM}', '{$action}');" title="Войдите, как пользователь Google, ВКонтакте, Facebook, Yandex и т.д."><img src="/img/user/oid/google.png" border="0" align="absmiddle"></a>
+<div id="oid_widget__box__content"></div> 
+
+

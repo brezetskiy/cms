@@ -1,0 +1,188 @@
+table.scw td {
+	font-family:Verdana;
+	font-size:10px;
+}
+table.scw {
+	padding: 1px; 
+	vertical-align:middle; 
+	border: 1px solid #dadac1; 
+	font-size: 10pt; 
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-weight: bold;
+	background-color: #f8f8dc;
+} 
+td.scwDrag, td.scwHead {
+	padding: 0px 0px; 
+	text-align: center;
+} 
+td.scwDrag {
+	font-size: 8pt;
+} 
+select.scwHead {
+	margin: 3px 1px; 
+	text-align: center;
+} 
+input.scwHead {
+	height: 22px; 
+	width: 22px; 
+	vertical-align:middle; 
+	text-align: center; 
+	margin: 2px 1px; 
+	font-weight: bold; 
+	font-size: 10pt; 
+	font-family: fixedSys;
+	border: 1px solid #dadac1;
+} 
+td.scwWeekNumberHead, td.scwWeek {
+	padding: 0px; 
+	text-align: center; 
+	font-weight: bold;
+} 
+td.scwFoot, td.scwFootHover, td.scwFoot:hover, td.scwFootDisabled {
+	padding: 0px; 
+	text-align: center; 
+	font-weight: normal;
+} 
+table.scwCells {
+	text-align: right; 
+	font-size: 8pt; 
+	width: 96%;
+} 
+td.scwCells, 
+td.scwCellsHover, 
+td.scwCells:hover, 
+td.scwCellsDisabled, 
+td.scwCellsExMonth, 
+td.scwCellsExMonthHover, 
+td.scwCellsExMonth:hover, 
+td.scwCellsExMonthDisabled, 
+td.scwCellsWeekend, 
+td.scwCellsWeekendHover, 
+td.scwCellsWeekend:hover, 
+td.scwCellsWeekendDisabled, 
+td.scwInputDate, 
+td.scwInputDateHover, 
+td.scwInputDate:hover, 
+td.scwInputDateDisabled, 
+td.scwWeekNo, 
+td.scwWeeks {
+	padding: 3px; 
+	width: 16px; 
+	height: 16px; 
+	border-width: 1px; 
+	border-style: solid; 
+	font-weight: bold; 
+	vertical-align: middle;
+} 
+/* Blend the colours into your page here... */ 
+/* Drag Handle */ 
+td.scwDrag {
+	background-color: #9999CC; 
+	color: #CCCCFF;
+} 
+/* Week number heading */ 
+td.scwWeekNumberHead {
+	color: #6666CC;
+} 
+/* Week day headings */ 
+td.scwWeek {
+	color: #000000;
+} 
+/* Week numbers */ 
+td.scwWeekNo {
+	background-color: #776677; 
+	color: #ececd1;
+} 
+/* Enabled Days */ 
+/* Week Day */ 
+td.scwCells {
+	background-color: #ececd1; 
+	color: #000000;
+}
+/* Day matching the input date */ 
+td.scwInputDate {
+	background-color: #ffcc00; 
+	color: #FF0000;
+} 
+/* Weekend Day */ 
+td.scwCellsWeekend {
+	background-color: #ececd1; 
+	color: #dd0000;
+} 
+/* Day outside the current month */ 
+td.scwCellsExMonth {
+	background-color: #ececd1; 
+	color: #666666;
+} 
+/* Today selector */ 
+td.scwFoot {
+	background-color: #dadac1; 
+	color: #FFFFFF;
+} 
+/* MouseOver/Hover formatting 
+If you want to "turn off" any of the formatting 
+then just set to the same as the standard format 
+above. 
+
+Note: The reason that the following are 
+implemented using both a class and a :hover 
+pseudoclass is because Opera handles the rendering 
+involved in the class swap very poorly and IE6 
+(and below) only implements pseudoclasses on the 
+anchor tag. 
+*/ 
+/* Active cells */ 
+td.scwCells:hover, td.scwCellsHover {
+	background-color: #ffcc00; 
+	cursor: pointer; 
+	color: #000000;
+} 
+/* Day matching the input date */ 
+td.scwInputDate:hover, td.scwInputDateHover {
+	background-color: #ffcc00; 
+	cursor: pointer; 
+	color: #000000;
+} 
+/* Weekend cells */ 
+td.scwCellsWeekend:hover, td.scwCellsWeekendHover {
+	background-color: #ffcc00; 
+	cursor: pointer; 
+	color: #000000;
+} 
+/* Day outside the current month */ 
+td.scwCellsExMonth:hover, td.scwCellsExMonthHover {
+	background-color: #ffcc00; 
+	cursor: pointer; 
+	color: #000000;
+} 
+/* Today selector */ 
+td.scwFoot:hover, td.scwFootHover {
+	color: #ffcc00; 
+	cursor: pointer; 
+	font-weight: bold;
+} 
+/* Disabled cells */ 
+/* Week Day */ 
+/* Day matching the input date */ 
+td.scwInputDateDisabled {
+	background-color: #d3cbb3; 
+	color: #000000;
+} 
+td.scwCellsDisabled {
+	background-color: #f3f3d7; 
+	color: #d3cbb3;
+} 
+/* Weekend Day */ 
+td.scwCellsWeekendDisabled {
+	background-color: #f3f3d7; 
+	color: #d3cbb3;
+} 
+/* Day outside the current month */ 
+td.scwCellsExMonthDisabled {
+	background-color: #f3f3d7; 
+	color: #d3cbb3;
+} 
+td.scwFootDisabled {
+	background-color: #dadac1; 
+	color: #FFFFFF;
+} 

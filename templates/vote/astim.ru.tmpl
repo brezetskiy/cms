@@ -1,0 +1,42 @@
+{if !$ajax}
+<div class="vote" id="vote">
+{/if}
+
+<div class="lefttop">
+	<div class="leftbr">
+		<div class="delfloat"></div>	
+		<div class="lefttitle">
+			ОПРОС
+		</div>
+		<br />
+		<br />
+		<div style="margin:0 0 0 10px;">
+			{$vote_id}
+			<form action="/{#LANGUAGE_URL}action/vote/vote/" method="post" id="vote_form" onsubmit="AjaxRequest.form('vote_form', 'Голосуем...');return false;">
+				<input type="hidden" name="_return_path" value="/Vote/?id={$vote_id}">
+				<input type="hidden" name="topic_id" value="{$topic_id}">
+				<input type="hidden" name="structure_id" value="{$structure_id}">
+				<input type="hidden" name="template" value="{$template}">
+				<b>{$question}:</b>
+				<br>
+				<br>
+				<tmpl:answer>
+					<div class="vote_answer">
+					{if $type=='single'}
+						<input type="radio" name="answer_id" value="{$id}" id="answer_{$id}"><label for="answer_{$id}">{$answer}</label>
+					{else}
+						<input type="checkbox" name="answer_list[]" id="answer_{$id}" value="{$id}"> <label class="answer" for="answer_{$id}">{$answer}</label>
+					{/if}
+					</div>
+				</tmpl:answer>
+				<br>
+				<input type="submit" value="Голосовать">
+			</form>
+		</div>
+		<br />
+	</div>
+</div>	
+	
+{if !$ajax}
+	</div>
+{/if}

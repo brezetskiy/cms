@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE>Параметры формы</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript" src="/js/editor/dialog.js"></script>
+<script language="JavaScript">
+function save() {
+	Dialog.SaveAll();
+	window.dialogArguments.Editor.ActivateToolbar('table', false);
+	window.close();
+	return false;
+}
+</script>
+</HEAD>
+<body 
+	onContextMenu="return false;" 
+	onKeyPress="Esc(event);" 
+	onload="Dialog.Init(window.dialogArguments.Editor.current['FORM'], 'Выберите форму для редактирования')"
+>
+<form name="Form" onSubmit="return save();">
+<fieldset><legend>Форма</legend>
+<TABLE>
+<TR>
+	<TD class="title">Метод:</TD>
+	<TD><select id="method"><option value="POST">POST</option><option value="GET">GET</option></select></TD>
+</TR>
+<TR>
+	<TD class="title">Событие:</TD>
+	<TD><INPUT id="action" size="30" value=""></TD>
+</TR>
+</table>
+</fieldset>
+<center>
+	<INPUT class="clsbtn" type="submit" value="OK">
+	<INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close()">
+</center>
+</form>
+</BODY>
+</html>

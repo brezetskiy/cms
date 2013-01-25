@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<TITLE>Свойства таблицы</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript" src="/js/editor/dialog.js"></script>
+<script language="JavaScript">
+function Load() {
+	Dialog.Init(window.dialogArguments.Editor.current['DIV'], 'Выберите слой для редактирования');
+	if (Dialog.editObject.getAttribute('styleFloat') == 'null') {
+		Dialog.Img(document.getElementById('style.styleFloat.none'));
+	}
+}
+function Save() {
+	Dialog.SaveAll();
+	window.close();
+}
+</script>
+</HEAD>
+<body 
+	onContextMenu="return false;" 
+	onKeyPress="Esc(event);" 
+	onload="Load();"
+>
+<form name="Form" onSubmit="Save(); return false;">
+<fieldset><legend>Слой</legend>
+<TABLE border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+<tr>
+	<td class="title">Выравнивание:</td>
+	<td>
+		<input type="hidden" id="style.styleFloat" value="none">
+		<img onclick="Dialog.Img(this);" id="style.styleFloat.none" src="/design/cms/img/editor/image/default.gif" width="21" height="22" border="0" hspace="2" alt="По умолчанию">
+		<img onclick="Dialog.Img(this);" id="style.styleFloat.left" src="/design/cms/img/editor/image/left.gif" width="21" height="22" border="0" hspace="2" alt="По левому краю">
+		<img onclick="Dialog.Img(this);" id="style.styleFloat.right" src="/design/cms/img/editor/image/right.gif" width="21" height="22" border="0" hspace="2" alt="По правому краю">
+	</td>
+</tr>
+<TR>
+	<TD class="title">Ширина:</TD>
+	<TD><INPUT size="8" id="style.width" value="100px" maxlength="10"></TD>
+</TR>
+<TR>
+	<TD class="title">Высота:</TD>
+	<TD><INPUT size="8" id="style.height" value="100px" maxlength="10"></TD>
+</TR>
+<TR>
+	<TD class="title">Цвет фона:</TD>
+	<TD><INPUT size="15" id="style.backgroundColor" value="#F0F0F0"></TD>
+</TR>
+<TR>
+	<TD class="title">Стиль:</TD>
+	<TD><select id="class">
+		<option value="">Без стиля</option>
+		<tmpl:style>
+		<option value="{$class}">{$title}</option>
+		</tmpl:style>
+	</select></TD>
+</TR>
+</table>
+</fieldset>
+
+<fieldset><legend>Рамка</legend>
+<TABLE border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+<TR>
+	<TD class="title">Ширина рамки:</TD>
+	<TD><INPUT size="15" id="style.borderWidth" value="1" maxlength="3"></TD>
+</TR>
+<TR>
+	<TD class="title">Цвет рамки:</TD>
+	<TD><INPUT size="15" id="style.borderColor" value="#CCCCCC"></TD>
+</TR>
+<TR>
+	<TD class="title">Тип рамки:</TD>
+	<TD>
+		<select id="style.borderStyle">
+			<option value="none" selected>Без рамки</option>
+			<option value="solid">Сплошная</option>
+			<option value="dotted">Точки</option>
+			<option value="dashed">Чёрточки</option>
+			<option value="double">Двойная</option>
+		</select>
+	</TD>
+</TR>
+<TR>
+	<TD class="title">Внутренний отступ:</TD>
+	<TD><INPUT size="15" id="style.padding" value="5" maxlength="10"></TD>
+</TR>
+<TR>
+	<TD class="title">Внешний отступ:</TD>
+	<TD><INPUT size="15" id="style.margin" value="10" maxlength="10"></TD>
+</TR>
+</table>
+</fieldset>
+<center>
+	<INPUT class="clsbtn" type="submit" value="OK">
+	<INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close()">
+</center>
+</form>
+</BODY>
+</html>

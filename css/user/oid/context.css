@@ -1,0 +1,60 @@
+div.oid_widget { display:inline; }
+div.oid_widget input.oid_wide {   
+	border:1px solid #7F9DB9;
+    color: #555555;
+    padding: 2px 5px;
+    width: 100%;
+}
+
+div.oid_openid{ 	
+	background-color: #D4DEEC;
+    border: 1px solid #7398AF;
+    font-size: 11px;
+    padding: 3px;
+    position: absolute;
+	position:absolute; 
+	width:640px; 
+	left:35%;
+	display:none;
+	margin-top:5px; 
+	z-index:1;
+}
+
+div.oid_openid_link { margin-top:5px; }
+div.oid_openid_link a { text-decoration:none; margin-right:10px;}
+div.oid_openid_link img { margin-top:1px}
+
+div.oid_clarify{ 
+	background-color: #D4DEEC;
+    border: 1px solid #7398AF;
+    display: none;
+    font-size: 11px;
+    padding: 3px;
+	display:inline; 
+	position:absolute; 
+	width:600px; 
+	margin-top:21px;
+	left:35%;
+}
+
+
+div.oid_widget_window {
+ 	background-color: #F3F3F3;
+    border: 1px solid #7398AF;
+    padding:0px;
+}
+
+div.oid_widget_window table { margin:0px; }
+
+div.oid_widget_window table tr td {vertical-align:middle; padding:5px 5px;}
+div.oid_widget_window table tr td a { margin:0px 5px; }
+
+div.widget_error{ border:1px solid #94000c; color:#94000c; margin:15px 0px; padding:10px; background-color:#ffefeb; }
+div.widget_warning { border:1px solid #f39e0e; margin:15px 0px; padding:10px; background-color:#fbecce; }  
+div.widget_ok{ border:1px solid #276630; color:#276630; margin:15px 0px; padding:10px; background-color:#edf8ee; }
+
+
+div.oid_widget table tr td {font-family: tahoma !important; font-size: 12px !important;}    
+div.oid_widget h2{border-bottom: 1px dotted #CCCCCC; color: #333333; font: 150%/100% "Lucida Grande",Arial,sans-serif; margin: 3px 90px 2px 0; padding-bottom: 4px;     }
+
+a.oid_widget_simple_link { text-decoration:none; }

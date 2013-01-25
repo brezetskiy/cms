@@ -1,0 +1,43 @@
+TABLE.search_result TD {
+	padding-top: 10px;
+}
+TABLE.search_result TD.counter {
+	text-align : right;
+	vertical-align : top;
+	color : #999999;
+	padding-right:10px;
+}
+TABLE.search_result TD SPAN.strict {
+	color : #666699;
+	font-size : 10px;
+}
+TABLE.search_result TD SPAN.not_strict {
+	color : #996666;
+	font-size : 10px;
+}
+TABLE.search_result A.url {
+	color : #666666;
+	font-size : 10px;
+	text-decoration : none;
+}
+TABLE.search_result TD.info {
+	color : #666666;
+	font-size : 10px;
+	text-decoration : none;
+}
+TABLE.search_result TD.pages {
+	text-align : center;
+}
+
+TABLE.search_form {
+	border : 1px solid red;
+	background-color : #FFE377;
+}
+TABLE.search_form INPUT.search {
+	width : 100%;
+}
+DIV.search_error {
+	font-weight : bold;
+	color : red;
+	text-align : center;
+}

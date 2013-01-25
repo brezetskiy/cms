@@ -1,0 +1,33 @@
+{if $show_admin_error}
+	<h1>Ошибки в определении связи "модуль - страница админ. интерфейса"</h1>
+	<table class="cms_view">
+		<thead>
+			<tr>
+				<td width="30%">Модули</td>
+				<td>Страница</td>
+			</tr>
+		</thead>
+		<tmpl:row>
+		<tr class="{$class}">
+			<td>{$modules}</td>
+			<td>{$name}</td>
+		</tr>
+		</tmpl:row>
+	</table>
+{/if}
+
+{if $show_admin_wo_module}
+	<h1>Страницы админ интерфейса не привязанные к модулям</h1>
+	<table class="cms_view">
+		<thead>
+			<tr>
+				<td>URL</td>
+			</tr>
+		</thead>
+		<tmpl:row>
+		<tr class="{$class}">
+			<td><a href="/Admin/CMS/Structure/?structure_id={$structure_id}&_event_insert_id={$id}">{$url}</a></td>
+		</tr>
+		</tmpl:row>
+	</table>
+{/if}

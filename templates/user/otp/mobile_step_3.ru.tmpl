@@ -1,0 +1,29 @@
+<div class="otp_mobile_content">
+	<table>
+		<tr><td width="70%">
+			<h4>Этапы настройки:</h4>
+			<ol>
+				<li>С вашего телефона посетите <a href="{$url}" target="_blank" style="text-decoration:none;">{$name}</a></li>
+				{if $is_request}<li>Введите поисковый запрос Google Authenticator.</li>{/if}
+				<li>
+					Загрузите и установите приложение.
+					<p style="color:red;">
+		 				Для корректной работы Google Authenticator на Вашем устройстве обязательно должно быть установлено текущее время 
+		 				среднеевропейского часового пояса.
+		 			</p>
+				</li>
+				<li>Откройте на телефоне успешно установленное приложение Google Authenticator.</li>
+				{$list}
+				<li>В браузере на текущей странице нажмите "Далее".</li>
+			</ol>
+		</td>	
+		<td align="center">
+			<img src="{$qr_url}"> 
+			<h4 >QR-код</h4> 
+			( {%_SESSION.otp_sign} )
+		</td>
+		</tr>	
+	</table> 
+</div>
+
+<input id="otp_mobile_button" type="button" onclick="config_step(4, '{$otp_type}', 0)" value="Далее">

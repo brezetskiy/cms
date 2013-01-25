@@ -1,0 +1,13 @@
+div.identity_check_ok {
+	color: green;
+	font-weight: bold;
+	padding-top: 3px;
+	display: none;
+}
+
+div.identity_check_failed {
+	color: red;
+	font-weight: bold;
+	padding-top: 3px;
+	display: none;
+}

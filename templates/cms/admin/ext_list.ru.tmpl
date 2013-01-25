@@ -1,0 +1,77 @@
+<HTML>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+	<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<title>{$title}</title>
+	<style>
+	@import "/design/cms/css/shared.css";
+	body, td {
+		font-size:12px;
+		background-color:#D5E6FA;
+		font-family:Tahoma;
+		margin:0;
+		padding:0;
+	}
+	table {
+		width:100%;
+		border-collapse:collapse;
+	}
+	table td {
+		border:1px solid silver;
+		padding:2px;
+	}
+	table th {
+		border:1px solid silver;
+		font-size:12px;
+	}
+	input {
+		width:100%;
+	}
+	#ajaxPreloader,
+	.ajaxPreloader {
+		border:1px solid #B4DAFF;
+		position:absolute;
+		left:400px;
+		top: 50px;
+		padding: 40px 40px 40px 40px;
+		text-align:center;
+		display:none;
+	} 
+	</style>
+	<script language="JavaScript" type="text/javascript" src="/design/cms/js/cms.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/shared/global.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/shared/jshttprequest.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery-1.4.2.min.js"></script>
+	<script language="JavaScript">
+//		var t;
+//		function start() {
+//			clearTimeout(t);
+//			t = setTimeout("send()", 1000);
+//		}
+		function send(offset) {
+//			clearTimeout(t);
+			AjaxRequest.form('form_id', 'Идет загрузка параметров', {'offset':offset});
+		}
+		// Установка значения
+		function setLink(id, name) {
+			window.opener.document.getElementById('{#FIELD_NAME}').value = id;
+			window.opener.document.getElementById('{#FIELD_NAME}_text').value = name;
+			window.close();
+		}
+		// Удаление значения
+		function delLink() {
+			window.opener.document.getElementById('{#FIELD_NAME}').value = 0;
+			window.opener.document.getElementById('{#FIELD_NAME}_text').value = "";
+			window.close();
+		}
+	</script>
+</head>
+<body>
+<div id="ajaxPreloader">Идёт обновление информации, подождите...</div>
+<form action="/action/admin/cms/ext_list/" method="POST" onsubmit="send();return false;" id="form_id">
+<input type="hidden" name="fk_table_id" value="{$fk_table_id}">
+{$fkey_reference}
+<input type="image" src="/img/shared/1x1.gif" width=1 height=1>
+</form>
+</body>
+</HTML>

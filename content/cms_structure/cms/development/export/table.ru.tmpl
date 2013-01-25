@@ -1,0 +1,18 @@
+<h2>Ёкспорт данных</h2>
+<br>
+<form action="/{#LANGUAGE_URL}action/admin/sdk/export/" method="POST">
+<input type="hidden" name="_error_path" value="{#CURRENT_URL_FORM}">
+<input type="hidden" name="_return_path" value="/Admin/CMS/Export/">
+<input type="hidden" name="table_id" value="{#TABLE_ID}">
+<input type="hidden" name="parent_id" value="{#PARENT_ID}">
+<tmpl:hidden>
+<input type="hidden" name="export_id[]" value="{$id}">
+</tmpl:hidden>
+<select name="export_tables[]" multiple size="{$select_size}">
+	<tmpl:table>
+	<option selected value="{$id}">{$indent} {$name}</option>
+	</tmpl:table>
+</select>
+<p>
+<input type="submit" value="Ёкспортировать">
+</form>

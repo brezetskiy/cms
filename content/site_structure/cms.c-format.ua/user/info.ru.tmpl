@@ -1,0 +1,114 @@
+<style>
+	table.user_info_container tr td{ vertical-align:top;}
+</style>
+ 
+<script type="text/javascript" src="/js/user/phone.js"></script>
+<script>   
+
+ 
+	function set_user_group(id, params) {
+		$("#current_params").val(params);  
+		
+		$("div[id^='div_user_group_']").css("background-color", "#eee");
+		$("#div_user_group_"+id).css("background-color", "#d6e8fe");
+		 
+		$("div[id^='user_group_comment_']").fadeOut(1);
+		if($("#user_group_comment_"+id).html() != ""){
+			$("#user_group_comment_"+id).fadeIn(1);
+		}
+	
+		$("div[id^='devider_']").fadeOut(1, function(){ 
+			for(var i=0; i<params.length; i++){ 
+				$("#devider_"+params[i]).fadeIn(1);   
+			}
+		});
+	}
+</script>
+
+
+<div style="padding-top:10px;">
+
+	<table width="100%" cellpadding="0" cellspacing="0" class="user_info_container">
+		<tr>
+			<td width="50%">
+				<h2>Основная информация</h2>
+				<table  border="0" cellpadding="0" cellspacing="10" width="100%"  class="form">		
+					<tr>
+						<td class="title">Полное имя:</td>
+						<td>{$user.name}</td>
+					</tr>
+					<tr>
+						<td class="title">Email:</td>
+						<td>{$user.email}</td>
+					</tr>
+					<tr>
+						<td class="title">Ник имя:</td>
+						<td>{$user.nickname}</td>
+					</tr>
+					<tr>
+						<td class="title">&nbsp;</td>
+						<td style="text-align: left;"><a href="../Change/">Изменить информацию</a></td>
+					</tr>
+				</table>
+				<br/>
+				
+				<h2>Телефонные номера</h2>
+				<div id="phones_block"></div>
+			
+			</td>
+			
+			<td  width="50%"> 
+			<h2>Дополнительная информация</h2>
+				<tmpl:category>
+					<div id="devider_{$param_id}" {if AUTH_USER_GROUP_EDITABLE || empty(@user_group)}style="display:none;"{/if}> 
+						<table  border="0" cellpadding="0" cellspacing="10" width="100%"  class="form">
+						<tmpl:row>
+							<tr> 
+								<td class="title">{$name}{if $required}{/if}:</td>
+								<td>
+									{if $data_type=='char' || $data_type=='decimal' || $data_type=='text' || $data_type=='html' || $data_type=='date'}
+										{$value}
+						
+									{elseif $data_type=='file_list'}
+										<div id="upload_{$table_name}_{$uniq_name}">
+											<tmpl:uploads>
+											<div id="file_{$table_name}_{$field}_{$filename}">
+								  				<img src="/img/shared/ico/{$icon}.gif" border="0" align="absmiddle">
+												<a target=_blank href="{$file_url}">{$filename}</a>
+											</div>
+											</tmpl:uploads>
+										</div>
+									{elseif $data_type=='file'}
+										{if !empty($file)}
+											<a target="_blank" href="{$file}">Посмотреть файл</a>
+										{/if}
+									{elseif $data_type=='image'}
+										{if $file != '#' || $thumb != '#'}
+											Посмотреть картинку [
+												{if $file != '#'}<a rel="lightbox" target="_blank" href="{$file}">оригинальная: {$width} x {$height}</a>;{/if}
+												{if $thumb != '#'}<a rel="lightbox" target="_blank" href="{$thumb}">пиктограмма: {$thumb_width} x {$thumb_height}</a>{/if}
+											]
+										{/if}
+									{elseif $data_type=='bool'}
+										{if $value!=0}Да{else}Нет{/if}
+									{elseif $data_type=='fkey' || $data_type=='multiple'}
+										{$option}
+									{elseif $data_type=='fkey_table'}
+										<select name="param[{$param_id}]" disabled>
+											<option value="0">Сделайте выбор</option>
+											{if $is_tree}{$options}{else}{html_options options=$options selected=$value}{/if}
+										</select>
+									{/if}
+									<br><span class="comment">{$description}</span>
+								</td>
+							</tr>
+						</tmpl:row>  
+						</table>
+					</div>
+					
+				</tmpl:category>
+			</td>
+		</tr>
+		<tr><td colspan="2">&nbsp;</td></tr>
+	</table>
+</div>

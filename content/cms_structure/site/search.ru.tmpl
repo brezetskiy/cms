@@ -1,0 +1,48 @@
+<style>
+	.myvertical {
+		border-collapse:collapse;
+		border:1px solid #DDDDDD;
+	}
+	.myvertical td {
+		border:1px solid #DDDDDD;
+		line-height:24px;
+	}
+	.myvertical a {
+		margin:0 10px;
+	}
+
+</style>
+<br />
+<form action="" method="GET">
+	<table class="vertical">
+		<tr>
+			<td>Месяц:</td>
+			<td>
+				<select name="month">{html_options options=$monthes selected=$month}</select>
+				<input type="text" name="year" value="{$year}" size="4">
+			</td>
+			<td>
+				<select name="site_id"><option value="0">Все сайты</option>{html_options options=$sites selected=$site_id}</select>
+			</td>
+			<td><input type="submit" value="Показать"></td>
+		</tr>
+	</table>
+</form>
+<h2>Статистика</h2>
+<li>Количество записей в индексе - {$index_count}</li>
+<li>Количество запросов в поиск - {$number_request}</li>
+<br />
+<h2>Статистика частых поисковых запросов</h2>
+<tmpl:searchphraze>
+	<a target="_blank" href="/search?text={$keyword}">{$keyword}</a><sup>{$count}</sup>&nbsp;&nbsp;&nbsp;
+</tmpl:searchphraze>
+
+<h2>татистика по запросам, которые вернули пустой результат</h2>
+<tmpl:nullresult>
+	<a target="_blank" href="/search?text={$keyword}">{$keyword}</a><sup>{$count}</sup>&nbsp;&nbsp;&nbsp;
+</tmpl:nullresult>
+
+<h2>Последние 200 запросов</h2>
+<tmpl:lastresult>
+	<a target="_blank" href="/search?text={$keyword}">{$keyword}</a><sup>{$count}</sup>&nbsp;&nbsp;&nbsp;
+</tmpl:lastresult>

@@ -1,0 +1,66 @@
+
+<style>
+	div.auth_config_nav { width:80%; background-color:#F3F3F3; border:1px solid #B4C8D4; text-align:center; color:#96C0FF; margin:10px 0; padding:0px 10px;}
+	div.auth_config_nav table { width:100%; }
+	div.auth_config_nav table tr td { text-align:center; padding:8px; cursor:pointer; }
+	div.auth_config_nav table tr td.selected { color:#000; font-weight:normal; }
+	
+	ul.auth_config_nav li { font-size:16px; list-style:none outside; margin:5px; float:left;  width:200px;   }
+	ul.auth_config_nav li a{ text-decoration:none; }
+	ul.auth_config_nav li a.selected{ color:#1F84FF; font-weight:normal; }
+  
+	table.auth_config_table td.no_content{text-align:center; padding:20px; background-color:#f3f3f3}
+	table.auth_config_table td{padding:5px; border:1px solid #7398af; vertical-align:middle}
+	table.auth_config_table thead td{text-align:center; font-weight:bold; background-color:#b4c8d4; color:black; padding:5px 3px 5px 3px; vertical-align:middle}
+	table.auth_config_table tr td{vertical-align:middle}
+	table.auth_config_table tr th{ font-weight:bold; background-color:#d9e3e9; color:black; padding:3px 3px; vertical-align:middle}
+	table.auth_config_table tr.error{background-color:#ffd4d7}
+	table.auth_config_table tr.even{background-color:#e9e9e9}
+	table.auth_config_table tr.odd{background-color:#f3f3f3}
+	table.auth_config_table tr.over{background-color:#d4deec}
+	table.auth_config_table tr.vertcenter{vertical-align:middle}
+	table.auth_config_table{width:100%; border-collapse:collapse; border:1px solid #385685; vertical-align:middle; margin:10px 0px 5px 0px;}
+</style>
+
+	 
+<!--  OID CONFIG  -->		
+<div id="auth_config_block_oid"  style="width:80%; {if $current_block != 'oid'}display:none;{/if}">
+	<p>
+		Наш сайт предоставляет возможность <b>простой авторизации</b> за один клик, посредством провайдеров, что поддерживают услугу OpenID или OAuth авторизации.
+		<br/>Теперь, будучи авторизированным на одном из перечисленных ниже провайдеров, Вам достаточно лишь нажать соответствующую кнопку и Вы автоматически авторизируетесь на сайте нашей компании. 
+	</p>
+	
+	<p style="margin-top:25px;">Чтобы привязать Вашу учетную запись к учетным записям на стороне провайдеров, пожалуйста, нажмите соостветствующую иконку ниже:</p>
+	{oid_widget name='oid_auth_config' template='inline'}
+	 
+	<h2 style="margin-top:20px;">Таблица связей:</h2>
+	<form action="/action/user/oid/delete/" method="POST" enctype="multipart/form-data">
+		<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+		
+		<table class="auth_config_table" width="100%">
+			<thead>
+				<tr>
+					<td width="5%">&nbsp;</td>
+					<td width="20%">Провайдер</td>
+					<td width="75%">Идентификатор учетной записи на стороне провайдера</td>
+				</tr>
+			</thead>
+			<tbody> 
+				{if $identity_count == 0}
+					<tr id="identities_{$id}_no" ><td class="no_content" colspan="3" align="center"><span style="color:#777; font-size:11px;">Связей не обнаружено</span></td></tr>
+				{else}
+					<tmpl:identities> 
+						<tr id="identities_{$provider_id}_{$id}" class="{$class}" >
+							<td align="center"><input type="checkbox" name="oid_delete[]" value="{$id}" id="oid_delete_{$id}"></td>
+							<td align="left"><label for="oid_delete_{$id}"><img src="{$icon}" border="0" align="absmiddle"> {$provider}</label></td>
+							<td align="left">{$identity}</td>
+						</tr> 
+					</tmpl:identities>
+				{/if}
+			</tbody>
+		</table>
+		
+		<img border="0" align="top" src="/img/cms/corner_bottom.gif" style="margin-left:9px">
+		<input type="submit" onclick="if(confirm('Удалить выделенные записи?')) { document.all.Form.submit(); } return false; " value="Удалить" class="cp_delete">
+	</form>
+</div>

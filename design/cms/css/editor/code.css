@@ -1,0 +1,49 @@
+body {
+	font: 12px "Courier New";
+	background: #FFFFFF;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+.html_paramvalue {
+	color : #0000FF ;
+	font-size : 13px;
+}
+
+.html_comment {
+	color : #808080 ;
+	font-style : italic;
+}
+
+.html_tag {
+	color : #000080;
+}
+
+.html_img {
+	color : #800080;
+}
+
+.html_A {
+	color : #008000;
+}
+
+.html_form {
+	color : #FF8000;
+}
+
+.html_table {
+	color : #008080;
+}
+
+.html_entity {
+	color : #000000;
+	font-weight : bold;
+}
+
+.html_styletag {
+	color : #800080;
+}
+
+.html_styleitem {
+	color : #800080;
+}

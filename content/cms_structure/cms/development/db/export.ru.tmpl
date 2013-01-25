@@ -1,0 +1,47 @@
+<h1>Экспорт структуры базы данных</h1>
+<br>
+<form target="_blank" action="/{#LANGUAGE_URL}action/admin/sdk/database_structure_export/" method="POST">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table class="vertical" width="600px">
+<tr>
+	<td class="title">База данных:</td>
+	<td><select name="db_id"><option value="0">Выберите из списка</option>{html_options options=$db_list}</select></td>
+</tr>
+
+<tr>
+	<td class="title">Экспорт:</td>
+	<td>
+		<input type="checkbox" name="export_tables" id="export_tables" checked><label for="export_tables">Структура таблиц</label><br>
+		<input type="checkbox" name="export_triggers" id="export_triggers" checked><label for="export_triggers">Триггеры</label><br>
+		<input type="checkbox" name="export_procedures" id="export_procedures" checked><label for="export_procedures">Процедуры</label><br>
+		<input type="checkbox" name="export_functions" id="export_functions" checked><label for="export_functions">Функции</label>
+	</td>
+</tr>
+
+<tr>
+	<td class="title">Опции:</td>
+	<td>
+		<input type="checkbox" name="drop_table" id="drop_table" checked><label for="drop_table">DROP TABLE/VIEW/TRIGGER/PROCEDURE/FUNCTION</label><br>
+		<span class="comment">Удалять старые объекты, если они существуют</span><br>
+		<input type="checkbox" name="if_not_exists" id="if_not_exists" checked><label for="if_not_exists">IF NOT EXISTS</label><br>
+		<span class="comment">Создавать таблицы, только если они еще не существуют <br />(только для таблиц!)</span><br>
+		<input type="checkbox" name="replace_view" id="replace_view" checked><label for="replace_view">REPLACE VIEW</label><br>
+		<span class="comment">Заменять существующие view</span><br>
+	</td>
+</tr>
+
+<tr>
+	<td class="title">Результат:</td>
+	<td>
+		<input type="radio" name="result" value="save" id="result_save" checked><label for="result_save">Сохранить в файл</label><br>
+		<input type="radio" name="result" value="show" id="result_show"><label for="result_show">Показать SQL</label>
+	</td>
+</tr>
+
+<tr>
+	<td class="title">&nbsp;</td>
+	<td><input type="submit" value="Экспорт"></td>
+</tr>
+
+</table>
+</form>

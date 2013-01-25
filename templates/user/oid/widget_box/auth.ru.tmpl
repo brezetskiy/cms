@@ -1,0 +1,130 @@
+
+<!-- Форма уточнения данных при ручной авторизации -->
+<form id="oid_widget__{@oid_widget_uniq_name}_form_clarify_manual" action="/action/user/oid/clarify_manual/" method="post"  enctype="multipart/form-data" style="display:none;">
+	<input type="hidden" name="_return_path" value="{%_SESSION.oid_widget.return_path}"> 
+</form>
+  
+
+<!----------------- Основная форма ------------------>
+<div id="oid_widget__{@oid_widget_uniq_name}" class="oid_widget_box" style="{if empty(%_SESSION.oid_clarify_auto) && empty(%_SESSION.oid_clarify_manual)}display:none;{/if}">
+	<i class="oid_widget_box_top"></i>
+	<i class="oid_widget_box_bottom"></i>
+	<a href="javascript:void(0);"  onclick="oid_widget__box__close('{@oid_widget_uniq_name}');" title="Закрыть" class="oid_widget_box_close"><img src="/img/user/oid/box/cross_grey.png" border="0" align="absmiddle"></a>    
+		
+	<div class="oid_widget_box_box">
+		<h2>Вход в систему</h2>
+		<div class="oid_widget_box_content">
+			<i class="oid_widget_box-angle angle-tl"></i>
+			<i class="oid_widget_box-angle angle-tr"></i>
+			<i class="oid_widget_box-angle angle-bl"></i>
+			<i class="oid_widget_box-angle angle-br"></i>    
+			 
+			<div style="padding:25px;">
+			
+				<div id="oid_widget__error"></div>	
+				<div id="oid_widget__warning"></div>
+				<div id="oid_widget__ok"></div>
+			
+				
+				<!--------------------------------------------- OID авторизация ----------------------------------------------->
+				<table class="oid_widget_box_openid" cellpadding="0" cellspacing="0">
+				   
+					<!-- Вывод иконок всех провайдеров (OAuth и OpenID) -->
+					<tr id="oid_widget__{@oid_widget_uniq_name}_box_provider_block"  style="{if @oid_clarify_auto_enable || !empty(%_SESSION.oid_clarify_manual)}display:none;{/if}">
+						<td class="title">Выберите провайдер:</td>
+						<td class="field" colspan="2">
+							<div class="oid_widget">   
+								<tmpl:providers>
+									{if $openid_enable}
+										<a rel="nofollow" href="javascript:void(0);" onclick="oid_widget__box__openid_open('{@oid_widget_uniq_name}', {$id});"><img src="{$icon}" title="{$name}" style="margin:0px 5px;" border="0" alt="{$name}"/></a>
+									{else}	
+										<a rel="nofollow" href="javascript:void(0);" onclick="oid_widget__message_clear(); StableWindow('{$dialog_url}', '{$name}', 1);"><img src="{$icon}" title="{$name}"  style="margin:0px 5px;" border="0"  alt="{$name}"/></a>
+									{/if}
+							    </tmpl:providers>
+							</div>	
+						</td>
+					</tr>  
+					<tr id="oid_widget__{@oid_widget_uniq_name}_box_provider_pad" style="{if @oid_clarify_auto_enable || !empty(%_SESSION.oid_clarify_manual)}display:none;{/if}"><td colspan="3">&nbsp;</td></tr>
+					
+					<!-- Вывод форм для OpenID провайдеров -->
+					<tmpl:providers> 
+						{if $openid_enable}
+							<tr id="oid_widget__{@oid_widget_uniq_name}_box_openid_block_{$id}" class="oid_openid">
+								<td class="title"><a href="javascript:void(0);" onclick="oid_widget__box__cancel('{@oid_widget_uniq_name}');"><img src="/img/user/oid/box/cross_red.png" border="0" align="absmiddle" title="Отменить" alt="Отменить"></a> Введите {$name} логин:</td>
+								<td class="field">    
+									<form onsubmit="oid_widget__box__openid_send('{@oid_widget_uniq_name}', {$id}, '{$name}'); return false;">
+										<input type="hidden" id="oid_widget__{@oid_widget_uniq_name}_openid_return_path_{$id}" value="{#CURRENT_URL_FORM}">
+										<input type="hidden" id="oid_widget__{@oid_widget_uniq_name}_openid_a_{$id}"  value="auth">  
+										<input type="hidden" id="oid_widget__{@oid_widget_uniq_name}_openid_provider_{$id}"  value="{$uniq_name}">
+										<input type="hidden" id="oid_widget__{@oid_widget_uniq_name}_openid_link_{$id}" value="{$openid_link}">
+										<input type='text' id='oid_widget__{@oid_widget_uniq_name}_openid_identifier_{$id}' value='' class='wide'>
+									</form>
+								</td> 
+								<td class="field"><input type="button" onclick="oid_widget__box__openid_send('{@oid_widget_uniq_name}', {$id}, '{$name}');" value="Далее"></td>
+							</tr> 
+						{/if}
+					</tmpl:providers> 
+					
+					<tr id="devider_line" style="{if @oid_clarify_auto_enable || !empty(%_SESSION.oid_clarify_manual)}display:none;{/if}"><td colspan="3" class="line">&nbsp;</td></tr>
+					<tr id="devider_pad" style="{if @oid_clarify_auto_enable || !empty(%_SESSION.oid_clarify_manual)}display:none;{/if}"><td colspan="3" style="padding-top: 10px;">&nbsp;</td></tr>
+					
+					 
+					<!------------------------------------------ Стандартная авторизация ------------------------------------------>
+					<tr id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_row_email" style="{if @oid_clarify_auto_enable || !empty(%_SESSION.oid_clarify_manual)}display:none;{/if}">
+						<td class="title">или введите e-mail:</td>  
+						<td class="field">
+							<form onsubmit="oid_widget__box__clarify_manual_send('{@oid_widget_uniq_name}', 'validate_email_auth'); return false;">
+								<input type="text" id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_email" name="manual_email" value="{%_SESSION.oid_clarify_manual.email}" class="wide">
+							</form>
+						</td> 
+						<td id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_email_button" class="field"><input type="button" onclick="oid_widget__box__clarify_manual_send('{@oid_widget_uniq_name}', 'validate_email_auth');" value="Далее"></td>
+					</tr>
+					
+					<!-- Уточнение данных при авторизации -->
+					
+					<tr id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_row_auth_passwd" {if empty(%_SESSION.oid_clarify_manual.action) || %_SESSION.oid_clarify_manual.action != 'auth'}style="display:none;"{/if}>
+						<td class="title">Введите Ваш пароль:</td>
+						<td class="field">
+							<form onsubmit="oid_widget__box__clarify_manual_send('{@oid_widget_uniq_name}', 'auth'); return false;">
+								<input type="password" id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_passwd" name="passwd" value="" class="short">&nbsp;&nbsp;
+								<a href="/User/Reminder/" style="font-size:11px;">Напомнить пароль</a>
+							</form>
+						</td>
+						<td class="field">&nbsp;</td>
+					</tr> 
+					      
+					<tr id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_auth_captcha" {if empty(%_SESSION.oid_clarify_manual.action) || %_SESSION.oid_clarify_manual.action != 'auth' || !Auth::isHacker()}style="display:none;"{/if}>  
+						<td class="title"><div id="oid_widget__captcha">{$manual_captcha_html}</div></td> 
+						<td class="field">  
+							<input type="text" maxlength="6" id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_captcha" name="captcha_value"  class="short">
+							<br/><span class="comment">Введите число, показанное на картинке</span>
+						</td>
+						<td class="field">&nbsp;</td>
+					</tr> 
+					
+					<tr id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_auth_code" style="{if empty(%_SESSION.oid_clarify_manual.otp_enabled)}display:none;{/if} vertical-align:top;">
+						<td class="title" style="padding-top:9px;"><span id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_code_title">Код</span>:</td> 
+						<td class="field" colspan="2" nowrap> 
+							<form onsubmit="oid_widget__box__clarify_manual_send('{@oid_widget_uniq_name}', 'auth'); return false;">
+								<input type="hidden" id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_reserve" name="manual_reserve" value="0">
+								<input id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_code" class="short" type="text" maxlength="6" name="manual_code">&nbsp;&nbsp;
+								<a id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_switch_code_button" href="javascript:void(0);" onclick="oid_widget__box__switch_code('{@oid_widget_uniq_name}', 'manual');" style="font-size:11px;">Воспользоваться резервным кодом доступа?</a>
+								
+								<div id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_sms_phone_block"></div>
+							</form>
+						</td>
+					</tr> 
+					
+					<tr id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_row_auth_button" {if empty(%_SESSION.oid_clarify_manual.action) || %_SESSION.oid_clarify_manual.action != 'auth'}style="display:none;"{/if}>
+						<td class="title">&nbsp;</td>
+						<td colspan="2" class="field">
+							<input type="checkbox" name="manual_remember" value="1" id="oid_widget__{@oid_widget_uniq_name}_clarify_manual_remember" checked> <label for="oid_widget__{@oid_widget_uniq_name}_clarify_manual_remember">Запомнить меня на этом компьютере</label>
+							<br/><br/><input type="button" onclick="oid_widget__box__clarify_manual_send('{@oid_widget_uniq_name}', 'auth');" value="Готово">&nbsp;&nbsp;
+							<a href="javascript:void(0);" onclick="oid_widget__box__cancel('{@oid_widget_uniq_name}');" style="text-decoration:none; color:#000;"><img src="/img/user/oid/box/cross_red.png" border="0" align="absmiddle"  title="Отменить" alt="Отменить" style="margin-top:5px;"> Отменить</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>  
+	</div>
+</div>

@@ -1,0 +1,9 @@
+textarea {
+  overflow: auto;
+}
+.search_input_text{padding-top:2px;}
+
+*:first-child+html #sliderscroll .sliderkit-content{width:600px;}
+*:first-child+html #sliderscroll .sliderkit-content .weight{left:610px;}
+*:first-child+html #sliderscroll .sliderkit-content .price{left:605px;}
+*:first-child+html #sliderscroll .sliderkit-content .want{right:0px;}

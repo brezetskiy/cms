@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<TITLE>{$title}</TITLE>
+	<base href="{#HTTP_SCHEME}://{#CMS_HOST}{@base_url}">
+	
+	<link rel="stylesheet" href="/design/cms/css/admin.css" type="text/css">
+	<link rel="stylesheet" href="/design/cms/css/cms_edit.css" type="text/css">
+	<link rel="stylesheet" href="/design/cms/css/scw.css" type="text/css">
+	<link rel="stylesheet" href="/design/cms/css/jquery.autocomplete.css" type="text/css">
+	
+ 	<link rel="stylesheet" href="/extras/jquery/css/chosen/style.css" />
+	
+	<tmpl:css>
+		<link rel="stylesheet" href="{$url}" type="text/css">
+	</tmpl:css>
+	
+	<script language="JavaScript" type="text/javascript" src="/design/cms/js/cms.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/shared/global.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/shared/jshttprequest.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/shared/scw.js"></script> 
+	
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery-1.4.2.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.autocomplete.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.idtabs.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.chosen.min.js"></script>
+	
+	<script language="JavaScript" type="text/javascript">
+		<tmpl:swf_upload_var>
+			var swf_upload_{$field};
+		</tmpl:swf_upload_var>
+
+		
+		$(function() {
+			Hotkey.Init();
+			
+			for(var i = 0; i < document.links.length; i++){
+				document.links.hidefocus = true;
+			}
+			
+			// используется для открытия нужных разделов в полях типа ext_multiple
+			<tmpl:onload>
+				{$function} 
+			</tmpl:onload>
+			
+			FormFocus();
+			$("#tabs").idTabs();
+			 
+			<tmpl:swf_upload_constructor>
+				swf_upload_{$field} = new SWFUpload(cms_create_swf_config('{@table_name}', '{$field}', '{@id}', '{@tmp_dir}')); 
+			</tmpl:swf_upload_constructor>
+			
+			// Размер окна
+			var max_height = 0;
+			var max_width = 0;
+			
+			$(".cms_edit").each(function(i) {
+				if ($(this).height() > max_height) {
+					max_height = $(this).height();  
+				}
+			});
+			
+			$("ul li").each(function(i) {
+				max_width += $(this).width() + 30;
+			});
+			
+			if(max_width < 650) max_width = 650;
+			resizeDialog(max_width, max_height + 210);
+			 
+		  	$(".chzn-select").chosen({allow_single_deselect:true});   
+		});
+	</script>
+	
+	<script type="text/javascript" src="/extras/swfupload/swfupload.2.2.0.beta3.js"></script>
+	<script type="text/javascript" src="/extras/swfupload/handlers_cms.js"></script>
+	
+</head>
+
+<body>
+	<div id="ajaxPreloader"></div>
+	
+	<tmpl:error><div class="delta_error">{$message}</div></tmpl:error>
+	<tmpl:success><div class="delta_success">{$message}</div></tmpl:success>
+	<tmpl:info><div class="delta_info">{$message}</div></tmpl:info>
+	<tmpl:warning><div class="delta_warning">{$message}</div></tmpl:warning>
+	
+	<form name="Form" id="Form" enctype="multipart/form-data" action="/{#LANGUAGE_URL}action/admin/cms/table_add/" method="POST">
+		<input type="hidden" name="_return_path" value="{@return_path}">
+		<input type="hidden" name="_return_anchor" value="{@return_anchor}">
+
+		{if isset(%_GET._update_field_name)}
+			<input type="hidden" name="_return_type" value="update_foreign_key">
+		{else}
+			<input type="hidden" name="_return_type" value="{@return_type}">
+		{/if}
+		
+		<input type="hidden" name="_error_path" value="{#CURRENT_URL_FORM}">
+		<input type="hidden" name="_table_id" id="_table_id" value="{@table_id}">
+		<input type="hidden" name="tmp_dir" value="{@tmp_dir}">
+		<input type="hidden" name="_update_field_id" value="{%_GET._update_field_id}">
+		<input type="hidden" name="_update_field_name" value="{%_GET._update_field_name}">
+		<input type="hidden" name="_update_form_id" value="{%_GET._update_form_id}">
+	
+		<tmpl:hidden>
+			<input type="hidden" name="{$name}" value="{$value}">
+			{if is_null($value)}
+				<input type="hidden" value="true" name="{@table_id}[_null_][{$name}]">
+			{/if}
+		</tmpl:hidden>
+	
+		<div style="background-color:white;height:25px;">
+			<ul id="tabs">
+				<tmpl:devider>
+				<li><a class="{$class}" href="#{$name}">{$title}</a></li>
+				</tmpl:devider>
+			</ul>
+		</div>
+		
+		<tmpl:devider>
+			<table id="{$name}" class="cms_edit">
+			<tmpl:row>
+			<tr class="{$row.class}">
+				<td class="title">  
+					{* if !empty($row.fk_table_id) && $row.fk_table_id!=@table_id && $row.fk_table_type!='VIEW'}
+						<a href="javascript:void(0);" onclick="EditWindow(0, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;">{$row.title}</a>
+					{else *}
+					<label for="{$row.input_id}{$label}">{if IS_DEVELOPER}<acronym title="{$row.field} ({$type})">{$row.title}</acronym>{else}{$row.title}{/if}</label> 
+				</td>
+				<td class="null">
+					{if $row.is_nullable}
+						<input type="checkbox" {$row.null_checked} value="true" name="{@table_id}[_null_][{$row.field}]" id="{$row.input_id}_null" onclick="set_null('{$row.input_id}', this.checked);">
+					{else}
+						<input type="checkbox" disabled>
+					{/if}
+				</td>
+				<td class="text">
+				<div id="div_{$row.input_id}">
+					{if $type=='dummie'}
+						<input type="hidden" name="{@table_id}[_dummie_fields_][{$row.field}]" value="{$value}">
+					{elseif $type=='text'}
+						<input onclick="set_null('{$row.input_id}', false);" type="text" id="{$row.input_id}" name="{$row.input_name}" value="{$value}" maxLength="{$max_length}" style="width:{$size};"><br>
+					{elseif $type=='password'}
+						<input type="hidden" name="{@table_id}[{$row.field}_old_password]" value="{$old_password}">
+						<input onclick="set_null('{$row.input_id}', false);" type="password" id="{$row.input_id}" name="{$row.input_name}" value="{$value}" maxLength="{$max_length}" style="width:{$size};">
+						{if #IS_DEVELOPER}
+							<input type="checkbox" onclick="byId('{$row.input_id}_show').innerHTML = (this.checked) ? byId('{$row.input_id}').value : '';"><br>
+							<span class="comment" id="{$row.input_id}_show"></span>
+						{else}
+							<br>
+						{/if}
+					{elseif $type=='file'}
+						<input type="hidden" name="{$row.input_name}[extension]" value="{$value}">
+						<input type="file" onclick="set_null('{$row.input_id}', false);"  name="{$row.input_name}[file]"><br>
+						{if $file_exists==true}
+							<input type="checkbox" disabled>
+							{if $file_type == 'image'}
+								<a href="javascript: void(0);" onclick="CenterWindow('/tools/cms/admin/preview.php?id={@id}&table_name={@table_name}&field_name={$row.field}&extension={$value}', 'Image', {$width}, {$height}, 1, 'center'); return false;">Просмотреть картинку</a>
+							{else}
+								<a href="/tools/cms/admin/preview.php?id={@id}&table_name={@table_name}&field_name={$row.field}&extension={$value}">Скачать файл</a>
+							{/if}
+							<br><input type="checkbox" name="{$row.input_name}[del]" id="del_{$row.input_id}" value="true">
+							{if $file_type == 'image'}
+								<label for="del_{$row.input_id}">Удалить картинку</label><br>
+							{else}
+								<label for="del_{$row.input_id}">Удалить файл</label><br>
+							{/if}
+						{/if}
+					{elseif $type=='swf_upload'}
+						<div id="upload_{$row.input_id}">
+							<tmpl:uploads>
+							<div id="file_{@table_name}_{$field}_{$filename}">
+								<a href="javascript:void(0);" onclick="cms_swf_upload_delete('{@id}', '{@table_name}', '{$field}', '{$filename}', '{@tmp_dir}')"><img src="/design/cms/img/icons/swf_del.png" border="0" align="absmiddle"></a>
+								<img src="/img/shared/ico/{$icon}.gif" border="0" align="absmiddle">
+								<a target=_blank href="{$file_url}">{$filename}</a>
+							</div>
+							</tmpl:uploads>
+						</div>
+						<span id="spanSWFUploadButton_{$row.field}"></span>
+						<br>
+					{elseif $type=='textarea'}
+					<script>
+					
+					function shrink(id) {
+						//$('#'+id).style.height=120;
+						setTimeout('document.getElementById("'+id+'").style.height=120;', 100);
+					}
+					</script>
+					
+						<textarea onclick="set_null('{$row.input_id}', false);" onfocusin="this.style.height=240;" onfocusout="shrink('{$row.input_id}')" onKeyDown="return countTextField(this, event, {$max_length});"  style="width:350px;height:120px;" id="{$row.input_id}" name="{$row.input_name}">{$value}</textarea><BR>
+						<DIV class="countTextField" id="{$row.input_id}_ctf">
+							<DIV class="countTextField_bar"  id="{$row.input_id}_ctf_bar">
+								<DIV id="{$row.input_id}_ctf_filler"></DIV>
+							</DIV>
+							<DIV id="{$row.input_id}_ctf_counter_div" class="countTextField_counter">
+								<input disabled type="text" id="{$row.input_id}_ctf_counter">
+							</DIV>
+						</DIV> 
+					{elseif $type=='fk_nn'} 
+						<select style="width:325px;" align="left" class="tree chzn-select" id="{$row.input_id}" name="{$row.input_name}[]" multiple>
+							{$tree}
+							{html_options options=$options selected=$selected}
+						</select> 
+						<a href="javascript:void(0);" onclick="select_options_chzn('{$row.input_id}', true);return false;"><img src="/design/cms/img/icons/fk_add.gif" width="15" height="15" alt="Выделить все" border="0" align="top" style="margin-top:8px;"></a>&nbsp;
+						<a href="javascript:void(0);" onclick="select_options_chzn('{$row.input_id}', false);return false;"><img src="/design/cms/img/icons/fk_minus.gif" width="15" height="15" alt="Снять выделение" border="0" align="top" style="margin-top:8px;"></a>&nbsp;
+						<a href="javascript:void(0);" onclick="select_options_chzn('{$row.input_id}', 'invert');return false;"><img src="/design/cms/img/icons/fk_asterix.gif" width="15" height="15" alt="Инвертировать выделение все" border="0" align="top" style="margin-top:8px;"></a>
+						
+						<br clear="all">
+					{elseif $type=='fk'} 
+						<select style="width:325px;"class="tree chzn-select" id="{$row.input_id}" name="{$row.input_name}" onclick="set_null('{$row.input_id}', false);">
+							<option value=""></option> 
+							{html_options options=$options selected=$selected} 
+							{$tree}
+						</select>
+						
+						<a href="javascript:void(0);" onclick="EditWindow(0, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/add.png" border="0" align="top" style="margin-top:5px;"></a>&nbsp;
+						<a href="javascript:void(0);" onclick="EditWindow(byId('{$row.input_id}').value, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/edit.png" border="0" align="top" style="margin-top:5px;"></a>
+						
+						<br>
+					{elseif $type=='ext_select'}
+						<input style="width:325px;color:blue;" type="text" id="{$row.input_id}_text" value="{$text_value}" 
+							onkeydown="var ignore=ignoreKey(); if(!ignore) {CenterWindow('/tools/cms/admin/ext_select.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 400, 500, 1, 1);};return ignore;" 
+							onclick="CenterWindow('/tools/cms/admin/ext_select.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 400, 500, 1, 1);"
+						>
+						<!-- a href="javascript:void(0);" onclick="CenterWindow('/tools/cms/admin/ext_select.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 400, 500, 1, 1);"><img src="/design/cms/img/ui/search.png" border="0" align="absmiddle"></a -->
+						<a href="javascript:void(0);" onclick="EditWindow(0, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/add.png" border="0" align="absmiddle"></a>
+						<a href="javascript:void(0);" onclick="EditWindow(byId('{$row.input_id}').value, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/edit.png" border="0" align="absmiddle"></a>
+						<input type="hidden" id="{$row.input_id}" name="{$row.input_name}" value="{$value}"><br>
+					{elseif $type=='ext_list'}
+						<input style="width:325px;color:#00B;" type="text" id="{$row.input_id}_text" value="{$text_value}" 
+							onkeydown="var ignore=ignoreKey(); if(!ignore) {CenterWindow('/tools/cms/admin/ext_list.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 800, 600, 1, 1);};return ignore;" 
+							onclick="CenterWindow('/tools/cms/admin/ext_list.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 800, 600, 1, 1);"
+						>
+						<!-- a href="javascript:void(0);" onclick="CenterWindow('/tools/cms/admin/ext_list.php?field_name={$row.input_id}&table_id={$field_fk_table_id}&open_id='+document.getElementById('{$row.input_id}').value, 'tree', 800, 600, 1, 1);"><img src="/design/cms/img/ui/search.png" border="0" align="absmiddle"></a -->
+						<a href="javascript:void(0);" onclick="EditWindow(0, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/add.png" border="0" align="absmiddle"></a>
+						<a href="javascript:void(0);" onclick="EditWindow(byId('{$row.input_id}').value, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/edit.png" border="0" align="absmiddle"></a>
+						<input type="hidden" id="{$row.input_id}" name="{$row.input_name}" value="{$value}"><br>
+					{elseif $type=='ext_multiple'}
+						<DIV style="border:1px solid #7F9DB9;width:325px;height:500px;overflow:scroll;background-color:white;padding:5px;">
+							<tmpl:ext_multiple>
+							{if $recursive === 'true'}
+								<input type="checkbox" name="{$master_table_id}[{$field}][]" value="{$id}" {$checked}> <a href="javascript:void();" onclick="extMultiple('{$code}_{$id}', '{$master_table_id}[{$field}][]', {$fk_table_id}, 2, {$id}, '{@id}', '{$relation_table_name}', '{$relation_select_field}', '{$relation_parent_field}');return false;"><img src="/img/shared/toc/plus.png" border="0" width="11" height="11" id="img_{$code}_{$id}"> {$name}</a><br><div style="display:none;" id="{$code}_{$id}"></div>
+							{else}
+								<a href="javascript:void();" onclick="extMultiple('{$code}_{$id}', '{$master_table_id}[{$field}][]', {$fk_table_id}, 2, {$id}, '{@id}', '{$relation_table_name}', '{$relation_select_field}', '{$relation_parent_field}');return false;"><img src="/img/shared/toc/plus.png" border="0" width="11" height="11" id="img_{$code}_{$id}"> {$name}</a><br><div style="display:none;" id="{$code}_{$id}"></div>
+							{/if}
+							</tmpl:ext_multiple>
+						</DIV>
+						<script language="JavaScript">
+						function extMultipleOpen_{$field}() {
+						<tmpl:open_ext_multiple>
+							extMultiple('{$code}_{$id}', '{$master_table_id}[{$field}][]', {$fk_table_id}, 2, {$id}, '{@id}', '{$relation_table_name}', '{$relation_select_field}', '{$relation_parent_field}');
+						</tmpl:open_ext_multiple>
+						}
+						</script>
+					{elseif $type=='money'}
+						<input type="text" id="{@table_name}_{$row.text_field}" name="{@table_id}[{$row.text_field}]" value="{$text_value}" maxLength="{$max_length}" style="width:{$size};"> 
+						<select class="tree" id="{@table_name}_{$row.currency_field}" name="{@table_id}[{$row.currency_field}]" size="1">
+							<option value="0">{$null_text}</option>
+							{html_options options=$currency_data selected=$currency_id}
+						</select><br>
+					{elseif $type=='ajax_select'}
+						<input type="hidden" id="{$row.input_id}_value" name="{$row.input_name}" value="{$value}">
+						<input class="ac_input" type="text" id="{$row.input_id}" name="ajax_select[{$row.field}][{$uniqid}]" value="{$ajax_value}" style="width:{$size};color:#00B;" onclick="set_null('{$row.input_id}', false);" />
+						<input type="checkbox" disabled id="{$row.input_id}_fixed" {$value_fixed}>
+						
+						<a href="javascript:void(0);" onclick="EditWindow(0, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/add.png" border="0" align="absmiddle"></a>
+						<a href="javascript:void(0);" onclick="EditWindow(byId('{$row.input_id}_value').value, '{$row.fk_table_id}', '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '_update_field_name={$row.input_name}&_update_field_id={$row.input_id}&_update_form_id=Form');return false;"><img src="/design/cms/img/ui/edit.png" border="0" align="absmiddle"></a>
+						<br>
+					{elseif $type=='html'}
+						<!--<iframe style="width:90%;height:300px;" id="{$row.input_id}" src="/tools/editor/frame/blank.php"></iframe> -->
+						<textarea style="width:90%; height:300px;" id="{$row.input_id}" src="/tools/editor/frame/blank.php">{$value}</textarea> 	
+						<br>
+						<img src="/design/cms/img/editor/html_editor.png" border="0" align="absmiddle">
+						<a href="/tools/ckeditor/ckeditor.php?event=editor/content&id={%_GET.id}&table_name={@table_name}&field_name={$row.field}" target="_self">редактор</a>
+					{elseif $type=='fixed_open'}
+						{$value}
+					{elseif $type=='date'}
+						<input type="text" class="date" name="{$row.input_name}" value="{$value}" onclick="set_null('{$row.input_id}', false);scwShow(scwID('{$row.input_id}'),event);" id="{$row.input_id}"><br>
+					{elseif $type=='time'}
+						<input onclick="set_null('{$row.input_id}', false);" type="text" name="{$row.input_name}" value="{$value}" id="{$row.input_id}" style="width:80px;"><br>
+					{elseif $type=='datetime'}
+						<input onclick="set_null('{$row.input_id}', false);" type="text" name="{$row.input_name}" value="{$value}" id="{$row.input_id}"><br>
+					{/if}
+					
+					
+					
+					<tmpl:radio>
+						<input name="{$row.input_name}" type="radio" {$checked} value="{$value}" id="{$row.input_id}_{$value}"><label for="{$row.input_id}_{$value}">{$description}</label><br>
+					</tmpl:radio>
+					<tmpl:checkbox>
+						<input type="checkbox" id="{$row.input_id}" name="{$row.input_name}" value="{$value}" {$checked}><label for="{$row.input_id}">{$description}</label><br>
+					</tmpl:checkbox>
+					<tmpl:checkboxset>
+						<input type="checkbox" id="{$row.input_id}_{$value}" name="{$row.input_name}[]" value="{$value}" {$checked}><label for="{$row.input_id}_{$value}">{$description}</label><br>
+					</tmpl:checkboxset>
+				</div>
+				<!-- div id="null_{$row.input_id}" style="display:none;"><i>Неопределённое значение</i></div -->
+				{if !empty($row.error)}
+					<span class="error">{$row.error}</span><br>
+				{/if}
+				{if !empty($row.comment)}<span class="comment">{$row.comment}</span>{/if}
+				</td>
+			</tr>
+			</tmpl:row>
+			</table>
+		</tmpl:devider>
+	
+		<div class="footer">
+			<input accesskey="13" type="submit" value="Сохранить" class="submit"><p>
+			<input type="checkbox" {if @no_refresh}checked{/if} name="no_refresh" value="1" id="no_refresh"> <label for="no_refresh">Не обновлять</label><p>
+			<input {if !empty(@id)}disabled{/if} type="checkbox" {if isset(%_COOKIE.add_more) && %_COOKIE.add_more} checked {/if} name="_add_more" value="1" id="add_more"> <label for="add_more">Добавить еще</label> &nbsp;
+		</div>
+	</form>
+</body>
+</html>

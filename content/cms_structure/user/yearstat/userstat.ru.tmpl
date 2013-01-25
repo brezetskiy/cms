@@ -1,0 +1,44 @@
+<h1>Статистика регистрации за месяц</h1>
+<br>
+<form action="" method="GET">
+<table class="vertical">
+<tr>
+	<td>Месяц:</td>
+	<td>
+		<select name="month">{html_options options=$monthes selected=$month}</select>
+		<input type="text" name="year" value="{$year}" size="4">
+	</td>
+	<td>
+		<select name="site_id"><option value="0">Все сайты</option>{html_options options=$sites selected=$site_id}</select>
+	</td>
+	<td><input type="submit" value="Показать"></td>
+</tr>
+</table>
+</form>
+
+<div id="chartdiv"></div>
+<script>
+var xml = "{$chart_xml}";
+renderDataChart('StackedColumn3D.swf', 600, 320, 'chart', xml);
+</script>
+
+{$cms_table}
+
+<!--<table class="cms_view" style="margin:10px 0 0 0">
+	<tr class="odd">
+		<td width="50%"> 
+			Всего зарегистрированых пользователей на сайте:
+		</td>
+		<td>
+		{$num_users}
+		</td>
+	</tr>
+	<tr class="even">
+		<td>
+			Количество пользователей зарегистрированых в этом месяце:
+		</td>
+		<td>
+		{$num_users_month}
+		</td>
+	</tr>
+</table>-->

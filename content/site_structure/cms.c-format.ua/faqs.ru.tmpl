@@ -1,0 +1,26 @@
+{if empty($content)}	
+	<div class="contetn-faq">
+	<table>
+	<tmpl:news>
+		<tr><td>
+			<div class="faq-list">
+			<h5>{$headline}</h5>
+			<p>{$content}</p>
+			{if $readmore}<a href="{#CMS_URL}{$url}" class="readmore dark">Подробнее</a>{/if}
+			</div>
+		</td></tr>	
+		
+	</tmpl:news>
+	</table>
+	</div>
+
+{else}
+	<div id="content-faq">
+				
+				<h1>{$headline}</h1>
+				<p>{$content}</p>				
+		
+	</div>
+
+
+{/if}

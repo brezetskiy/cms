@@ -1,0 +1,144 @@
+<h1>{$name}</h1>
+<tmpl:path><a href="/Admin/Shop/Groups/?group_id={$id}">{$name}</a> <img src="/design/cms/img/ui/selector.gif" border="0"> </tmpl:path> {$name}
+
+<script language="JavaScript" type="text/javascript" src="/extras/swfupload/swfupload.2.2.0.beta3.js"></script>
+<script language="JavaScript" type="text/javascript" src="/extras/swfupload/handlers_cms.js"></script>
+<script type="text/javascript" src="/js/shared/fckeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/js/shop/admin.js?v2"></script>
+<p>
+<a href="../?group_id={$group_id}"><img src="/design/cms/img/button/up.gif" border="0" align="absmiddle"> На уровень вверх</a>&nbsp;&nbsp;
+<a href="./?group_id={$group_id}"><img src="/design/cms/img/icons/fk_add.gif" border="0" align="absmiddle"> Добавить товар</a>&nbsp;&nbsp;
+<a href="javascript:void(0);" onclick="EditWindow(0, 'shop_group_param', '{$STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{$LANGUAGE_CURRENT}', 'group_id={$group_id}');"><img src="/design/cms/img/icons/fk_add.gif" border="0" align="absmiddle"> Новое свойство</a>
+{if isset($del_return_path)}
+	<a href="/action/admin/cms/table_delete/?_return_path={$del_return_path}&_language={#LANGUAGE_CURRENT}&_table_id=946&946[id][]={$product_id}" title="Удалить" onclick="return confirm('Удалить?')"><img src="/design/cms/img/icons/del.gif" width="15" height="15" border="0" align="absmiddle" alt="Удалить"> Удалить товар</a>
+{/if}
+<br>
+
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/shop/product/" enctype="multipart/form-data">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<input type="hidden" name="_error_path" value="{#CURRENT_URL_FORM}">
+<input type="hidden" name="product_id" value="{$product_id}">
+<!-- input type="hidden" name="group_id" value="{$group_id}" -->
+<input type="hidden" name="tmp_dir" value="{$tmp_dir}">
+<input type="hidden" name="table_name" value="{$table_name}">
+
+<div id="idTabs">
+	<ul>
+	<tmpl:category>
+		<li><a href="#p{$param_id}">{$name}</a></li>
+	</tmpl:category>
+	</ul>
+	<br style="clear: left;"/>
+	<div class="bottom"></div>
+	<tmpl:category>
+		<div id="p{$param_id}">
+			<table class="vertical" width="100%">
+			<tmpl:row>
+			{if $param_id == 0}
+				<tr>
+					<td class="title">Название<span class="asterix">*</span>:</td>
+					<td><input type="text" name="name" value="{$product}" class="wide"></td>
+				</tr>
+				<tr>
+					<td class="title">Цена:</td>
+					<td><input type="text" name="price" value="{$price}" class="wide"></td>
+				</tr>
+				
+				<tr>
+					<td class="title">Категория:</td>
+					<td>
+						<select name="group_id">
+						{@group_options}
+						</select>
+					</td>
+				</tr>
+			{else}
+				<tr>
+					<td class="title"><a href="javascript:void(0);" onclick="EditWindow({$param_id}, 'shop_group_param', '{$STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{$LANGUAGE_CURRENT}', '');">{$name}</a>{if $required}<span class="asterix">*</span>{/if}:</td>
+					<td>
+						{if $data_type=='char'}
+							<input class="wide" type="text" name="param[{$param_id}]" value="{$value}">
+						{elseif $data_type=='decimal'}
+							<input class="wide" type="text" name="param[{$param_id}]" value="{$value}">
+						{elseif $data_type=='file_list'}
+							<div id="upload_{$table_name}_{$uniq_name}">
+								<tmpl:uploads>
+								<div id="file_{$table_name}_{$field}_{$filename}">
+									<a href="javascript:void(0);" onclick="cms_swf_upload_delete('{$product_id}', '{$table_name}', '{$field}', '{$filename}', '{$tmp_dir}')"><img src="/design/cms/img/icons/swf_del.png" border="0" align="absmiddle"></a>
+									<img src="/img/shared/ico/{$icon}.gif" border="0" align="absmiddle">
+									<a target=_blank href="{$file_url}">{$filename}</a>
+								</div>
+								</tmpl:uploads>
+							</div>
+							<span id="spanSWFUploadButton_{$uniq_name}"></span>
+						{elseif $data_type=='file'}
+							<input type="file" name="param[{$param_id}]"><br>
+							<input type="checkbox" name="delete[{$param_id}]" value="{$param_id}" id="delete_{$param_id}"><label for="delete_{$param_id}">Удалить картинку</label><br>
+							{if !empty($file)}
+								<a target="_blank" href="{$file}">Посмотреть файл</a>
+							{/if}
+						{elseif $data_type=='image'}
+							<input type="file" name="param[{$param_id}]"><br>
+							<input type="checkbox" name="delete[{$param_id}]" value="{$param_id}" id="delete_{$param_id}"> <label for="delete_{$param_id}">Удалить картинку</label><br>
+							{if $file != '#'}
+								<a rel="lightbox" target="_blank" href="{$file}"><img hspace="4" src="/design/cms/img/icons/photo.png" border="0">Посмотреть картинку</a>
+							{/if}
+						{elseif $data_type=='bool'}
+							<input type="checkbox" name="param[{$param_id}]" value="1" {if $value!=0}checked{/if}>
+						{elseif $data_type=='fkey'}
+							<select name="param[{$param_id}]">
+								<option value="0">Сделайте выбор</option>
+								{html_options options=$options selected=$value}
+							</select>
+							<a href="javascript:void(0);" onclick="EditWindow(0, 'shop_info_data', '{$STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{$LANGUAGE_CURRENT}', 'info_id={$info_id}');"><img src="/design/cms/img/icons/fk_add.gif" border="0" alt="Добавить значение"></a>
+						{elseif $data_type=='fkey_table'}
+							<select name="param[{$param_id}]">
+								<option value="0">Сделайте выбор</option>
+								{$options}
+							</select>
+							<a href="javascript:void(0);" onclick="EditWindow(0, '{$table_name}', '{$STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{$LANGUAGE_CURRENT}', 'info_id={$info_id}');"><img src="/design/cms/img/icons/fk_add.gif" border="0" alt="Добавить значение"></a>
+						{elseif $data_type=='multiple'}
+							<select name="param[{$param_id}][]" multiple>
+							{html_options options=$options selected=$value}
+							</select>
+							<a href="javascript:void(0);" onclick="EditWindow(0, 'shop_info_data', '{$STRUCTURE_URL}', '{#CURRENT_URL_LINK}', '{$LANGUAGE_CURRENT}', 'info_id={$info_id}');"><img src="/design/cms/img/icons/fk_add.gif" border="0" alt="Добавить значение"></a>
+						{elseif $data_type=='text'}
+							<textarea name="param[{$param_id}]" class="wide">{$value}</textarea>
+						{elseif $data_type=='html'}
+							<input type="hidden" name="temp_id_param_{$param_id}" id="temp_id_param_{$param_id}" value="" />
+							<textarea name="param[{$param_id}]" id="param_{$param_id}" class="wide">{$value}</textarea>
+						{elseif $data_type=='date'}
+							<input type="text" class="date" id="param_{$param_id}" name="param[{$param_id}]" value="{$value}" onclick="set_null('param_{$param_id}', false);scwShow(scwID('param_{$param_id}'),event);" />							
+						{/if}
+						<br><span class="comment">{$description}</span>
+					</td>
+				</tr>
+			{/if}
+			</tmpl:row>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Сохранить"></td>
+			</tr>
+			</table>
+		</div>
+	</tmpl:category>
+</div>
+</form>
+
+<table width="100%"><tr>
+{if !empty($previous)}
+	<td width="50%"><a href="./?product_id={$previous}">&larr; Назад</a></td>
+{else}
+	<td width="50%" style="color:silver;">&larr; Назад</td>
+{/if}
+{if !empty($next)}
+	<td align="right" width="50%"><a href="./?product_id={$next}">Вперёд &rarr;</a></td>
+{else}
+	<td align="right" width="50%" style="color:silver;">Вперёд &rarr;</td>
+{/if}
+</tr></table>
+
+{$gallery}
+
+
+<!-- textarea style="width:100%;height:300px;"></textarea -->

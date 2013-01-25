@@ -1,0 +1,41 @@
+
+
+<form id="otp_sms_phone_form" action="/action/user/otp/code_send/" method="POST" onsubmit="otp_sms_auth_form(); return false;">
+
+	<div style="float:left; font-weight:bold; color:#444;">Включена SMS авторизация</div>
+	{if $otp_sms_auth_phones_count > 0}<div style="float:right; font-weight:bold; color:#444;">шаг 1 из 2{/if}</div>
+	<div style="clear:both;">&nbsp;</div>
+     
+	
+	<div id="otp_sms_phone_form_error_block" class="action-error"></div>
+	
+	{if $otp_sms_auth_phones_count == 0}
+		<div class="action-context" style="color:red;">У Вас нет ни одного подтвержденного телефонного номера, на который можно отправить код доступа.</div>
+		<div class="action-context" style="color:red;">Пожалуйста, добавьте подтвердженный номер или воспользуйтесь резервными кодами доступа</div>
+		   
+	{elseif $otp_sms_auth_phones_count == 1}
+		<input type="hidden" name="phone" value="{$otp_sms_auth_phone.id}"> 
+		 
+		<div class="action-context">Для успешной авторизации, Вам необходимо получить код доступа.</div>
+		<div class="action-context">
+			Для Вашей учетной записи обнаружен только один подтвержденный номер: {$otp_sms_auth_phone.phone_public}.
+			Чтобы получить код доступа на указанный номер, пожалуйста, нажмите <b>Далее</b>:
+		</div>
+		
+	{elseif $otp_sms_auth_phones_count > 1}
+		<div class="action-context">Для успешной авторизации, Вам необходимо получить код доступа.</div>
+		<div class="action-context">Пожалуйста, выберите телефонный номер, на который желаете получить код доступа, и нажмите кнопку <b>Далее</b>:</div> 
+		   
+		<tmpl:otp_sms_auth_phones>  
+			<input type="radio" id="phone_{$id}" name="phone" value="{$id}" {if $is_main}checked{/if}> 
+			<label for="phone_{$id}" style="font-size:11px; color:444;">{$phone_public}</label><br/>
+		</tmpl:otp_sms_auth_phones>
+	{/if}
+	  
+	{if !Auth::isHacker()}
+	<div class="action-context"> 
+		<a href="javascript:void(0);" onclick="otp_sms_auth_form(1);">Воспользоваться резервным кодом доступа?</a>
+	</div>  
+	{/if}
+</form>
+	 

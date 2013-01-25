@@ -1,0 +1,39 @@
+<form action="/action/cms/login/" method="post">
+<input type="hidden" name="_return_path" value="{%_GET.return_path}">
+<table class="ajax_login">
+<tr>
+	<td colspan="3" class="caption">Введите ваш логин и пароль</td>
+</tr>
+<tr>
+	<td class="title">Логин:</td>
+	<td><input tabindex="1" type="text" name="login"></td>
+	<td><a href="/user/register/">зарегистрироваться</a></td>
+</tr>
+<tr>
+	<td class="title">Пароль:</td>
+	<td><input tabindex="2" type="password" name="passwd"></td>
+	<td><a href="/user/reminder/">напомнить пароль?</a></td>
+</tr>
+{if true or !empty($captcha_html)}
+<tr>
+	<td class="title">Число на картинке:</td>
+	<td>
+		<input type="text" name="captcha_value"><br>
+		<span class="comment">Введите число, показанное на картинке</span>
+	</td>
+	<td>
+		{$captcha_html}
+	</td>
+</tr>
+{/if}
+<tr>
+	<td>&nbsp;</td>
+	<td>
+		<input tabindex="3" type="submit" value="Войти">
+		<input tabindex="4" type="button" value="Отмена" class="jqmClose">
+		<td></td>
+	</td>
+</tr>
+
+</table>
+</form>

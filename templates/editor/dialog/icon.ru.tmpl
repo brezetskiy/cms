@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Вставка иктограммы</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<style>
+TD {
+	text-align: center;
+}
+</style>
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="Javascript">
+function InsIco(img,width,height) {
+	window.opener.frames.EditFrame.focus()
+	var range = window.opener.frames.EditFrame.document.selection.createRange();
+	range.pasteHTML('<img src="'+img+'" width="'+width+'" height="'+height+'" border="0" alt=""> ');
+	window.close();
+}
+
+</script>
+</head>
+<body onContextMenu="return false;" onKeyPress="EnterEsc(event);">
+<table border="1" cellpadding="1" cellspacing="0" width="100%" height="100%">
+<tmpl:row>
+	<tr>
+		<tmpl:td>
+			<td><a href="javascript:void(0);" onclick="InsIco('{$img}', {$width}, {$height})"><img src="{$img}" width="{$width}" height="{$height}" border="0">{$heigth}</a></td>
+		</tmpl:td>
+	</tr>
+</tmpl:row>
+</tbody>
+</table>
+</body>
+</html>

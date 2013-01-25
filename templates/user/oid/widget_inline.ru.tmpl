@@ -1,0 +1,17 @@
+
+<link rel="stylesheet" type="text/css" href="/css/user/oid/inline.css" />
+<script type="text/javascript" src="/js/user/oid/inline.js"></script> 
+
+
+<div id="oid_widget__{@oid_widget_uniq_name}" class="oid_widget">   
+
+	<!-- Вывод иконок всех провайдеров (OAuth и OpenID) -->
+	<tmpl:providers>
+		{if $openid_enable}  
+			<a rel="nofollow" href="javascript:void(0);" onclick="oid_widget__form_openid_open('{@oid_widget_uniq_name}', 'inline', {$id});"><img src="{$icon}" title="{$name}" border="0"/></a>
+		{else}	
+			<a rel="nofollow" href="javascript:void(0);" onclick="oid_widget__inline__cancel('{@oid_widget_uniq_name}'); StableWindow('{$dialog_url}', '{$name}', 1);"><img src="{$icon}" title="{$name}"/></a>
+		{/if}
+    </tmpl:providers>
+</div>	
+ 

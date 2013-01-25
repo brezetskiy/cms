@@ -1,0 +1,14 @@
+<h1>Ошибки внешних ключей</h1>
+<div class="context_help">Щелкните по SQL запросу для того, что б выполнить его.</div>
+<p>
+<tmpl:error>
+<li>
+	<b>Поле {$child_table}.{$child_field} связано с полем {$parent_table}.id в котором нет значений:</b><br>
+	<ul>
+		<a href="/Admin/CMS/Development/SQL/?query={escape type='urlencode' text='SELECT * FROM `$child_table` WHERE `$child_field` NOT IN (SELECT id FROM `$parent_table`) LIMIT 100'}"><b>SELECT</b> * FROM {$child_table} WHERE {$child_field}  NOT IN (SELECT id FROM {$parent_table}) LIMIT 100</a><br>
+		<a href="/Admin/CMS/Development/SQL/?query={escape type='urlencode' text='DELETE FROM `$child_table` WHERE `$child_field` NOT IN (SELECT id FROM `$parent_table`)'}"><b>DELETE</b> FROM {$child_table} WHERE {$child_field} NOT IN (SELECT id FROM {$parent_table})</a><br>
+		<a href="/Admin/CMS/Development/SQL/?query={escape type='urlencode' text='UPDATE `$child_table` SET `$child_field`=DEFAULT WHERE `$child_field` NOT IN (SELECT id FROM `$parent_table`)'}"><b>UPDATE</b> `{$child_table}` SET `{$child_field}`=DEFAULT WHERE `{$child_field}`  NOT IN (SELECT id FROM {$parent_table})</a><br>
+	</ul>
+	<p>
+</li>
+</tmpl:error>

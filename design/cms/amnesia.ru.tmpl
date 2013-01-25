@@ -1,0 +1,54 @@
+<html>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<title>"Пилот" - эффективное и простое управление веб-сайтом [www.delta-x.com.ua].</title>
+	<link rel="stylesheet" type="text/css" href="/design/admin/css/auth.css">
+</head>
+<BODY onLoad="document.getElementById('email').focus();">
+<table class="main">
+<tr>
+	<td>
+		<a href="/" class="signature">Вернуться к просмотру сайта</a>
+		<div class="form">
+			<div>
+				<form name="LoginForm" action="/{#LANGUAGE_URL}action/cms/amnesia/" method="POST">
+				<input type="hidden" name="_return_path" value="{$return_path}">
+				<br>
+				<br>
+				<br>
+				{$message}
+				<BR><BR>
+				<B>E-mail:</B><BR>
+				<input class="text border" type="text" id="email" name="email" value="">
+				<BR><BR>
+				{if !empty($captcha_html)}
+					<script type="text/javascript">
+					function byId(id) {
+						return document.getElementById(id);
+					}
+					</script>
+					<style>
+					div.form {
+						height: 300px;
+					}
+					</style>
+					<B>Число на картинке:</B><BR>
+					<input autocomplete="off" class="text border" type="text" name="captcha_value">
+					<div id="captcha_html">
+					{$captcha_html}
+					</div><br>
+				{/if}
+				<input class="button border" type="submit" value="НАПОМНИТЬ">
+				<br>
+				<br>
+				<a class="forgot" href="?amnesia=0">вспомнили пароль?</a>
+				<BR><BR>
+			</div>
+		</div>
+		<a href="http://www.delta-x.com.ua" class="signature">Copyright Delta-X &reg; ltd, 1998</a>
+		</form>
+	</td>
+	</tr>
+</table>
+</body>
+</html>

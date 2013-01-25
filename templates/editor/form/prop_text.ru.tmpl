@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE>Параметры текстового поля</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JavaScript" src="/js/editor/dialog.js"></script>
+<script language="JavaScript">
+function load() {
+	var type, msg;
+	if (window.dialogArguments.Editor.current['TEXT']) {
+		type = 'TEXT';
+		msg = 'Выберите текстовое поле для редактирования';
+	} else if (window.dialogArguments.Editor.current['PASSWORD']) {
+		type = 'PASSWORD';
+		msg = 'Выберите поле password для редактирования';
+	} else if (window.dialogArguments.Editor.current['HIDDEN']) {
+		type = 'HIDDEN';
+		msg = 'Выберите hidden поле для редактирования';
+	}
+	Dialog.Init(window.dialogArguments.Editor.current[type], msg);
+	if (document.getElementById('maxlength').value > 1000) {
+		document.getElementById('maxlength').value = '';
+	}
+}
+function save() {
+	Dialog.SaveAll();
+	window.dialogArguments.Editor.ActivateToolbar('table', false);
+	window.close();
+	return false;
+}
+</script>
+</HEAD>
+<body 
+	onContextMenu="return false;" 
+	onKeyPress="Esc(event);" 
+	onload="load();"
+>
+<form name="Form" onSubmit="return save();">
+<fieldset><legend>Параметры текстового поля</legend>
+<TABLE>
+<TR>
+	<TD class="title">Имя:</TD>
+	<TD><input size="30" id="name"></TD>
+</TR>
+<TR>
+	<TD class="title">Значение:</TD>
+	<TD><input size="30" id="value"></TD>
+</TR>
+<TR>
+	<TD class="title">Max символов:</TD>
+	<TD><input size="30" id="maxlength" onkeypress="return digitsOnly(event);"></TD>
+</TR>
+<TR>
+	<TD class="title">Размер:</TD>
+	<TD><input size="30" id="size" onkeypress="return digitsOnly(event);"></TD>
+</TR>
+<TR>
+	<TD class="title">Отключено:</TD>
+	<TD><input type="checkbox" id="disabled" value="true"></TD>
+</TR>
+<TR>
+	<TD class="title">Стиль:</TD>
+	<TD><select id="classname">
+		<option value="">Без стиля</option>
+		<tmpl:style>
+		<option value="{$class}">{$title}</option>
+		</tmpl:style>
+	</select></TD>
+</TR>
+</table>
+</fieldset>
+<center>
+	<input class="clsbtn" type="submit" value="OK">
+	<input class="clsbtn" type="button" value="Отмена" OnClick="window.close()">
+</center>
+</form>
+</BODY>
+</html>

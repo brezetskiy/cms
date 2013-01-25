@@ -1,0 +1,4 @@
+<Files ~ "\.(registered|confirmed|checked|owner|admin)\.">
+    Order deny,allow
+    Deny from all
+</files>

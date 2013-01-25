@@ -1,0 +1,14 @@
+
+
+<form id="otp_form" action="/action/user/otp/config_save/" method="POST" enctype="multipart/form-data" onsubmit="config_save(); return false;">
+	<input type="hidden" name="_return_path" value="/User/OtpConfig/">
+	
+	<div class="otp_mobile_content">
+		Чтобы проверить, работает ли приложение, введите отображаемый на телефоне код подтверждения.
+		<p>Код: <input type="text" name="otp_code" class="wide"  style="width:186px;"> <input type="button" value="Подтвердить" onclick="config_save();"></p>
+		<div id="otp_error"></div>
+	</div>	
+	
+</form>	
+	
+<input id="otp_mobile_button" type="button" onclick="config_step(3, '{$otp_type}', 0)" value="Назад"> 

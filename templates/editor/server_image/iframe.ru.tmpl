@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+<html>
+<head>
+<title>Вставка ссылки</title>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+	<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+	<LINK href="/design/cms/css/toc.css" type="text/css" rel="stylesheet">
+	<script language="JavaScript" src="/js/shared/global.js"></script>
+	<script language="javascript" src="/js/shared/toc.js" type="text/javascript"></script>
+	<script language="JavaScript">
+		function show_images(link) {
+			parent.window.preview.location.href='/tools/editor/server_image/preview.php?field_name={$field_name}&dir=' + link;
+		}
+	</script>
+</head>
+<body onselectstart="javascript:return false;" onKeyPress="EnterEsc(event);" onContextMenu="return false;">
+<a href="javascript:show_images('/');">Корень сервера</a>
+
+<tmpl:ul_root>
+<ul id="ULRoot" class="Shown" style="behavior:url('#default#saveSnapshot')">
+</tmpl:ul_root>
+
+<tmpl:ul_hidden>
+	<ul class="Hidden" ID="ul{$id}">
+</tmpl:ul_hidden>
+
+<tmpl:node>
+	<tmpl:with_childs>
+		<li>
+			<a id="a{$id}" onclick="expand('{$id}',this);" href="/tools/editor/server_image/iframe.php?current_dir={$current_dir}&action={$action}"><img align="absmiddle" src="/design/cms/img/js/toc/c.gif" id="img{$id}"></a>
+			<a href="javascript:show_images('{$url}');">{$name}</a>
+			<IFRAME NAME="fra{$id}" {$open}></IFRAME>
+		</li>
+		<ul class="Hidden" ID="ul{$id}"></ul>
+	</tmpl:with_childs>
+	<tmpl:no_childs>
+		<LI><img align="absmiddle" src="/img/shared/1x1.gif"> <a href="javascript:show_images('{$url}');">{$name}</a></LI>
+	</tmpl:no_childs>
+</tmpl:node>
+
+</ul>
+
+<tmpl:script>
+<script language="javascript" type="text/javascript">
+if (window.parent.loadNode != null && window.parent != self) {
+	elem = document.getElementById("ul{$id}");
+	if (elem && elem.innerHTML) {
+		window.parent.loadNode("{$id}", elem);
+		location.replace("about:blank");
+	}
+}
+</script>
+</tmpl:script>
+<tmpl:img_list>
+	<script language="JavaScript">
+	show_images('{$open_dir}');
+	</script>
+</tmpl:img_list>
+</body>
+</HTML>

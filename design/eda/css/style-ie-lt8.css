@@ -1,0 +1,20 @@
+#header .search{padding-top:8px;}
+.topblock .shares{background: url(../img/bg-shares-border.png) no-repeat;}
+.topblock .shares div{margin-top:40px;}
+
+.banner img {padding-right:13px;	}
+
+
+#form-container .form .input{border:none;background: url(../img/overflow-input.jpg) no-repeat;line-height:50px;padding-left:25px;}
+#form-container .form input{height:50px;width:290px;}
+
+#form-container{background: url(../img/container-top.png) -3px 0px no-repeat;padding-top:18px;}
+        
+.form-container-top{
+padding-top:9px;
+}
+
+*:first-child+html #timepicker{margin-top:100px;}
+
+.weight-block input{padding-top:10px;}
+.clock input{padding-top:10px;}

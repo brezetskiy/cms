@@ -1,0 +1,47 @@
+
+<form id="otp_code_form" action="/action/user/otp/code_check/" method="POST" onsubmit="otp_code_check(); return false;">
+	<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">    
+
+	{if $otp_type == 'sms'}
+		<div style="float:left; font-weight:bold; color:#444;">Включена SMS авторизация</div>
+		<div style="float:right; font-weight:bold; color:#444;">шаг 2 из 2</div>
+	{else}
+		<div style="float:left; font-weight:bold; color:#444;">Включена двухэтапная авторизация</div>
+	{/if}
+	
+	<div style="clear:both;">&nbsp;</div>
+	<div id="otp_code_form_error_block" class="action-error"></div>
+	
+
+	{if $otp_type == 'sms' && !empty($code)}
+		<div class="action-context">
+			СМС сообщение с кодом доступа успешно отправлено на номер <b>{$code.phone_send_public}</b> в {$code.code_time}.   
+		</div> 
+		<div class="action-context">
+			Пожалуйста, введите код в соответствующее поле. 
+		</div>
+	{else}
+		<div class="action-context">
+		Пожалуйста, введите код, сгенерированный Вашим OTP-устройством, в соответствующее поле. 
+		</div>
+	{/if} 
+	
+	<div id="otp_title" class="action-context" style="font-weight:bold;">Код:</div>
+	<div class="action-context">
+		<input id="otp_value" class="wide" type="text" maxlength="6" name="otp_value"> 
+		{if !Auth::isHacker()}<input type="hidden" id="otp_reserve" name="otp_reserve" value="0">{/if}  
+	</div>
+	 
+	<div class="action-context">
+		{if !Auth::isHacker()}
+			<a id="otp_switch_code_button" href="javascript:void(0);" onclick="otp_switch_code();">Воспользоваться резервным кодом доступа?</a>
+		{/if}    
+		{if $otp_type == 'sms'}<br/><a href="javascript:void(0);" onclick="otp_code_clear();">Отправить код повторно?</a>{/if}
+	</div>
+	<div class="action-context">
+		<input type="checkbox" name="remember" value="1" id="otp_remember" checked><label for="otp_remember">Запомнить меня на этом компьютере</label>
+	</div>
+</form>
+ 
+ 
+{if $is_reserve && !Auth::isHacker()}<script>otp_switch_code();</script>{/if}

@@ -1,0 +1,122 @@
+div.comment {
+	width: 100%;
+	padding: 10px 10px 10px 0px;
+	border-right: 10px solid white;
+	font-size: 12px;
+}
+div.comment_text {
+	border:1px solid #d9d9d9; 
+	position:relative; 
+	margin:0; 
+	float:left;
+	padding:0px 10px 0px 0px;
+	width:expression((document.documentElement.clientWidth > 70)?'auto':'70px');
+	min-width:70px;
+}
+div.comment_text img {
+	clear:both;
+	margin:0
+}
+div.comment_text img.abs1 {
+	position:absolute !important; 
+	top:-1px !important; 
+	left:-1px; !important;
+}
+div.comment_text img.abs2 {
+	position:absolute !important; 
+	top:-1px !important; 
+	right:-1px !important;
+}
+div.comment_text img.abs3 {
+	position:absolute !important; 
+	bottom:-1px !important; 
+	right:-1px !important;
+}
+div.comment_text img.abs4 {
+	position:absolute !important; 
+	bottom:-9px !important; 
+	left:-1px !important; 
+}
+
+div.comment_author {
+	margin:2px 0 0 0;
+	padding:3px;
+	float:left;
+	clear:both;
+	font-family:Arial;
+	font-size:11px;
+	color:#737373;
+}
+div.comment_form {
+	display:none;
+	padding:15px 0;
+	width:70%;
+}
+div.comment_form textarea {
+	height:100px;
+	display:block;
+	width:80%;
+}
+div.comment_form .input_image {
+	margin:10px 20px 10px 0; 
+}
+div.comment_delfloat {
+	clear:both;
+	width:100%;
+	height:1px;
+	font-size:1px;
+}
+
+
+/*
+Новый тип сообшений пользователя
+*/
+
+div.bg_layer {
+	height:100%; 
+	width:100%; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	display:none;
+	background-color:black; 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); 
+	opacity: 0.5;
+	z-index:10;
+}
+	
+div.task_layer {
+	padding:10px;
+	background:#fff;
+	font:11px verdana; 
+	border: 1px solid #5b7f93; 
+	display:none;
+	padding:20px; 
+	position:absolute; 
+	top: 200px; 
+	left: 50%;
+	width:400px; 
+	margin-left: -300px;
+	background-color: white;
+	z-index:50;
+	
+	/*Firefox*/
+	-moz-border-radius-bottomleft:20px;
+	-moz-border-radius-bottomright:20px;
+	-moz-border-radius-topleft:20px;
+	-moz-border-radius-topright:20px;
+	
+	/*Chrome, Safari*/
+	-webkit-border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+
+}
+div.task_layer textarea {
+	width:99%;
+	@charset "windows-1251";
+	height:150px;
+}
+
+

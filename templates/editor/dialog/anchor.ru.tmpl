@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>Гиперссылка</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<LINK href="/design/cms/css/editor/dialog.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="/js/shared/global.js"></script>
+<script language="JScript">
+var range;
+var oNode;
+
+function addLink() {
+	if (oNode) {
+		range.moveToElementText(oNode);
+		oNode.removeNode(false);
+	}
+	range.moveEnd('character', -range.htmlText.length);
+	
+	if (document.getElementById('name').value != '') {
+		range.pasteHTML('<a name="' + document.getElementById('name').value + '"></a>');
+	}
+	window.close();
+}
+
+function editLink() {
+	range = window.opener.frames.EditFrame.document.selection.createRange();
+	var node = range.parentElement();
+	
+	if (!node) return;
+	
+	while(node && node.tagName.toUpperCase() != "BODY"){
+		if (node.tagName.toUpperCase() == 'A') {
+			oNode = node;
+			document.getElementById('name').value = node.getAttribute('name');
+			break;
+		}
+		node = node.parentElement;
+	}
+	return;
+}
+</script>
+</HEAD>
+<body onContextMenu="return false;" onKeyPress="Esc(event);" onLoad="editLink();">
+<form name="Form" onSubmit="return addLink();">
+<TABLE width="100%" border="0" cellpadding="2" cellspacing="2" height="100%">
+<TR>
+	<TD class="title">Имя:</TD>
+	<TD><INPUT size="40" name="name" id="name" value=""></TD>
+</TR>
+<tr>
+	<td align="center" colspan="2"><INPUT class="clsbtn" type="submit" value="OK"><INPUT class="clsbtn" type="button" value="Отмена" OnClick="window.close();"></td>
+</tr>
+</table>
+</form>
+</BODY>
+</html>

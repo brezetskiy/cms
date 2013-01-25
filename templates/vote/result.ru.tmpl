@@ -1,0 +1,15 @@
+<div class="vote-title">{$question}</div>
+<div id="vote-line">
+<tmpl:answer>
+	<div class="vote_line">
+		<div class="vote_line_left">{$answer}</div>
+		<div class="vote_line_right">{$percent}%</div>
+		<div class="ground">
+			{if $percent!=0}
+			<div class="progress" style="width: {$percent_int}%;"></div>
+			{/if}
+		</div>
+	</div>
+</tmpl:answer>
+<div class="count_question">Всего голосов: {$total}</div>
+</div>

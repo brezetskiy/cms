@@ -1,0 +1,89 @@
+
+<table class="form">
+	<tr>
+		<td class="title"></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="title"></td>
+		<td>Запрошенная Вами страница доступна только для зарегистрированных пользователей. Зарегистрируйтесь или введите свой e-mail и пароль.</td>
+	</tr>
+	<tr>
+		<td class="title"></td>
+		<td>Вы ещё не зарегистрированы? <a href="/User/Register/">Зарегистрируйтесь</a>!</td>
+	</tr>
+	{if AUTH_OID_ENABLE}<tr><td class="title"></td><td>{oid_widget name="error_registered_auth_form" template="context"}</td></tr>{/if}
+	 
+</table>
+
+<form action="/{#LANGUAGE_URL}action/cms/login/" method="POST">
+<input type="hidden" name="source" value="site">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+
+<table class="form">	
+	<tr>
+		<td class="title">E-mail:</td>
+		<td><input class="wide" type="text" name="login" value=""></td>
+	</tr>
+	<tr>
+		<td class="title">Пароль:</td>
+		<td><input class="wide" type="password" name="passwd" value=""></td>
+	</tr>
+ 
+	{if !empty(%_SESSION.otp)} 
+		<input type="hidden" id="otp_reserve" name="otp_reserve" value="0">
+		<script>
+			function switch_code(){
+				var is_reserve = $('#otp_reserve').val();
+				$('#otp_value').val('');
+				    
+				if(is_reserve == 0){
+					$('#otp_reserve').val(1);
+					$('#otp_title').html("Резервный код");
+					$('#otp_value').attr('maxlength', 8);
+					$('#otp_switch_code_button').html("Ввести код с устройства генерации кодов?");
+				} else {
+					$('#otp_reserve').val(0);
+					$('#otp_title').html("Код");
+					$('#otp_value').attr('maxlength', 6);
+					$('#otp_switch_code_button').html("Воспользоваться резервным кодом доступа?");
+				}
+			}
+		</script>
+		
+		<tr>
+			<td class="title" id="otp_title">Код:</td>
+			<td>
+				<input id="otp_value" class="wide" type="text" maxlength="6" name="otp_value"> 
+				<br/><span class="comment">В случае неисправности или потери устройства генерации кодов, вы можете воспользоватся резервными кодами доступа.<br/>Не забывайте, что каждым из резервных кодов можно воспользоватся лишь один раз.</span>
+			</td>
+		</tr>
+	{/if}
+ 
+	{if !empty($captcha_html)}
+		<tr>
+			<td class="title"><span class="asterix">*</span>Число на картинке:</td>
+			<td>
+				<table cellspacing="0" cellpadding="0"><tr><td>{$captcha_html}</td><td><input type="text" maxlength="6" size="6" name="captcha_value"></td></tr></table>
+				<span class="comment">Введите число, показанное на картинке</span>
+			</td>
+		</tr>
+	{/if}
+	
+	<tr>
+		<td class="title"></td>
+		<td>
+			<a href="/User/Reminder/">Напомнить пароль?</a>  
+			{if !empty(%_SESSION.otp)} &nbsp;&nbsp;<a id="otp_switch_code_button" href="javascript:void(0);" onclick="switch_code();">Воспользоваться резервным кодом доступа?</a>{/if}
+		</td>
+	</tr>
+	<tr>
+		<td class="title"></td> 
+		<td><input type="checkbox" name="remember" value="1" id="remember" checked><label for="remember">Запомнить меня на этом компьютере</label></td>
+	</tr>
+	<tr>
+		<td class="title"></td>
+		<td><input type="submit" value="Вход"></td>
+	</tr>
+</table>
+</form>

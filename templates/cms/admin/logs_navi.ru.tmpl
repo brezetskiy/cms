@@ -1,0 +1,78 @@
+<style>
+
+TABLE.table_lods_navi { width: 100%; border-collapse: collapse; border: 1px solid #385685; vertical-align: middle; margin:10px 0px; }
+TABLE.table_lods_navi TR.odd { background-color: #f3f3f3; }
+TABLE.table_lods_navi TR.even { background-color: #e9e9e9; }
+TABLE.table_lods_navi TR.over { background-color: #D4DEEC; }
+TABLE.table_lods_navi TR.error { background-color: #FFD4D7; }
+TABLE.table_lods_navi TR.vertcenter { vertical-align: middle; }
+
+TABLE.table_lods_navi TD { padding: 5px; border: 1px solid #7398AF; vertical-align: middle; }
+TABLE.table_lods_navi TD.no_content { text-align: center; padding: 20px; background-color: #f3f3f3; }
+TABLE.table_lods_navi TR TD { vertical-align: middle; }
+TABLE.table_lods_navi THEAD TD { text-align: center; font-weight: bold; background-color: #B4C8D4; color: BLACK; padding: 5px 3px 5px 3px; vertical-align: middle; }
+TABLE.table_lods_navi TR TH { text-align: center; font-weight: bold; background-color: #d9e3e9;color: BLACK; padding: 5px 3px 5px 3px;  vertical-align: middle;}
+
+TABLE.table_lods_navi INPUT.fill { width: 95%; font-family: tahoma;}
+
+</style>
+ 
+<div style="margin:5px;">&nbsp;</div>
+<center><div id="action_error" align="left" class="action_error"></div></center>  
+<center><div id="action_success" align="left" class="action_success"></div></center>  
+
+<span id="current_path" style="margin:10px 0px;"><b>Директория:</b> <span style="color:#777;">{@current_path}/</span></span>  
+
+<form id="files_form" action="/{#LANGUAGE_URL}action/admin/cms/logs/view/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+
+<table class="table_lods_navi"> 
+	<thead>
+		<tr>
+			<td width="30%">Имя</td>
+			<td width="10%">Тип</td>
+			<td width="10%">Размер, Кб</td>
+		</tr>
+	</thead>
+	{if @current_path != LOGS_ACTIONS_ROOT && strpos(@current_path, LOGS_ACTIONS_ROOT) !== FALSE}
+	<tr class="odd" onclick="load('{@parent_path}', 0);" style="cursor: pointer;">
+		<td><img src="/design/cms/img/button/up.gif" alt="На уровень вверх" width="16" border="0" height="16"></td>
+		<td><img src="/design/cms/img/button/up.gif" alt="На уровень вверх" width="16" border="0" height="16"></td>
+		<td><img src="/design/cms/img/button/up.gif" alt="На уровень вверх" width="16" border="0" height="16"></td>
+	</tr>   
+	{/if}
+	{if $rows_count == 0}  
+		<tr><td class="no_content" colspan="3">Папка пуста</td></tr>
+	{else}		
+		<tmpl:files>
+			<tr class="{$class}">
+				<td align="left">
+					{if $is_dir}
+						<a href="javascript:void(0);" onclick="load('{@current_path}/{$filename}', 0, 0)">
+							<img src="/design/cms/img/icons/folder.gif" border="0" align="absmiddle"> 
+							{$filename}
+						</a>
+					{else} 
+						<label for="file_{$count}">
+							<img src="/img/shared/ico/{$icon}"> 
+							{if strpos($filename, '.log') !== FALSE}
+								<a href="javascript:void(0);" onclick="log_display('{@current_path}/{$filename}', 'date', 'desc', 0);">{$filename}</a>
+							{elseif strpos($filename, '.tar.gz') !== FALSE} 
+								<a href="javascript:void(0);" onclick="load('{@current_path}/{$filename}', 0, 1);">{$filename}</a>
+							{else}
+								{$filename}
+							{/if}
+						</label>
+					{/if}
+				</td>  
+				<td align="left">{$filetype}</td> 
+				<td align="right">{$filesize}</td>
+			</tr>
+		</tmpl:files>
+	{/if}
+</table>
+</form> 
+{if !empty($pages_list)}
+	<p><div style="text-align:right;">Страница: {$pages_list}</div></p>
+	<div style="margin-top:5px;">&nbsp;</div>
+{/if}

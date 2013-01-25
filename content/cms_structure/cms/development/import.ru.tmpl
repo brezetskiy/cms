@@ -1,0 +1,18 @@
+<h1>Импорт данных</h1>
+<form action="/{#LANGUAGE_URL}action/admin/sdk/import/" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="500" class="vertical">
+<tr>
+	<td class="title">Файл:</td>
+	<td><input type="file" name="data"></td>
+</tr>
+<tr>
+	<td class="title">parent_id:</td>
+	<td><input type="text" value="0" name="parent_id"></td>
+</tr>
+<tr>
+	<td class="title"></td>
+	<td><input type="submit" value="Импорт"></td>
+</tr>
+</table>
+</form>

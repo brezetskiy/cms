@@ -1,0 +1,38 @@
+<h2>Автономный генератор одноразовых паролей eToken PASS</h2>
+<img src="/img/user/otp/etoken_big.png" border="0"  style="float:right;">  
+<p>
+	Автономный генератор одноразовых паролей, не требующий подключения к компьютеру и установки дополнительного программного обеспечения и может использоваться 
+	в любых операционных системах, а также при доступе к защищенным ресурсам с мобильных устройств и терминалов, 
+	не имеющих USB-разъема или устройства чтения смарт-карт.
+</p>
+
+<p>Для активации Вашего eToken PASS, пожалуйста, заполните поля ниже и нажмите кнопку "Подтвердить":</p>
+
+<form id="otp_form" action="/action/user/otp/config_save/" method="POST" enctype="multipart/form-data"  onsubmit="config_save(); return false;">
+	<input type="hidden" name="_return_path" value="/User/OtpConfig/">
+
+	<table class="otp_form" style="margin-left:50px;">
+		<tr>
+			<td class="title">Счетчик:</td>
+			<td>
+				<input type="text" name="otp_counter" class="wide" style="width:300px;"><br/>
+				<span class="comment">
+					Для того, чтобы определить текущее значение счетчика Вашего eToken PASS, пожалуйста, нажмите кнопку на устройстве и удерживайте ее 5 секунд. 
+					Затем еще 4 раза нажмите на кнопку. Отобразится номер в виде FXXXXX, где XXXXX - целое число, что и есть значением вашего счетчика. </span>
+			</td>
+		</tr>
+		<tr><td class="title">Секретный ключ:</td>
+			<td>
+				<input type="text" name="otp_sign" class="wide" style="width:300px;">
+				<br/><span class="comment">Cекретный ключ Вы можете найти в файле, что поставляется вместе с eToken PASS устройством.</span>
+			</td>
+		</tr>
+		<tr><td class="title">Код:</td>
+			<td>
+				<input type="text" name="otp_code" class="wide" style="width:186px;"> <input type="button" value="Подтвердить" onclick="config_save();"> 
+				<br/><span class="comment">Сгенерированный Вашим eToken PASS устройством код.</span>
+			</td>
+		</tr>
+		<tr><td class="title">&nbsp;</td><td><div id="otp_error"></div></td></tr>
+	</table>
+</form>	

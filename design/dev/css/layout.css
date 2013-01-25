@@ -1,0 +1,71 @@
+body, #wrap{padding:0px; min-height:100%;margin:0px;}
+#wrap{}
+
+#wrap-content1{width: 1072px; height:100%; margin:0px auto; }
+
+#header{
+		width:1072px;margin:0px; padding: 650px 0px 0px 0px;
+		position: relative;
+		zoom: 1;
+		z-index: 100;
+}
+
+div.logo{
+position: absolute;
+right: 0px;
+top:69px;
+z-index:2;
+}
+a#header_logo {
+padding: 0px 0 0px 0;
+overflow: hidden;
+position: absolute;
+right: 152px;
+top:60px;
+}
+div#header_menu{margin:0px; 
+padding: 0px 0 0px 0;
+position: absolute;
+right: 39px;
+top:324px;
+}
+
+div#phone {
+position: absolute;
+right: 289px;
+top: 30px;
+padding: 13px 0 0 55px;
+}
+#slider img{position:absolute;left:-8px;top:80px;z-index:-1;}
+#slider-ball{position:absolute; top:548px; left:310px;}
+
+
+#specoffer img{position: absolute;right: 229px; top: 408px;}
+#specoffer div{position: absolute;right: 248px; top: 505px; width:303px; height:179px;}
+/* end header */
+
+/* main part */
+#content{width:100%;}
+#left-column{float:left;width:370px; }
+#right-column{float:right;width:277px;}
+
+#block-trener{float:right; width:190px;}
+/* end main part */
+
+/*footer*/
+#hFooter {
+height: 126px;
+clear: both;
+}
+#footer {
+height: 126px;
+margin-top: -110px;
+}
+.footer-wrap{width:1072px; height:90px; margin:0px auto;}
+#footer div#phone{
+	right:300px;
+	top:20px;
+}
+#footer div.footer-logo{position:absolute; left:30px; top:25px;}
+#footer div.footer-search{position:absolute; right:10px; top:40px;}
+/*end footer*/

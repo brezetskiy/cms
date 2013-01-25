@@ -1,0 +1,4 @@
+#Order deny,allow
+#Deny from all
+#Allow from 213.160.149.174
+#Deny from all

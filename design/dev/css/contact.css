@@ -1,0 +1,49 @@
+/*
+ * SimpleModal Contact Form
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: contact.css 254 2010-07-23 05:14:44Z emartin24 $
+ */
+
+/* Overlay */
+#contact-overlay {background-color: #a38b3e; cursor:wait;}
+
+/* Container */
+#contact-container {font: 11px; text-align:left; width:610px; }
+#contact-container .contact-content {background-color:#f9edc5; color:#000; height:170px; border:1px solid #7c6413;}
+#contact-container h1 {color:#7c6413; font-size:20px; line-height:20px; margin:0; padding:0 0 5px 12px; text-align:center; font-weight:normal;}
+#contact-container .contact-loading {background:url(../img/contact/loading.gif) no-repeat; height:55px; margin:-14px 0 0 190px; padding:0; position:absolute; width:54px; z-index:8000;}
+#contact-container .contact-message {text-align:center;}
+#contact-container .contact-error {font-size:10px; color:red; margin:0px; padding:0px;}
+#contact-container br {clear:both;}
+#contact-container form {margin:0; padding:0;}
+#contact-container table {margin:5px 10px 5px 10px;}
+#contact-container table td {padding-right:10px;}
+#contact-container label {clear:left; display:block; float:left; font-weight:normal; padding-right:4px; text-align:left; width:100px;}
+#contact-container .contact-input {background:#fff6d8; border:1px solid #b1a251; font-family:'Trebuchet MS', Verdana, Arial; float:left; padding:2px; margin:2px; width:170px;}
+#contact-container textarea.contact-input {height:62px; width:370px;}
+#contact-container .contact-cc {cursor:default; font-size:12px; vertical-align:top;}
+#contact-container .contact-top {}
+#contact-container #button-right{float:right; width:170px; margin:0px 20px 0px 0px;}
+#contact-container .contact-bottom a,
+#contact-container .contact-bottom a:link,
+#contact-container .contact-bottom a:active,
+#contact-container .contact-bottom a:visited {}
+#contact-container .contact-bottom a:hover {}
+#contact-container .contact-button {height:28px; background: url('/design/dev/img/sanocorpore/submit_contact.png') no-repeat 0 0; padding-left:17px;display: inline-block; border:none; width:167px;
+color: #7c6413; padding:0px 10px 0px 10px;
+font-size:12px; font-weight:bold;cursor: pointer;
+}
+/*background:#d76300; border:0; color:#fff; cursor:pointer; font-size:16px; font-weight:bold; height:26px; margin:4px 0 0 4px; text-align:center; vertical-align:middle; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}*/
+#contact-container .contact-button:hover {}
+#contact-container a.modal-close,
+#contact-container a.modal-close:link,
+#contact-container a.modal-close:active,
+#contact-container a.modal-close:visited {color:#b1a251; font-size:10px; font-weight:bold; position:absolute; text-decoration:none; right:8px; top:0px;}
+#contact-container a.modal-close:hover {color:#ccc;}
