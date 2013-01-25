@@ -275,8 +275,15 @@ if (substr(PHP_OS, 0, 3) == 'WIN') {
 
 /**
  * Подгрузка конфигурации
+ * cache можна удалять, потому нужно проверить наличие файлы и, если его нету, создать.
  */
+if (!file_exists(CACHE_ROOT . 'config.inc.php')){
+    $fp = fopen(CACHE_ROOT . 'config.inc.php', 'w+');
+    fclose($fp);
+} 
+
 require_once(CACHE_ROOT . 'config.inc.php');
+    
 
 if (!isset($_SERVER['HTTP_HOST']) || empty($_SERVER['HTTP_HOST'])) {
 	/**
@@ -303,6 +310,7 @@ if (!isset($_SERVER['HTTP_HOST']) || empty($_SERVER['HTTP_HOST'])) {
 /**
  * Устанавливает заголовок user_agent для url-fopen-wrappers и класса Download
  */
+if (!defined(CMS_USER_AGENT)) define('CMS_USER_AGENT', 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)');
 ini_set('user_agent', CMS_USER_AGENT);
 
 
