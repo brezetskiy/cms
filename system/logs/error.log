@@ -1,0 +1,342 @@
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:25:24
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 273
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/system/libs/windows.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:25:24
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 273
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/system/libs/windows.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:25:34
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 273
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/system/libs/windows.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:25:41
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 273
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/system/libs/windows.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:25:41
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 273
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/system/libs/windows.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\system\config.inc.php (273) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:42
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:42
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:42
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:42
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:42
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:43
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:44
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:44
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-25 20:26:44
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359138290
+Line: 279
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms1/cache/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\system\config.inc.php (279) => 
+Z:\home\localhost\cms1\index_site.php (22)
+[END]--------------------------------------------------
