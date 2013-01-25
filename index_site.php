@@ -15,7 +15,8 @@
  * @ignore 
  */
 define('CMS_INTERFACE', 'SITE');
-//die();
+echo('test');
+
 /**
  * Config
  */
@@ -315,22 +316,22 @@ if (Auth::isAdmin() && isset($Adminbar) && $Adminbar instanceof Adminbar) {
 
 	// Standart administrative panel is displayed only if no other buttons have been identified
 	if (empty($Adminbar->buttons) && isset($page_info['structure_id'])) {
-		$Adminbar->addButton('editor', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "Редактировать"), 'word.gif');
-		$Adminbar->addButton('cms_edit', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "Параметры"), 'edit.gif');
-		$Adminbar->addButton('cms_add', 'site_structure', $page_info['structure_id'], cms_message("CMS", "Добавить страницу"), 'add.gif', "structure_id=$page_info[structure_id]");
-		$Adminbar->addButton('cms_add', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "Добавить подраздел"), 'copy.png', "structure_id=".SITE_STRUCTURE_ID);
-		$Adminbar->addLink('/Admin/Site/Structure/?structure_id='.$page_info['structure_id'], cms_message("CMS", "Управление"), 'administrator.png');
+		$Adminbar->addButton('editor', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"), 'word.gif');
+		$Adminbar->addButton('cms_edit', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"), 'edit.gif');
+		$Adminbar->addButton('cms_add', 'site_structure', $page_info['structure_id'], cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"), 'add.gif', "structure_id=$page_info[structure_id]");
+		$Adminbar->addButton('cms_add', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"), 'copy.png', "structure_id=".SITE_STRUCTURE_ID);
+		$Adminbar->addLink('/Admin/Site/Structure/?structure_id='.$page_info['structure_id'], cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"), 'administrator.png');
 		$Adminbar->cvs('site_structure', SITE_STRUCTURE_ID);
 		
 		if(IS_DEVELOPER){  
 			$script_url = strtolower(CONTENT_ROOT."site_structure/".$Site->url.".".LANGUAGE_CURRENT);
 			
 			if(is_file("$script_url.php")){
-				$Adminbar->addButton('editor_php', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "Редактировать код"), 'php.png');
+				$Adminbar->addButton('editor_php', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ"), 'php.png');
 			}
 			
 			if(is_file("$script_url.tmpl")){
-				$Adminbar->addButton('editor_tmpl', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "Редактировать шаблон"), 'tmpl.png');
+				$Adminbar->addButton('editor_tmpl', 'site_structure', SITE_STRUCTURE_ID, cms_message("CMS", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"), 'tmpl.png');
 			}
 		}
 	}
