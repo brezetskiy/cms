@@ -15,7 +15,6 @@
  * @ignore 
  */
 define('CMS_INTERFACE', 'SITE');
-echo('test');
 
 /**
  * Config
