@@ -9,8 +9,6 @@
  * @author Rudenko Ilya <rudenko@delta-x.ua>
  * @copyright Delta-X, 2004
  */
-
-die('tyt1');
  
 /**
  * Define the interface to support localization
