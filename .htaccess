@@ -41,8 +41,8 @@ RewriteRule ^robots\.txt$ /robots.php [L,NC]
 #RewriteCond %{REQUEST_FILENAME} !-f
 
 
-# Если убрать эти директивы, то если css или js не найден, то будет грузиться основная страница сайта делая нагрузку на сервер
-# В /extras могут содержаться php файлы (например, редактор) - поэтому блокировать все запросы туда нельзя
+# пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅ css пїЅпїЅпїЅ js пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+# пїЅ /extras пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ php пїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ) - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 RewriteRule ^css/ / [L,R=404,NC]
 RewriteRule .css$ / [L,R=404,NC]
 RewriteRule ^js/ / [L,R=404,NC]
@@ -58,12 +58,12 @@ RewriteRule ^admin/([0-9a-zA-Z_/]+)$ /cms1/index_admin.php?_REWRITE_URL=$1&%{QUE
 
 
 ### CMS Actions:
-RewriteRule ^i/([a-z0-9_]+)/(.+)$ /cms1/tools/cms/site/resize.php?parser=$1&url=$2 [L,NC]
-RewriteRule ^download/(.+)$ /cms1/tools/cms/site/download.php?url=$1&%{QUERY_STRING} [L,NC]
-RewriteRule ^action/admin/([0-9a-zA-Z_/-]+)$ /cms1/actions_admin.php?_event=$1 [L,NC,QSA]
-RewriteRule ^action/([0-9a-zA-Z_/-]+)$ /cms1/actions_site.php?_event=$1 [L,NC,QSA]
-RewriteRule ^([a-z]{2})/action/([0-9a-zA-Z_/-]+)$ /cms1/action/$2?_language=$1 [L,NC,QSA]
-RewriteRule ^([a-z]{2}/)$ /cms1/index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^i/([a-z0-9_]+)/(.+)$ /tools/cms/site/resize.php?parser=$1&url=$2 [L,NC]
+RewriteRule ^download/(.+)$ /tools/cms/site/download.php?url=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^action/admin/([0-9a-zA-Z_/-]+)$ /actions_admin.php?_event=$1 [L,NC,QSA]
+RewriteRule ^action/([0-9a-zA-Z_/-]+)$ /actions_site.php?_event=$1 [L,NC,QSA]
+RewriteRule ^([a-z]{2})/action/([0-9a-zA-Z_/-]+)$ /action/$2?_language=$1 [L,NC,QSA]
+RewriteRule ^([a-z]{2}/)$ /index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
 RewriteRule ^$ /index_site.php?_REWRITE_URL=&%{QUERY_STRING} [L,NC]
 ###################################################
 
@@ -75,6 +75,6 @@ RewriteRule ^$ /index_site.php?_REWRITE_URL=&%{QUERY_STRING} [L,NC]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([0-9a-zA-Z\._/-]+)$ /cms1/index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
+RewriteRule ^([0-9a-zA-Z\._/-]+)$ /index_site.php?_REWRITE_URL=$1&%{QUERY_STRING} [L,NC]
 
 
