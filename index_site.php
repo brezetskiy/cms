@@ -10,7 +10,7 @@
  * @copyright Delta-X, 2004
  */
 
-die('tyt');
+die('tyt1');
  
 /**
  * Define the interface to support localization
