@@ -174,10 +174,6 @@ function set_query_param($query_string, $name, $value = null) {
 		$url['query'] .= '&'.$name.'='.urlencode($value);
 	}
 	
-        /*
-         * Initialize variable first
-         */
-        $get_variables = $array();
 	parse_str($url['query'], $get_variables);
 	array_walk_recursive($get_variables, 'stripslashes_callback');
 	
