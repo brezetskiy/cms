@@ -6922,3 +6922,1167 @@ Process:
 Z:\home\localhost\cms\system\config.inc.php (264) => 
 Z:\home\localhost\cms\index_site.php (34)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:53:51
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db.class.php
+Mtime: 1359316428
+Line: 118
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms/system/libs/db/mysqli.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms\system\libs\db.class.php (118) => 
+Z:\home\localhost\cms\system\libs\db.class.php (118) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:53:51
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db.class.php
+Mtime: 1359316428
+Line: 118
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms/system/libs/db/mysqli.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms\system\libs\db.class.php (118) => 
+Z:\home\localhost\cms\system\libs\db.class.php (118) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 54
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_CHARSET - assumed 'CMS_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (54) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 54
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_COLLATION - assumed 'CMS_COLLATION'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (54) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 55
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_CHARSET - assumed 'CMS_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (55) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316184
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 54
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_CHARSET - assumed 'CMS_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (54) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 54
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_COLLATION - assumed 'CMS_COLLATION'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (54) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359316590
+Line: 55
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_CHARSET - assumed 'CMS_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (55) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:56:42
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316184
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:19
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 319
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (319) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:19
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 377
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (377) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:19
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 382
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (382) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:19
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 403
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (403) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:20
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 319
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (319) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:20
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 377
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (377) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:20
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 382
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (382) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:03:20
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359316996
+Line: 403
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (403) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 322
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (322) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 373
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (373) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 379
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (379) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 384
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (384) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 405
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (405) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 322
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (322) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 373
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (373) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 379
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (379) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 384
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (384) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 405
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (405) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 322
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (322) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 373
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (373) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 379
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (379) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 384
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (384) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 405
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (405) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 322
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (322) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 373
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (373) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 379
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (379) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 384
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (384) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 405
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (405) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 421
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant LANGUAGE_CHARSET - assumed 'LANGUAGE_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (421) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 421
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: charset `LANGUAGE_CHARSET' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (421) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 428
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant LANGUAGE_CHARSET - assumed 'LANGUAGE_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (428) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 428
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: charset `LANGUAGE_CHARSET' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (428) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 449
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at Z:\home\localhost\cms\system\libs\global.class.php:629)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (449) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:24
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:28
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:29
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:29
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:30
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:30
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:10:31
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 421
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant LANGUAGE_CHARSET - assumed 'LANGUAGE_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (421) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 421
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: charset `LANGUAGE_CHARSET' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (421) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 428
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant LANGUAGE_CHARSET - assumed 'LANGUAGE_CHARSET'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (428) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 428
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: charset `LANGUAGE_CHARSET' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (428) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 449
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at Z:\home\localhost\cms\system\libs\global.class.php:629)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (449) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:12:16
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:49
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:50
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:50
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:51
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:51
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:51
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:52
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:13:52
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317408
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:16:27
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317772
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 22:16:28
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359317772
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Site
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (264) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
