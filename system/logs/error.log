@@ -3248,3 +3248,3643 @@ Process:
 Z:\home\localhost\cms1\system\config.inc.php (392) => 
 Z:\home\localhost\cms1\index_site.php (22)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:29
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 00:51:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:08
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:10
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:10
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:10
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:10
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:10
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:11
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:36:11
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359240510
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:27
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:29
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:30
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:31
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:32
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 18:56:33
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:20:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: HTTP_IP (HTTP_LOCAL_IP)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 313
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Use of undefined constant CMS_USER_AGENT - assumed 'CMS_USER_AGENT'
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (313) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:29:28
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359305786
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 365
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_AVAILABLE
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (365) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 371
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (371) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 376
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (376) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 19:30:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359307800
+Line: 392
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (392) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:00
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 372
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (372) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:00
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 377
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (377) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:00
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 393
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (393) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 372
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_DEFAULT
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (372) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:01
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 377
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (377) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:02
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314634
+Line: 393
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (393) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:43
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314682
+Line: 378
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (378) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:43
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314682
+Line: 394
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (394) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:43
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314682
+Line: 378
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant LANGUAGE_SITE_REGEXP
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (378) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:24:43
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314682
+Line: 394
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (394) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:26:49
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:26:50
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:26:50
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:26:51
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:12
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:13
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:30:19
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:52
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:52
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:52
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:52
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:53
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:54
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:54
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:54
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:31:54
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:32:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:32:14
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:32:15
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:32:15
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359314800
+Line: 395
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с определением языковых параметров - не найден
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (395) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:49:59
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\global.class.php
+Mtime: 1359240510
+Line: 180
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Undefined variable: array
+Process: 
+Z:\home\localhost\cms\system\libs\global.class.php (180) => 
+Z:\home\localhost\cms\system\config.inc.php (414) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-27 21:49:59
+URL: shell
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\global.class.php
+Mtime: 1359240510
+Line: 180
+Type: E_NOTICE
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Undefined variable: array
+Process: 
+Z:\home\localhost\cms\system\libs\global.class.php (180) => 
+Z:\home\localhost\cms\system\config.inc.php (414) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------

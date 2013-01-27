@@ -207,6 +207,12 @@ define('TMP_ROOT', SITE_ROOT . 'tmp/');
 //define('GRAPHS_ROOT', SITE_ROOT . 'system/graphs/');
 
 /**
+* Путь к языковым файлам
+* @name LANGUAGE_ROOT
+*/
+define('LANGUAGE_ROOT', SITE_ROOT . 'language/');
+
+/**
 * Массив, который будет содержать в себе объекты соединения с СУБД
 * array(int $db_id => object, ...)
 */
@@ -310,7 +316,7 @@ if (!isset($_SERVER['HTTP_HOST']) || empty($_SERVER['HTTP_HOST'])) {
 /**
  * Устанавливает заголовок user_agent для url-fopen-wrappers и класса Download
  */
-if (!defined(CMS_USER_AGENT)) define('CMS_USER_AGENT', 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)');
+if (!defined('CMS_USER_AGENT')) define('CMS_USER_AGENT', 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)');
 ini_set('user_agent', CMS_USER_AGENT);
 
 
@@ -362,17 +368,20 @@ $default_language = strtolower(globalVar($_REQUEST['_language'], ''));
 if (!defined('CMS_INTERFACE')) {
 	trigger_error('Не определена константа CMS_INTERFACE', E_USER_ERROR);
 }
+if (!defined('LANGUAGE_SITE_AVAILABLE')) define('LANGUAGE_SITE_AVAILABLE', 'ru');
 $available_languages = preg_split("/,/", constant('LANGUAGE_'.CMS_INTERFACE.'_AVAILABLE'), -1, PREG_SPLIT_NO_EMPTY);
 /**
  * Проверяем, поддерживается переданный язык данным интерфейсом.
  * Если нет, то устанавливаем язык, используемый по умолчанию для данного интерфейса.
  */
+if (!defined('LANGUAGE_SITE_DEFAULT')) define('LANGUAGE_SITE_DEFAULT', 'ru');
 if (empty($default_language) || !in_array($default_language, $available_languages)) {
 	$default_language = constant('LANGUAGE_'.CMS_INTERFACE.'_DEFAULT');
 }
 /**
  * Определяем язык, который определен в URL
  */
+if (!defined('LANGUAGE_SITE_REGEXP')) define('LANGUAGE_SITE_REGEXP', '(?:ru)');
 preg_match("/^\/?(".constant('LANGUAGE_'.CMS_INTERFACE.'_REGEXP').")\/?/i", HTTP_URL, $matches);
 if (isset($matches[1]) && !empty($matches[1]) && in_array($matches[1], $available_languages)) {
 	// Указанный в URL язык поддерживается сайтом
@@ -388,6 +397,11 @@ if (isset($matches[1]) && !empty($matches[1]) && in_array($matches[1], $availabl
  */
 if (is_file(CACHE_ROOT . 'language.'.LANGUAGE_CURRENT.'.php')) {
 	require_once(CACHE_ROOT . 'language.'.LANGUAGE_CURRENT.'.php');
+}
+else if (is_file(LANGUAGE_ROOT . LANGUAGE_CURRENT . '/' . 'language.php')) {
+        if (!copy(LANGUAGE_ROOT . LANGUAGE_CURRENT . '/' . 'language.php', CACHE_ROOT . 'language.'.LANGUAGE_CURRENT.'.php')) {
+            die ("Не могу записать в папку кэша");
+        }
 } else {
 	trigger_error('Файл с определением языковых параметров - не найден', E_USER_ERROR);
 }
