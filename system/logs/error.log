@@ -9270,3 +9270,1533 @@ Process:
 Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
 Z:\home\localhost\cms\index_site.php (132)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:26
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:26
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:26
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:26
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:26
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:34:38
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:07
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:07
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:07
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:08
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:08
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:10
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:10
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:10
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:10
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:14
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:15
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:15
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:15
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 16:35:15
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:08
+URL: http://cms.localhost/onas/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359383398
+Line: 450
+Type: E_WARNING
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (450) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:10
+URL: http://cms.localhost/onas/?
+IP: 127.0.0.1 (127.0.0.1)
+File: index_site.php
+Mtime: 1359383398
+Line: 72
+Type: E_WARNING
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Cannot modify header information - headers already sent by (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\index_site.php (72)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:10
+URL: http://cms.localhost/onas/?
+IP: 127.0.0.1 (127.0.0.1)
+File: index_site.php
+Mtime: 1359383398
+Line: 73
+Type: E_WARNING
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Cannot modify header information - headers already sent by (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\index_site.php (73)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:10
+URL: http://cms.localhost/onas/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Auth.class.php
+Mtime: 1359383398
+Line: 40
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: До запуска модуля авторизации нельзя начинать вывод данных. Вывод начался в файле Z:\home\localhost\cms\cache\language.ru.php (1)
+Process: 
+Z:\home\localhost\cms\system\libs\Auth.class.php (40) => 
+Z:\home\localhost\cms\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359383398
+Line: 450
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (450) => 
+Z:\home\localhost\cms\index_site.php (22)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 289
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Cannot modify header information - headers already sent by (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (289) => 
+Z:\home\localhost\cms\index_site.php (77)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 290
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Cannot modify header information - headers already sent by (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (290) => 
+Z:\home\localhost\cms\index_site.php (77)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 291
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Cannot modify header information - headers already sent by (output started at Z:\home\localhost\cms\cache\language.ru.php:1)
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (291) => 
+Z:\home\localhost\cms\index_site.php (77)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:02:11
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Auth.class.php
+Mtime: 1359383398
+Line: 40
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: До запуска модуля авторизации нельзя начинать вывод данных. Вывод начался в файле Z:\home\localhost\cms\cache\language.ru.php (1)
+Process: 
+Z:\home\localhost\cms\system\libs\Auth.class.php (40) => 
+Z:\home\localhost\cms\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:21
+URL: http://cms.localhost/onas/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/cformat/simple_inside.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:21
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:31
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:32
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:32
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:33
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:03:33
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:18
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:18
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:18
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:18
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:19
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:21
+URL: http://cms.localhost/admin?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:21
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:30
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:30
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:30
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:31
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:31
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:33
+URL: http://cms.localhost/services/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/cformat/simple_inside.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:33
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:20:36
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:29:16
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:38:43
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:38:43
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:38:43
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:38:44
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 17:38:44
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:38
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:38
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:38
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:39
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:39
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:41
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:41
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:41
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:41
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:41
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:43
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:43
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:43
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:43
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:23:43
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:36
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:36
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:36
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:37
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:37
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:53
+URL: http://cms.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359383398
+Line: 49
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Access denied for user 'cformat_cmsgit'@'%' to database 'cformat_cmsgit1'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (49) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:25:54
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\db\mysqli.class.php
+Mtime: 1359383398
+Line: 49
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Access denied for user 'cformat_cmsgit'@'%' to database 'cformat_cmsgit1'
+Process: 
+Z:\home\localhost\cms\system\libs\db\mysqli.class.php (49) => 
+Z:\home\localhost\cms\system\libs\db.class.php (126) => 
+Z:\home\localhost\cms\index_site.php (34)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:00
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:00
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:00
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:00
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:00
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:51
+URL: http://cms.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:51
+URL: http://cms.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:52
+URL: http://cms.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:52
+URL: http://cms.localhost/design/dev/img/cms/cross.png?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:26:52
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------

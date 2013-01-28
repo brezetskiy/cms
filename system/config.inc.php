@@ -77,9 +77,9 @@ if (substr(PHP_OS, 0 , 3) == 'WIN') {
  * Настройки подключения к базе данных
  */
 define('DB_DEFAULT_HOST', 'cformat.mysql.ukraine.com.ua');	
-define('DB_DEFAULT_NAME', 'cformat_cms');
-define('DB_DEFAULT_LOGIN', 'cformat_cms');
-define('DB_DEFAULT_PASSWORD', 'j8gy5uz3');
+define('DB_DEFAULT_NAME', 'cformat_cmsgit');
+define('DB_DEFAULT_LOGIN', 'cformat_cmsgit');
+define('DB_DEFAULT_PASSWORD', '9v6eawvf');
 define('DB_DEFAULT_TYPE', 'mysqli'); 
 
 
