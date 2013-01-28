@@ -447,6 +447,9 @@ if (!defined('STDIN')) {
  * для определения логина вошедшего администратора
  */
 session_set_cookie_params(0, '/', Auth::getCookieDomain(CMS_HOST));
+/*
+ * index_site.php 41 строка - нужно ли тут создавать??
+ */
 if (session_id() == '') session_start();
 
 if (
