@@ -13,13 +13,13 @@ ini_set('magic_quotes_gpc', 1);
 ini_set('magic_quotes_runtime', 0);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-setlocale(LC_ALL, 'ru_RU.CP1251');
+setlocale(LC_ALL, 'ru_RU.utf-8');
 umask(0007); // rwx r-x r-x  Un-mask там где бит = 1 то при создании директории этот бит будет снят (используется бинарное "NOT")
 define('DEBUG', 1);
 define('CMS_VERSION', '6.0.0');
 
 // Перечень пользователей с неограниченными привилегиями
-$_sudoers = array('rudenko@delta-x.ua', 'eugen@delta-x.ua', 'barin@delta-x.ua', 'vovk@delta-x.ua', 'nick@delta-x.ua', 'tark@delta-x.ua', 'o.kunytska@gmail.com', 'brezetskiy.sergiy@gmail.com', 'anet@lectra.me');
+$_sudoers = array('brezetskiy.sergiy@gmail.com', 'anet@lectra.me');
 
 if (ini_get('magic_quotes_gpc') != 1) {
 	echo "Security error! You must enable magic_quotes_gpc in php.ini!";
