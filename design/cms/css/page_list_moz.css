@@ -1,0 +1,48 @@
+/**
+	Стили для листалки страниц
+*/
+
+a.page_list {
+	margin:5px;
+	font-weight:bold;
+	padding:5px 8px;
+	background-color:#E6F0FA;
+	height:30px;
+	text-decoration:none;
+	text-align:center;
+	width:30px;
+
+	/*Firefox*/
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	
+	/*Chrome, Safari*/
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+}
+span.page_list {
+	background-color:silver;
+	color:white;
+	font-weight:bold;
+	margin:5px;
+	padding:5px 8px;
+	height:30px;
+	text-align:center;
+	width:30px;
+
+	/*Firefox*/
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	
+	/*Chrome, Safari*/
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+}

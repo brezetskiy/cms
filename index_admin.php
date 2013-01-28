@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Admin main delegating page
@@ -131,6 +131,8 @@ $DB->query("
 	WHERE tb_group_action.group_id='".$_SESSION['auth']['group_id']."'
 		AND tb_view.structure_id = '".CMS_STRUCTURE_ID."'
 ");
+
+
 
 if (empty($Site->filename)) {
 	

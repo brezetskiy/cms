@@ -1,0 +1,90 @@
+@import "/design/cms/css/cms_view.css";
+
+/**
+* Выравнивает сообщение об ошибке для view страниц по центру
+*/
+DIV.message_align {
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Таблица в разделе просмотра */
+
+TABLE.cms_gallery {
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+TABLE.cms_gallery CAPTION {
+	text-align: right;
+	font-size: 11px;
+}
+
+TABLE.cms_gallery THEAD TD {
+	background-color: #CBE0FF;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	height: 25px;
+}
+
+TABLE.cms_gallery THEAD SELECT,
+TABLE.cms_gallery TH SELECT {
+	background-color: #CBE0FF;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+TABLE.cms_gallery TFOOT TD,
+TABLE.cms_gallery TFOOT TABLE TD,
+TABLE.cms_gallery TFOOT SELECT,
+TABLE.cms_gallery TFOOT INPUT
+{
+	vertical-align: middle;
+	background-color: #CBE0FF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+}
+TABLE.cms_gallery TBODY INPUT
+{
+	text-align: center;
+}
+
+TABLE.cms_gallery PRE {
+	font-family: Verdana,Geneva,Arial;
+	font-size: 12px;
+}
+DIV.cms_gallery_type,
+DIV.cms_gallery_type INPUT
+{
+	text-align: center;
+	margin-right: 10px;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 10px;
+}
+/**
+* Ячейка, в которой пишется что нет данных для вывода, когда таблица - пустая
+*/
+TABLE.cms_gallery TD.no_content {
+	background-color: #EEEEEE; 
+	height: 50px; 
+	text-align: center;
+}
+
+/**
+* Ячейки с контентом
+*/
+TABLE.cms_gallery TBODY TD {
+	vertical-align: middle;
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F7F7F7;
+	text-align: center;
+}
+TABLE.cms_gallery TBODY TR.selected {
+	background-color: #E0E0FF;
+}
+

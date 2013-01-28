@@ -1,0 +1,13 @@
+TD, BODY {
+	background: #FFFFFF none;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	font: 12px Verdana, Arial;
+}
+A {
+	text-decoration: none;
+}
+LI {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
