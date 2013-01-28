@@ -1,0 +1,40 @@
+
+TABLE.cal {
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+}
+TABLE.cal TD {
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 10px;
+}
+TABLE.cal THEAD TD {
+	text-align: center;
+	background-color: #F0F0F0;
+	font-size: 12px;
+	font-weight: bold;
+}
+TABLE.cal TBODY TD {
+	height: 100px;
+	vertical-align: top;
+}
+TABLE.cal SPAN.date {
+	background-color: #BBBBBB;
+	color: white;
+	font-size: 10px;
+	padding: 1px;
+}
+TABLE.cal SPAN.today {
+	background-color: #990000;
+	color: white;
+	font-size: 10px;
+	padding: 1px;
+}
+TABLE.cal TD.current {
+	background-color: #FFFFCC;
+}
+@media print {
+	TABLE.cal {
+		display: none;
+	}
+}

@@ -1,0 +1,153 @@
+table.standart thead td {
+	font-weight:bold;
+	border-bottom:1px solid silver;
+}
+table.standart tbody td {
+	border-bottom:1px solid #f0f0f0;
+}
+
+div.error {
+	border: 1px solid red;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	color: red;
+	width: 500px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+div.ok {
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #000099;
+	width: 100%;
+}
+span.comment {
+	color:gray;
+	font-size:11px;
+}
+
+
+
+
+
+
+/**
+ * Таблицы с формами используются в авторизации и на всём сайте
+ */
+TABLE.form {
+	width: 100%;
+}
+TABLE.form TD {
+	padding: 5px 0 5px 10px; 
+	vertical-align: top;
+}
+TABLE.form TD.title {
+	width: 25%;
+	text-align: right;
+	font-weight: bold;
+}
+DIV.form_title {
+	color: #4475DB;
+	margin-top: 20px;
+	padding-left: 170px;
+	font-weight: bold;
+	font-size: 16px;
+}
+DIV.form_error {
+	margin-top: 15px;
+	margin-left:25%;
+	padding-left:10px;
+	color:red;
+	font-weight:bold;
+}
+SPAN.comment {
+	color:gray;
+	font-size:10px;
+}
+SPAN.asterix {
+	color:red;
+}
+TABLE.form THEAD TD {
+	font-weight: bold;
+}
+TABLE.form TD.error {
+	color:red;
+	font-weight:bold;
+}
+TABLE.form TD.ok {
+	color:#0099CC;
+	font-weight:bold;
+}
+INPUT.wide {
+	width: 90%;
+	border: 1px solid #7F9DB9;
+}
+TEXTAREA.wide {
+	width: 90%;
+	height: 150px;
+}
+
+
+
+/**
+ * Переход между страницами
+ */
+TABLE.pages_list TD {
+	cursor : hand;
+	background: #DFF1FF url(/img/shared/button/page_cut.gif) top right no-repeat;
+	width : 30px;
+	height : 30px;
+	vertical-align : middle;
+	text-align : center;
+}
+TABLE.pages_list TD.selected_page {
+	font-weight : bold;
+	background-color : silver;
+	color : white;
+}
+TABLE.pages_list TD.dots {
+	background: transparent;
+	cursor: auto;
+}
+TABLE.pages_list TD.show_all {
+	background: transparent;
+	cursor: auto;
+}
+TABLE.pages_list CAPTION {
+	font-size : 10px;
+}
+.disabled {
+	background: #D2E6FA; 
+	filter: alpha(Opacity=30);
+}
+
+
+div.page_underline {
+	padding-bottom: 3px;
+}
+span.page_list, a.page_list, span.page_selected,span.page_dots {
+	border: 1px solid #2E6AB1;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 3px 6px 3px 6px;
+	display: inline;
+	margin-bottom: 10px;
+	color: gray;
+}
+a.page_list {
+	color: blue;
+}
+a.page_list:hover {
+	background-color: #ccffcc;
+	color: blue;
+}
+span.page_list {
+	background-color: #3366cc;
+	font-weight: bold;
+	color: white;
+}
+span.page_dots {
+	border: none;
+}

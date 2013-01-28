@@ -547,3 +547,1722 @@
 				Refferer: unknown 
 				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
 				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:39:00
+				URL: http://cms.localhost/admin?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:39:00
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:40:40
+				URL: http://cms.localhost/admin?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:40:40
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:40:40
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:44:16
+				URL: http://cms.localhost/admin/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:44:17
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:44:17
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:26
+				URL: http://cms.localhost/admin/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:26
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:27
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:33
+				URL: http://cms.localhost/admin/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:33
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:33
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:47
+				URL: http://cms.localhost/admin/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:47
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:45:47
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:20
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:20
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:21
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:29
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:29
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:29
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:58
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:58
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:50:58
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:38
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:38
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:38
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:42
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:42
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:51:42
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:52:50
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:52:50
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:52:50
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:15
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:15
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:16
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:28
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:28
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:28
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:48
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:48
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:48
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:49
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:49
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:50
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:54
+				URL: http://cms.localhost/admin/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:54
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Fadmin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/admin/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:53:54
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:04
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:04
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:05
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:34
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fcms%2Fadmin%2Fwelcome.php%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:34
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Ftools%252Fcms%252Fadmin%252Fwelcome.php%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fcms%2Fadmin%2Fwelcome.php%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:55:34
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:56:33
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:56:57
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:08
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:15
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:16
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:16
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:28
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:28
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:29
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:32
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:33
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:33
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:44
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:44
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:44
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:51
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:51
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:51
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:52
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:52
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:52
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:53
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:57:54
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:00
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:00
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:00
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:08
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:08
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:08
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:09
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:09
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:09
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:10
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:11
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:30
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:30
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:58:30
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:03
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:03
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:03
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:32
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:32
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:33
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:41
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:47
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:55
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:55
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:55
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:59
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:59
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 18:59:59
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:00:50
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:00:50
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:00:50
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:29
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:29
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:30
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:36
+				URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:36
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:01:37
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:03:55
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:04:36
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:05:23
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:06:35
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:07:26
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:07:26
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:07:26
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:07
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:23
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:23
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:23
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:53
+				URL: http://cms.localhost/action/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:53
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Faction%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:08:53
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:09:43
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:09:46
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:09:46
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:09:46
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:11:13
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:21
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:21
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:21
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:24
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:31
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:31
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:32
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:50
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:12:51
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:00
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:00
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:00
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:19
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:19
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:19
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:13:21
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:14:12
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:14:32
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:14:42
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:15:18
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:15:30
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:15:37
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:15:37
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:15:37
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:16:39
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:16:50
+				URL: http://cms.localhost/action/cms/login/?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:16:50
+				URL: http://cms.localhost/tools/stat/error.php?code=404&r=http%3A%2F%2Fcms.localhost%2Findex_admin_login.php%3Freturn_path%3D%252Fadmin%252F%253F&u=http%3A%2F%2Fcms.localhost%2Faction%2Fcms%2Flogin%2F
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: http://cms.localhost/action/cms/login/ 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------
+
+
+				[BEGIN]--------------------------------------------------
+				Date: 2013-01-28 19:16:50
+				URL: http://cms.localhost/favicon.ico?
+				IP: 127.0.0.1 (127.0.0.1)
+				Refferer: unknown 
+				UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+				[END]--------------------------------------------------

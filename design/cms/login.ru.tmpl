@@ -1,0 +1,55 @@
+<html>
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<title>"Пилот" - эффективное и простое управление веб-сайтом [www.delta-x.com.ua].</title>
+	<link rel="stylesheet" type="text/css" href="/design/cms/css/auth.css">
+	
+	<script type="text/javascript" src="/extras/jquery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/extras/jquery/jqModal.js"></script>
+	<script type="text/javascript" src="/extras/jquery/jquery.jgrowl.min.js"></script>
+	<script type="text/javascript" src="/js/shared/jshttprequest.js"></SCRIPT>
+	<script type="text/javascript" src="/js/shared/global.js"></SCRIPT>
+	<script type="text/javascript" src="/js/user/user.js"></script>
+	<script type="text/javascript" src="/js/user/oid_widget.js"></script>
+		
+	<!-- DELTA СООБЩЕНИЯ -->
+	<link rel="stylesheet" type="text/css" href="/css/cms/message.css" />
+	<script type="text/javascript" src="/js/cms/message.js"></script>
+	<script type="text/javascript" src="/extras/jquery/jquery.blockUI.js"></script>
+	
+	<script type="text/javascript">
+		function byId(id) {
+			return document.getElementById(id);
+		}
+	</script>
+</head>
+
+<BODY onLoad="document.getElementById('login_id').focus();" >
+
+<style>
+	table.oid_block_table { width: 500px !important; }
+	table.oid_block_table input[type=text] { width: 200px !important; }
+	table.oid_block_table form { padding-bottom:0px; margin-bottom:0px; }
+</style>
+
+<script>
+	$().ready(function() {
+		<tmpl:onload>
+			{$function}  
+		</tmpl:onload>
+	});
+</script>
+  
+<tmpl:error><div class="delta_error">{$message}</div></tmpl:error>
+<tmpl:success><div class="delta_success">{$message}</div></tmpl:success>
+<tmpl:info><div class="delta_info">{$message}</div></tmpl:info>
+<tmpl:warning><div class="delta_warning">{$message}</div></tmpl:warning>
+
+<div style="width:100%; color:#CC6600; margin-top:150px;">
+	<center><a href="/" class="signature">Вернуться к просмотру сайта</a></center>
+	<center>{$login_form}</center>
+	<center><br/><a href="http://www.delta-x.com.ua" class="signature">Copyright Delta-X &reg; ltd, 1998-2012</a></center>
+</div>
+
+</body>
+</html>

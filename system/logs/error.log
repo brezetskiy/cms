@@ -10800,3 +10800,123 @@ Process:
 Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
 Z:\home\localhost\cms\index_site.php (132)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:39:00
+URL: http://cms.localhost/admin?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 18:39:00
+URL: http://cms.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/_default/404_basic.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 19:03:55
+URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359390358
+Line: 450
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at Z:\home\localhost\cms\index_admin_login.php:1)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (450) => 
+Z:\home\localhost\cms\index_admin_login.php (24)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 19:03:55
+URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359390358
+Line: 450
+Type: E_WARNING
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at Z:\home\localhost\cms\index_admin_login.php:1)
+Process: 
+Z:\home\localhost\cms\system\config.inc.php (450) => 
+Z:\home\localhost\cms\index_admin_login.php (24)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 19:03:55
+URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/cms/login.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_admin_login.php (65)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 19:04:36
+URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/cms/login.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_admin_login.php (65)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-28 19:05:23
+URL: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/templates/user/login_form_admin.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\system\libs\Auth.class.php (853) => 
+Z:\home\localhost\cms\index_admin_login.php (66)
+[END]--------------------------------------------------
