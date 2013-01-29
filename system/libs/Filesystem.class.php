@@ -1,6 +1,6 @@
 <?php
 /**
- * Класс работы с файловой системой
+ * РљР»Р°СЃСЃ СЂР°Р±РѕС‚С‹ СЃ С„Р°Р№Р»РѕРІРѕР№ СЃРёСЃС‚РµРјРѕР№
  * @package Pilot
  * @subpackage CMS
  * @author Rudenko Ilya <rudenko@delta-x.com.ua>
@@ -8,7 +8,7 @@
  */
 
 /**
- * Класс работы с файловой системой
+ * РљР»Р°СЃСЃ СЂР°Р±РѕС‚С‹ СЃ С„Р°Р№Р»РѕРІРѕР№ СЃРёСЃС‚РµРјРѕР№
  * @package Pilot
  * @subpackage CVS
  * @author Rudenko Ilya <rudenko@delta-x.com.ua>
@@ -16,16 +16,16 @@
 class Filesystem {
 	
 	/**
-	 * Превращает 8битное значение прав доступа к файлу в массив с текстовыми значениями
+	 * РџСЂРµРІСЂР°С‰Р°РµС‚ 8Р±РёС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РїСЂР°РІ РґРѕСЃС‚СѓРїР° Рє С„Р°Р№Р»Сѓ РІ РјР°СЃСЃРёРІ СЃ С‚РµРєСЃС‚РѕРІС‹РјРё Р·РЅР°С‡РµРЅРёСЏРјРё
 	 * 
-	 * @param int $mode 764 или значение возвращаемое stat().['mode']
+	 * @param int $mode 764 РёР»Рё Р·РЅР°С‡РµРЅРёРµ РІРѕР·РІСЂР°С‰Р°РµРјРѕРµ stat().['mode']
 	 * @return array
 	 */
 	static public function mode($mode) {
 		$result = array();
 		$type = array('user', 'group', 'other');
 		
-		// Значение с функции stat.['mode']
+		// Р—РЅР°С‡РµРЅРёРµ СЃ С„СѓРЅРєС†РёРё stat.['mode']
 		if ($mode > 777) {
 			$mode = substr(strval(decoct($mode)), -3, 3);
 		}
@@ -41,10 +41,10 @@ class Filesystem {
 	
 	
 	/**
-	* Определяет MAX id файла в директории
+	* РћРїСЂРµРґРµР»СЏРµС‚ MAX id С„Р°Р№Р»Р° РІ РґРёСЂРµРєС‚РѕСЂРёРё
 	* 
 	* @param string $dir
-	* @return string - Директория и имя файла без расширения
+	* @return string - Р”РёСЂРµРєС‚РѕСЂРёСЏ Рё РёРјСЏ С„Р°Р№Р»Р° Р±РµР· СЂР°СЃС€РёСЂРµРЅРёСЏ
 	*/
 	static public function getMaxFileId($dir) {
 		
@@ -62,7 +62,7 @@ class Filesystem {
 	}
 	
 	/**
-	 * Удаляет пустые директории в дереве
+	 * РЈРґР°Р»СЏРµС‚ РїСѓСЃС‚С‹Рµ РґРёСЂРµРєС‚РѕСЂРёРё РІ РґРµСЂРµРІРµ
 	 *
 	 * @param string $path
 	 */
@@ -80,8 +80,8 @@ class Filesystem {
 			self::deleteEmptyDirs($row);
 		}
 		
-		// После того как удалили в директории все пустые поддиректории
-		// текущая директория может быть пустой, удаляем её
+		// РџРѕСЃР»Рµ С‚РѕРіРѕ РєР°Рє СѓРґР°Р»РёР»Рё РІ РґРёСЂРµРєС‚РѕСЂРёРё РІСЃРµ РїСѓСЃС‚С‹Рµ РїРѕРґРґРёСЂРµРєС‚РѕСЂРёРё
+		// С‚РµРєСѓС‰Р°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚РѕР№, СѓРґР°Р»СЏРµРј РµС‘
 		if (empty($files)) {
 			$dirs = self::getDirContent($path, true, true, false);
 			if (empty($dirs) && is_dir($path)) {
@@ -93,7 +93,7 @@ class Filesystem {
 
 	
 	/**
-	* Возвращает список файлов в директории и/лии поддиректорий
+	* Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃРїРёСЃРѕРє С„Р°Р№Р»РѕРІ РІ РґРёСЂРµРєС‚РѕСЂРёРё Рё/Р»РёРё РїРѕРґРґРёСЂРµРєС‚РѕСЂРёР№
 	* @param string $dir
 	* @param bool $full_path
 	* @param bool $show_dirs
@@ -112,7 +112,7 @@ class Filesystem {
 		
 		clearstatcache();
 		
-		// Определяем переменные
+		// РћРїСЂРµРґРµР»СЏРµРј РїРµСЂРµРјРµРЅРЅС‹Рµ
 		$return_files = array();
 		$return_dirs = array();
 		
@@ -125,7 +125,7 @@ class Filesystem {
 		reset($dir_content);
 		while(list(,$filename) = each($dir_content)) {
 			
-			// Определяем, каким будет имя файла при выводе
+			// РћРїСЂРµРґРµР»СЏРµРј, РєР°РєРёРј Р±СѓРґРµС‚ РёРјСЏ С„Р°Р№Р»Р° РїСЂРё РІС‹РІРѕРґРµ
 			$file = (true === $full_path) ? $dir . $filename : $filename;
 
 			if ($filename == '.' || $filename == '..') {
@@ -142,7 +142,7 @@ class Filesystem {
 		}
 		
 		/**
-		* Сортируем директории и файлы
+		* РЎРѕСЂС‚РёСЂСѓРµРј РґРёСЂРµРєС‚РѕСЂРёРё Рё С„Р°Р№Р»С‹
 		*/
 		sort($return_dirs);
 		sort($return_files);
@@ -151,9 +151,9 @@ class Filesystem {
 	}
 		
 	/**
-	* Возвращает список файлов в директории
+	* Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃРїРёСЃРѕРє С„Р°Р№Р»РѕРІ РІ РґРёСЂРµРєС‚РѕСЂРёРё
 	* @param mixed $dir
-	* @param bool $files_only выводить только файлы
+	* @param bool $files_only РІС‹РІРѕРґРёС‚СЊ С‚РѕР»СЊРєРѕ С„Р°Р№Р»С‹
 	* @return array
 	*/
 	static public function getAllSubdirsContent($dir, $files_only, $skip_logs = false) {
@@ -168,12 +168,12 @@ class Filesystem {
 			
 			if (!is_dir($current_dir)) continue;
 				
-			// Читаем содержимое директории
+			// Р§РёС‚Р°РµРј СЃРѕРґРµСЂР¶РёРјРѕРµ РґРёСЂРµРєС‚РѕСЂРёРё
 			$dir_files = self::getDirContent($current_dir, true, true, true);
 			
 			/**
-			* Добавляем найденные элементы к существующему массиву
-			* push используется вместо merge для того, чтоб не сбивать internal point
+			* Р”РѕР±Р°РІР»СЏРµРј РЅР°Р№РґРµРЅРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ Рє СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРјСѓ РјР°СЃСЃРёРІСѓ
+			* push РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІРјРµСЃС‚Рѕ merge РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР± РЅРµ СЃР±РёРІР°С‚СЊ internal point
 			*/ 
 			reset($dir_files);
 			while(list(,$dir_file) = each($dir_files)) {
@@ -182,8 +182,8 @@ class Filesystem {
 			}
 			
 			/**
-			* Если указано находить только файлы, то удаляем имена директорий,
-			* после того, как эти директории обработаны
+			* Р•СЃР»Рё СѓРєР°Р·Р°РЅРѕ РЅР°С…РѕРґРёС‚СЊ С‚РѕР»СЊРєРѕ С„Р°Р№Р»С‹, С‚Рѕ СѓРґР°Р»СЏРµРј РёРјРµРЅР° РґРёСЂРµРєС‚РѕСЂРёР№,
+			* РїРѕСЃР»Рµ С‚РѕРіРѕ, РєР°Рє СЌС‚Рё РґРёСЂРµРєС‚РѕСЂРёРё РѕР±СЂР°Р±РѕС‚Р°РЅС‹
 			*/
 			if ($files_only) unset($dir[$index]);
 			
@@ -192,7 +192,7 @@ class Filesystem {
 	}
 	
 	/**
-	 * Создаёт пустой файл
+	 * РЎРѕР·РґР°С‘С‚ РїСѓСЃС‚РѕР№ С„Р°Р№Р»
 	 * @param string $file
 	 * @return bool
 	 */
@@ -209,7 +209,7 @@ class Filesystem {
 	}
 	
 	/**
-	* Рекурсивно удаляет директорию со всем содержимым
+	* Р РµРєСѓСЂСЃРёРІРЅРѕ СѓРґР°Р»СЏРµС‚ РґРёСЂРµРєС‚РѕСЂРёСЋ СЃРѕ РІСЃРµРј СЃРѕРґРµСЂР¶РёРјС‹Рј
 	* @param string $dir
 	* @return bool
 	*/
@@ -218,7 +218,7 @@ class Filesystem {
 		 
 		if (!is_dir($dir)) return true;
 		   
-		// Блокировка удаления всей системы
+		// Р‘Р»РѕРєРёСЂРѕРІРєР° СѓРґР°Р»РµРЅРёСЏ РІСЃРµР№ СЃРёСЃС‚РµРјС‹
 		$dir = preg_replace("~/+~", "/", $dir);
 		if (trim(strtolower($dir), '/') == trim(strtolower(SITE_ROOT), '/')) {
 			trigger_error('You try destroy system', E_USER_ERROR);
@@ -231,7 +231,7 @@ class Filesystem {
 		while (list(, $file) = each($files)) {
 			if (is_dir($file)) {
 				self::delDir($file);
-			} elseif (is_writable($file)) { // проверка прав доступа
+			} elseif (is_writable($file)) { // РїСЂРѕРІРµСЂРєР° РїСЂР°РІ РґРѕСЃС‚СѓРїР°
 				unlink($file);
 			}
 		}
@@ -241,7 +241,7 @@ class Filesystem {
 	}
 	
 	/**
-	 * Удаление файлов и директорий
+	 * РЈРґР°Р»РµРЅРёРµ С„Р°Р№Р»РѕРІ Рё РґРёСЂРµРєС‚РѕСЂРёР№
 	 * @param string $dir
 	 * @return bool
 	 */
@@ -258,8 +258,8 @@ class Filesystem {
 	}
 	
 	/**
-	 * Переименовывает или перемещает директорию со всем ее содержимым
-	 * $replace = true - замещаем копируемые файлы
+	 * РџРµСЂРµРёРјРµРЅРѕРІС‹РІР°РµС‚ РёР»Рё РїРµСЂРµРјРµС‰Р°РµС‚ РґРёСЂРµРєС‚РѕСЂРёСЋ СЃРѕ РІСЃРµРј РµРµ СЃРѕРґРµСЂР¶РёРјС‹Рј
+	 * $replace = true - Р·Р°РјРµС‰Р°РµРј РєРѕРїРёСЂСѓРµРјС‹Рµ С„Р°Р№Р»С‹
 	 * 
 	 * @param string $source
 	 * @param string $destination
@@ -270,14 +270,14 @@ class Filesystem {
 		clearstatcache();
 		
 		if (!is_dir($source)) {
-			// Исходная директория - не существует
+			// РСЃС…РѕРґРЅР°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ - РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
 			return true;
 		}
 		
 		$source_files = self::getAllSubdirsContent($source, false);
 		
 		/**
-		* Создаем структуру директорий
+		* РЎРѕР·РґР°РµРј СЃС‚СЂСѓРєС‚СѓСЂСѓ РґРёСЂРµРєС‚РѕСЂРёР№
 		*/
 		reset($source_files);
 		while(list(,$file) = each($source_files)) {
@@ -297,7 +297,7 @@ class Filesystem {
 		}
 		
 		/**
-		* Копируем файлы
+		* РљРѕРїРёСЂСѓРµРј С„Р°Р№Р»С‹
 		*/
 		reset($source_files);
 		while(list(,$file) = each($source_files)) {
@@ -306,12 +306,12 @@ class Filesystem {
 			
 			$destination_file = $destination.substr($file, strlen($source));
 			
-			// Замещаяем файл
+			// Р—Р°РјРµС‰Р°СЏРµРј С„Р°Р№Р»
 			if ($replace && is_file($destination_file)) {
 				unlink($destination_file);
 			}
 			
-			// Копируем файл
+			// РљРѕРїРёСЂСѓРµРј С„Р°Р№Р»
 			if (is_file($destination_file) || !copy($file, $destination_file)) {
 				return false;
 			}
@@ -321,10 +321,10 @@ class Filesystem {
 	}
 	
 	/**
-	* Переименовывает файл или директорию
+	* РџРµСЂРµРёРјРµРЅРѕРІС‹РІР°РµС‚ С„Р°Р№Р» РёР»Рё РґРёСЂРµРєС‚РѕСЂРёСЋ
 	* @param string $source
 	* @param string $destination
-	* @param bool $replace - замещайть файлы
+	* @param bool $replace - Р·Р°РјРµС‰Р°Р№С‚СЊ С„Р°Р№Р»С‹
 	* @return bool
 	*/
 	static public function rename($source, $destination, $replace = false) {
@@ -347,10 +347,10 @@ class Filesystem {
 	}
 	
 	/**
-	* Копирует файл или директорию
+	* РљРѕРїРёСЂСѓРµС‚ С„Р°Р№Р» РёР»Рё РґРёСЂРµРєС‚РѕСЂРёСЋ
 	* @param string $source
 	* @param string $destination
-	* @param bool $replace - замещайть файлы
+	* @param bool $replace - Р·Р°РјРµС‰Р°Р№С‚СЊ С„Р°Р№Р»С‹
 	* @return bool
 	*/
 	static public function copy($source, $destination, $replace = false) {
@@ -374,8 +374,8 @@ class Filesystem {
 	}
 	
 	/**
-	 * Сравнивает содержимое 2-х каталогов. Возвращает true, если
-	 * каталоги и файлы в этих каталогах полностью идентичны, иначе false.
+	 * РЎСЂР°РІРЅРёРІР°РµС‚ СЃРѕРґРµСЂР¶РёРјРѕРµ 2-С… РєР°С‚Р°Р»РѕРіРѕРІ. Р’РѕР·РІСЂР°С‰Р°РµС‚ true, РµСЃР»Рё
+	 * РєР°С‚Р°Р»РѕРіРё Рё С„Р°Р№Р»С‹ РІ СЌС‚РёС… РєР°С‚Р°Р»РѕРіР°С… РїРѕР»РЅРѕСЃС‚СЊСЋ РёРґРµРЅС‚РёС‡РЅС‹, РёРЅР°С‡Рµ false.
 	 *
 	 * @param string $source
 	 * @param string $destination
@@ -397,12 +397,12 @@ class Filesystem {
 		
 		if (serialize($listing_destination) != serialize($listing_source)) {
 			/**
-			 * Список файлов в каталогах не совпадает
+			 * РЎРїРёСЃРѕРє С„Р°Р№Р»РѕРІ РІ РєР°С‚Р°Р»РѕРіР°С… РЅРµ СЃРѕРІРїР°РґР°РµС‚
 			 */
 			$different = true;
 		} else {
 			/**
-			 * Проверяем содержимое каждого файла
+			 * РџСЂРѕРІРµСЂСЏРµРј СЃРѕРґРµСЂР¶РёРјРѕРµ РєР°Р¶РґРѕРіРѕ С„Р°Р№Р»Р°
 			 */
 			reset($listing_destination);
 			while (list($index,$item)=each($listing_destination)) {
@@ -420,7 +420,7 @@ class Filesystem {
 	
 	
 	/**
-	 * Возвращает размер файла или директории, в байтайх
+	 * Р’РѕР·РІСЂР°С‰Р°РµС‚ СЂР°Р·РјРµСЂ С„Р°Р№Р»Р° РёР»Рё РґРёСЂРµРєС‚РѕСЂРёРё, РІ Р±Р°Р№С‚Р°Р№С…
 	 *
 	 * @param string $file
 	 * @return int
