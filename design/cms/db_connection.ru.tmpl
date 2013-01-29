@@ -1,6 +1,6 @@
 <html>
 <head>
-	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 	<title>"Пилот" - эффективное и простое управление веб-сайтом [www.delta-x.com.ua].</title>
 	<link rel="stylesheet" type="text/css" href="/design/admin/css/auth.css">
 </head>
