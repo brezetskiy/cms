@@ -1,6 +1,6 @@
 <?php
 /**
-* Âûõîäèì èç ñèñòåìû
+* Ð’Ñ‹Ñ…Ð¾Ð´Ð¸Ð¼ Ð¸Ð· ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹
 * @package Pilot
 * @subpackage CMS
 * @version 3.0

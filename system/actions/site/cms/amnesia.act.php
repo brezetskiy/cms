@@ -1,6 +1,6 @@
 <?php
 /**
- * Форма напоминания паролей
+ * Р¤РѕСЂРјР° РЅР°РїРѕРјРёРЅР°РЅРёСЏ РїР°СЂРѕР»РµР№
  * @package Pilot
  * @subpackage CMS
  * @author Rudenko Ilya <rudenko@delta-x.ua>
@@ -9,24 +9,24 @@
 
 $email = globalVar($_POST['email'], '');
 
-// Проверяем правильность переданных данных
+// РџСЂРѕРІРµСЂСЏРµРј РїСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ РїРµСЂРµРґР°РЅРЅС‹С… РґР°РЅРЅС‹С…
 if (empty($email)) {
-	// не указан логин или e-mail адрес
-	Action::onError(cms_message('CMS', 'Не указан адрес e-mail'));
+	// РЅРµ СѓРєР°Р·Р°РЅ Р»РѕРіРёРЅ РёР»Рё e-mail Р°РґСЂРµСЃ
+	Action::onError(cms_message('CMS', 'РќРµ СѓРєР°Р·Р°РЅ Р°РґСЂРµСЃ e-mail'));
 }
 
-// Проверяем CAPTCHA
+// РџСЂРѕРІРµСЂСЏРµРј CAPTCHA
 if (!Captcha::check(globalVar($_REQUEST['captcha_uid'], ''), globalVar($_REQUEST['captcha_value'], ''))) {
-	Action::onError(cms_message('CMS', 'Неправильно введено число на картинке'));
+	Action::onError(cms_message('CMS', 'РќРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅРѕ С‡РёСЃР»Рѕ РЅР° РєР°СЂС‚РёРЅРєРµ'));
 }
 
-// Проверяем пользователя
+// РџСЂРѕРІРµСЂСЏРµРј РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
 $query = "SELECT id, login, email FROM auth_user WHERE email='$email' or login='$email'";
 $data = $DB->query_row($query);
 if ($DB->rows == 0) {
-	Action::onError(cms_message('CMS', 'Невозможно найти пользователя с указанным логином'));
+	Action::onError(cms_message('CMS', 'РќРµРІРѕР·РјРѕР¶РЅРѕ РЅР°Р№С‚Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ СЃ СѓРєР°Р·Р°РЅРЅС‹Рј Р»РѕРіРёРЅРѕРј'));
 } elseif ($DB->rows != 1) {
-	Action::onError(cms_message('CMS', 'Найдено более одного пользователя по запрошенным критериям'));
+	Action::onError(cms_message('CMS', 'РќР°Р№РґРµРЅРѕ Р±РѕР»РµРµ РѕРґРЅРѕРіРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РїРѕ Р·Р°РїСЂРѕС€РµРЅРЅС‹Рј РєСЂРёС‚РµСЂРёСЏРј'));
 }
 
 $auth_code = Misc::keyBlock(32, 1);
@@ -40,17 +40,17 @@ $query = "
 ";
 $DB->insert($query);
 
-// Отсылаем код для восстановление пароля на почту
+// РћС‚СЃС‹Р»Р°РµРј РєРѕРґ РґР»СЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РїР°СЂРѕР»СЏ РЅР° РїРѕС‡С‚Сѓ
 $Template = new TemplateDB('cms_mail_template', 'cms', 'amnesia'); 
 $Template->set($data);
 $Template->set('auth_code', $auth_code);
 
 //mail('brezetskiy.sergiy@gmail.com', 'subject', $Template->display());
 
-$Sendmail = new Sendmail(CMS_MAIL_ID, cms_message('CMS', 'Восстановление пароля - '.CMS_HOST), $Template->display());
+$Sendmail = new Sendmail(CMS_MAIL_ID, cms_message('CMS', 'Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РїР°СЂРѕР»СЏ - '.CMS_HOST), $Template->display());
 $Sendmail->send($data['email'], true);
 
-// Пароль был успешно отправлен Вам на e-mail адрес
-Action::setSuccess(cms_message('CMS', 'На указанный вами e-mail отправлены инструкции по восстановлению пароля'));
+// РџР°СЂРѕР»СЊ Р±С‹Р» СѓСЃРїРµС€РЅРѕ РѕС‚РїСЂР°РІР»РµРЅ Р’Р°Рј РЅР° e-mail Р°РґСЂРµСЃ
+Action::setSuccess(cms_message('CMS', 'РќР° СѓРєР°Р·Р°РЅРЅС‹Р№ РІР°РјРё e-mail РѕС‚РїСЂР°РІР»РµРЅС‹ РёРЅСЃС‚СЂСѓРєС†РёРё РїРѕ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЋ РїР°СЂРѕР»СЏ'));
 
 ?>

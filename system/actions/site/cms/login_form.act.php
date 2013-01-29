@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Форма для логина, AJAX версия
  * @package Pilot
