@@ -32,7 +32,7 @@ require_once('system/config.inc.php');
  */
 if (isset($GLOBALS['HTTP_RAW_POST_DATA']) || isset($GLOBALS['JsHttpRequest'])) {
 	define('AJAX', 1);
-	$JsHttpRequest = new JsHttpRequest("windows-1251");
+	$JsHttpRequest = new JsHttpRequest("utf-8");
 } else {
 	define('AJAX', 0);
 }
@@ -65,7 +65,7 @@ if (!isset($_SESSION)) {
 
 
 /**
- * Чистим сессию от старых сообщений
+ * Р§РёСЃС‚РёРј СЃРµСЃСЃРёСЋ РѕС‚ СЃС‚Р°СЂС‹С… СЃРѕРѕР±С‰РµРЅРёР№
  */
 if (isset($_SESSION)) {
 	if (isset($_SESSION['ActionReturn'])) unset($_SESSION['ActionReturn']);
@@ -77,7 +77,7 @@ if (isset($_SESSION)) {
  * Action is empty
  */
 if (empty($event)) {
-	Action::setError(cms_message('CMS', 'Не указано действие, которое необходимо выполнять.'));
+	Action::setError(cms_message('CMS', 'РќРµ СѓРєР°Р·Р°РЅРѕ РґРµР№СЃС‚РІРёРµ, РєРѕС‚РѕСЂРѕРµ РЅРµРѕР±С…РѕРґРёРјРѕ РІС‹РїРѕР»РЅСЏС‚СЊ.'));
 	Action::onError();
 } 
 
@@ -89,7 +89,7 @@ if (is_file(ACTIONS_ROOT.'site/'.$event.'.act.php')) {
 	require_once(ACTIONS_ROOT.'site/'.$event.'.act.php');
 	
 } else {
-	Action::setError(cms_message('CMS', 'Не найден обработчик события %s', $event));
+	Action::setError(cms_message('CMS', 'РќРµ РЅР°Р№РґРµРЅ РѕР±СЂР°Р±РѕС‚С‡РёРє СЃРѕР±С‹С‚РёСЏ %s', $event));
 	Action::onError();
 }
 
