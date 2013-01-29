@@ -1,7 +1,7 @@
 @import "/design/cms/css/cms_view.css";
 
 /**
-* Выравнивает сообщение об ошибке для view страниц по центру
+* Р’С‹СЂР°РІРЅРёРІР°РµС‚ СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ РґР»СЏ view СЃС‚СЂР°РЅРёС† РїРѕ С†РµРЅС‚СЂСѓ
 */
 DIV.message_align {
 	text-align: center;
@@ -9,7 +9,7 @@ DIV.message_align {
 }
 
 
-/* Таблица в разделе просмотра */
+/* РўР°Р±Р»РёС†Р° РІ СЂР°Р·РґРµР»Рµ РїСЂРѕСЃРјРѕС‚СЂР° */
 
 TABLE.cms_gallery {
 	border: 1px solid #CCCCCC;
@@ -65,7 +65,7 @@ DIV.cms_gallery_type INPUT
 	font-size: 10px;
 }
 /**
-* Ячейка, в которой пишется что нет данных для вывода, когда таблица - пустая
+* РЇС‡РµР№РєР°, РІ РєРѕС‚РѕСЂРѕР№ РїРёС€РµС‚СЃСЏ С‡С‚Рѕ РЅРµС‚ РґР°РЅРЅС‹С… РґР»СЏ РІС‹РІРѕРґР°, РєРѕРіРґР° С‚Р°Р±Р»РёС†Р° - РїСѓСЃС‚Р°СЏ
 */
 TABLE.cms_gallery TD.no_content {
 	background-color: #EEEEEE; 
@@ -74,7 +74,7 @@ TABLE.cms_gallery TD.no_content {
 }
 
 /**
-* Ячейки с контентом
+* РЇС‡РµР№РєРё СЃ РєРѕРЅС‚РµРЅС‚РѕРј
 */
 TABLE.cms_gallery TBODY TD {
 	vertical-align: middle;

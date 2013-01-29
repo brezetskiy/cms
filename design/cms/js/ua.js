@@ -1,4 +1,4 @@
-﻿/*
+/*
  * $Log: ua.js,v $
  * Revision 1.9  2002/07/22 14:06:21  bc6ix
  * fix license path, change version reporting to use 2 digits for each level

@@ -1,4 +1,4 @@
-﻿// Игнорирует нажатие всех клавиш, кроме Ctrl+R и Tab (для больших внешних полей)
+// Игнорирует нажатие всех клавиш, кроме Ctrl+R и Tab (для больших внешних полей)
 function ignoreKey() {
 	// Ctrl + R
 //	if (window.event.ctrlKey && event.keyCode==82) {
