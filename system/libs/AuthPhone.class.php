@@ -24,7 +24,7 @@ class AuthPhone {
 	
 	
 	/**
-	 * Формаирует коды
+	 * Формирует коды
 	 *
 	 * @param int $length
 	 * @return int

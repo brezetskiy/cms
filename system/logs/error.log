@@ -10920,3 +10920,487 @@ Z:\home\localhost\cms\system\libs\Template.class.php (125) =>
 Z:\home\localhost\cms\system\libs\Auth.class.php (853) => 
 Z:\home\localhost\cms\index_admin_login.php (66)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:51
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:51
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:52
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:53
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 11:18:54
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AuthPhone
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (463) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (389) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (212) => 
+Z:\home\localhost\cms1\system\libs\Auth.class.php (106) => 
+Z:\home\localhost\cms1\index_site.php (126)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:06:25
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Adminbar
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (164)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:06:25
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Adminbar
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (164)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:08:06
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383405
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms1/templates/cms/site/adminbar.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms1\system\libs\Adminbar.class.php (54) => 
+Z:\home\localhost\cms1\index_site.php (164)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:08:06
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383405
+Line: 125
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms1/templates/cms/site/adminbar.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms1\system\libs\Adminbar.class.php (54) => 
+Z:\home\localhost\cms1\index_site.php (164)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:05
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:06
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:06
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:07
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:07
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:10:07
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:12
+URL: http://cms1.localhost/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:12
+URL: http://cms1.localhost/favicon.ico?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса AES
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\index_site.php (263)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:29
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:29
+URL: http://cms1.localhost/design/cformat/js/jquery-1.8.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/js/jquery-1.8.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:29
+URL: http://cms1.localhost/design/cformat/css/newstyle.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/cformat/css/newstyle.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:14:30
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------

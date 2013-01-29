@@ -1,8 +1,10 @@
 <?php
 
 $_LIBS_CACHE = array(
+	'adminbar' => '\Adminbar.class.php',
 	'auth' => '\Auth.class.php',
 	'authotp' => '\AuthOTP.class.php',
+	'authphone' => '\AuthPhone.class.php',
 	'currency' => '\Currency.class.php',
 	'filesystem' => '\Filesystem.class.php',
 	'news' => '\News.class.php',
