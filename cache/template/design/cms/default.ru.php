@@ -1,6 +1,6 @@
 <html>
 <head>
-	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 	<meta http-equiv="imagetoolbar" content="no"> 
 	<TITLE><?php echo $this->vars['title']; ?></TITLE>
 	<base href="<?php echo HTTP_SCHEME; ?>://<?php echo CMS_HOST; ?><?php echo $this->global_vars['base_url']; ?>">
@@ -10,9 +10,9 @@
    	<link rel="stylesheet" href="/design/cms/css/cms_gallery.css" type="text/css">
    	<link rel="stylesheet" href="/css/gallery/coolgallery.css" type="text/css">
    	<link rel="stylesheet" href="/design/cms/css/jquery.jgrowl.css" type="text/css">
-   	<link rel="stylesheet" href="/extras/jquery/lightbox/jquery.lightbox.css" type="text/css">
+   	<!--<link rel="stylesheet" href="/extras/jquery/lightbox/jquery.lightbox.css" type="text/css">-->
    	
- 	<link rel="stylesheet" href="/extras/jquery/css/chosen/style.css" />
+ 	<!--<link rel="stylesheet" href="/extras/jquery/css/chosen/style.css" />-->
  	
    	<?php
 			reset($this->vars['/css/'][$__key]);
@@ -32,16 +32,16 @@
 	<script language="JavaScript" type="text/javascript" src="/js/shared/jshttprequest.js"></script>
 	<script language="JavaScript" type="text/javascript" src="/js/shared/scw.js"></script>
 	
-	<script language="JavaScript" type="text/javascript" src="/extras/fusioncharts/chart.js"></script> 
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery-1.4.2.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/lightbox/jquery.lightbox.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jqmodal.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jgrowl.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.tablednd.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.core.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.slide.js"></script>
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/fusioncharts/chart.js"></script> -->
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.min.js"></script>
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/lightbox/jquery.lightbox.js"></script>-->
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jqmodal.js"></script>-->
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jgrowl.min.js"></script>-->
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.tablednd.js"></script>-->
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.core.js"></script>-->
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.slide.js"></script>-->
 	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.idtabs.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.chosen.min.js"></script>
+	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.chosen.min.js"></script>-->
 	
 	<script language="JavaScript" type="text/javascript" src="/js/shared/global.js"></script>
 	<script type="text/javascript" src="/extras/ckeditor/ckeditor.js"></script>

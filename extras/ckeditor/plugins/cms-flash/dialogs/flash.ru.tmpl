@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Вставка файла</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<link href="/extras/ckeditor/plugins/cms-shared/dialog.css?2" rel="stylesheet" type="text/css" />
+<script>
+var CKEDITOR = window.parent.CKEDITOR;
+
+var okListener = function(ev) {
+	document.getElementById('editor_name').value = CKEDITOR.config.activeEditorName
+	document.getElementById('id').value = CKEDITOR.instances[CKEDITOR.config.activeEditorName].config.object_id
+	document.getElementById('temp_id').value = CKEDITOR.instances[CKEDITOR.config.activeEditorName].config.object_temp_id
+	document.getElementById('field_name').value = CKEDITOR.instances[CKEDITOR.config.activeEditorName].config.object_field
+	document.getElementById('table_name').value = CKEDITOR.instances[CKEDITOR.config.activeEditorName].config.object_table
+	document.getElementById('dialog_form').submit();
+	CKEDITOR.dialog.getCurrent().removeListener("ok", okListener);
+};
+
+CKEDITOR.dialog.getCurrent().on("ok", okListener);
+
+</script>
+</head>
+<body>
+<form id="dialog_form" action="/action/admin/ckeditor/flash_upload/" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="id" id="id">
+	<input type="hidden" name="temp_id" id="temp_id">
+	<input type="hidden" name="field_name" id="field_name">
+	<input type="hidden" name="table_name" id="table_name">
+	<input type="hidden" name="editor_name" id="editor_name">
+
+<table class="cms_cke_dialog">
+	<tr>
+		<td align="title">Flash ролик:</td>
+		<td><input class="input_file" type="file" name="uploadFile" size="30"></td>
+	</tr>
+</table>
+
+</form>
+</body>
+</html>
