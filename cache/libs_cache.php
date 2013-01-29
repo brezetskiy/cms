@@ -24,6 +24,7 @@ $_LIBS_CACHE = array(
 	'cmstable' => '\cmsTable.class.php',
 	'db' => '\db.class.php',
 	'misc' => '\misc.class.php',
+	'tree' => '\tree.class.php',
 	'dbmssql' => '\db\mssql.class.php',
 	'dbmysqli' => '\db\mysqli.class.php',
 	'googleopenid' => '\openid\GoogleOpenID.class.php',
