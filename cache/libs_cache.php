@@ -13,6 +13,7 @@ $_LIBS_CACHE = array(
 	'templateudf' => '\TemplateUDF.class.php',
 	'uploads' => '\Uploads.class.php',
 	'action' => '\action.class.php',
+	'aes' => '\aes.class.php',
 	'cache' => '\cache.class.php',
 	'db' => '\db.class.php',
 	'misc' => '\misc.class.php',
