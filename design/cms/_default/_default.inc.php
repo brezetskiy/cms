@@ -1,8 +1,8 @@
 <?php
 /** 
- * Обработчик шаблона для сайта, используемый по умолчанию.
- * Данный шаблон используется как "скелет" для нового дизайна сайта.
- * require_once этого щаблона - запрещено!
+ * РћР±СЂР°Р±РѕС‚С‡РёРє С€Р°Р±Р»РѕРЅР° РґР»СЏ СЃР°Р№С‚Р°, РёСЃРїРѕР»СЊР·СѓРµРјС‹Р№ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ.
+ * Р”Р°РЅРЅС‹Р№ С€Р°Р±Р»РѕРЅ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РєР°Рє "СЃРєРµР»РµС‚" РґР»СЏ РЅРѕРІРѕРіРѕ РґРёР·Р°Р№РЅР° СЃР°Р№С‚Р°.
+ * require_once СЌС‚РѕРіРѕ С‰Р°Р±Р»РѕРЅР° - Р·Р°РїСЂРµС‰РµРЅРѕ!
  * 
  * @package Pilot
  * @subpackage Site
@@ -10,15 +10,15 @@
  * @copyright Delta-X, ltd. 2009
  */ 
 
-// Верхнее меню
+// Р’РµСЂС…РЅРµРµ РјРµРЅСЋ
 $data = $Site->getTopMenu();
 $TmplDesign->iterateArray('/menu/', null, $data);
 
-// Путь к странице
-$data = $Site->getPath('Главная');
+// РџСѓС‚СЊ Рє СЃС‚СЂР°РЅРёС†Рµ
+$data = $Site->getPath('Р“Р»Р°РІРЅР°СЏ');
 $TmplDesign->iterateArray('/path/', null, $data);
 
-// Левое меню
+// Р›РµРІРѕРµ РјРµРЅСЋ
 $data = $Site->getLeftMenu();
 $TmplDesign->iterateArray('/menu/', null, $data);
 
@@ -26,8 +26,8 @@ $TmplDesign->iterateArray('/menu/', null, $data);
 
 
 /**
- * Для редактируемых страниц выводим комментарии
- * Не выводим комментарии на страницах, к которым пользователь не имеет доступа
+ * Р”Р»СЏ СЂРµРґР°РєС‚РёСЂСѓРµРјС‹С… СЃС‚СЂР°РЅРёС† РІС‹РІРѕРґРёРј РєРѕРјРјРµРЅС‚Р°СЂРёРё
+ * РќРµ РІС‹РІРѕРґРёРј РєРѕРјРјРµРЅС‚Р°СЂРёРё РЅР° СЃС‚СЂР°РЅРёС†Р°С…, Рє РєРѕС‚РѕСЂС‹Рј РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РёРјРµРµС‚ РґРѕСЃС‚СѓРїР°
  *
 if (is_module('comment') && COMMENT_SITE_ENABLED) {
 	$show_comments = $DB->result("SELECT allow_comments FROM site_structure WHERE id = '".SITE_STRUCTURE_ID."'");
@@ -57,7 +57,7 @@ if (is_module('comment') && COMMENT_SITE_ENABLED) {
 }
 
 /**
- * Рейтинг страницы
+ * Р РµР№С‚РёРЅРі СЃС‚СЂР°РЅРёС†С‹
  *
 if (is_module('rating') && isset($page_info['allow_rating']) && $page_info['allow_rating'] == 'true') {
 	$Rating = new Rating('site_structure');
