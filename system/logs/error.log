@@ -11966,3 +11966,4353 @@ Process:
 Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
 Z:\home\localhost\cms1\index_site.php (48)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:34
+URL: http://cms1.localhost/extras/jquery/jqModal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jqModal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:28:49
+URL: http://cms1.localhost/admin/site/structure/?structure_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса BTree
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\design\cms\default.inc.php (160) => 
+Z:\home\localhost\cms1\index_admin.php (112)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:04
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:05
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:06
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:06
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:06
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:06
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:07
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:07
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:07
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:07
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:08
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:08
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:08
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:09
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:09
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:09
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:13
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:13
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:13
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:14
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:15
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:15
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:15
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:15
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:15
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:17
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:18
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:18
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:18
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:18
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:18
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:19
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:19
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:19
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:19
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:20
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:21
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:21
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:21
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:21
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:21
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:34
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:34
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:34
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:34
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:34
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:36
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:36
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:36
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:36
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:36
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:37
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:37
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:37
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:37
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:38
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:31:38
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/logs/actionlog/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:45
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:46
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:51
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:51
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:51
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:51
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:52
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:52
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:52
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:52
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:52
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:53
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:38:54
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:42:01
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsShowView
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (23) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:43:38
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383405
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms1/templates/cms/admin/cms_view.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (258) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (23) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:44:51
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса SQLParserMySQLi
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (261) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (23) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:45:22
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса SQLParser
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\SQLParserMySQLi.class.php (16) => 
+Z:\home\localhost\cms1\system\config.inc.php (247) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (261) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (23) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:48:28
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsTable
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (267) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (23) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:48:53
+URL: http://cms1.localhost/admin/site/sites/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/design/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsFilter
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (490) => 
+Z:\home\localhost\cms1\content\cms_structure\site\sites.ru.php (30) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:10
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:11
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:49:12
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:30
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:31
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:33
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:33
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:33
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:33
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:33
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:50:34
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:40
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:40
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:40
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:41
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:42
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:42
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:42
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:42
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 15:55:42
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:30
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:31
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:32
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:41
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:42
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:43
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:44
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:45
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:46
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:47
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:48
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:49
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:49
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:49
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:49
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:03:49
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:04:49
+URL: http://cms1.localhost/admin/site/structure/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/sites/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Tree
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\site\structure.ru.php (25) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/css/gallery/coolgallery.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/gallery/coolgallery.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/fusioncharts/chart.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/fusioncharts/chart.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/jquery.jqmodal.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jqmodal.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:37
+URL: http://cms1.localhost/extras/jquery/jquery.tablednd.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.tablednd.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/jquery/effects.core.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.core.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/jquery/effects.slide.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/effects.slide.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/jquery/jquery.idtabs.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.idtabs.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/jquery/jquery.chosen.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.chosen.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/ckeditor/ckeditor.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/ckeditor.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/js/cms/message.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/cms/message.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 16:05:38
+URL: http://cms1.localhost/extras/jquery/jquery.blockUI.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.blockUI.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------

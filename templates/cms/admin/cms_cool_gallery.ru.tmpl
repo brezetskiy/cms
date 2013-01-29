@@ -1,0 +1,54 @@
+{if !empty($table_title)}<H2>{$table_title}</H2>{/if}
+
+{if $show_path == true}
+<tmpl:path><a href="{$url}">{$name}</a> <img src="/design/cms/img/ui/selector.gif" width="6" height="9" alt=""> </tmpl:path> {$path_current}
+{/if}
+
+{* этот скрипт не выносить в отдельный файл *}
+<script>
+max_height = '{@max_height}';
+var swf_upload_{$image_field};
+</script>
+
+<script language="JavaScript" type="text/javascript" src="/extras/swfupload/swfupload.2.2.0.beta3.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/gallery/coolgallery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/extras/swfupload/handlers_coolgallery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/extras/longtailvideo/swfobject.js"></script>
+<script type='text/javascript' src='swfobject.js'></script>
+
+
+<div id="mediaspace" class="longtailvideo">
+	<a href="javascript:void(0);" onclick="$('#mediaspace').css({'display':'none'});">Закрыть</a>
+	<div id="mediaspace_video"></div>
+</div>
+
+
+<span id="spanSWFUploadButton"></span>
+<div id="gallery_upload_status"></div><br>
+<input type="hidden" name="gallery_table_id" id="gallery_table_id" value="{@table.id}">
+
+{* не менять порядок этих слоев! *}
+<div id="gallery_drag_delimiter"></div>
+<div id="gallery_hover_layer" onmouseout="return galleryLayerOut()" onmousedown="return galleryDragStart(event)" onmouseup="return galleryDragStop()"></div>
+<div id="gallery_drag_handler" onmouseup="return galleryDragStop()" onmousemove="return galleryDragMove(event)"></div>
+<div id="gallery_drag_layer" onmouseup="return galleryDragStop()" onmousemove="return galleryDragMove(event)"></div>
+
+<div class="gallery_container" id="gallery_container">
+<tmpl:image>
+	<div style="height: {@cell_height}px; width: {@cell_width}px;" onmouseover="return galleryLayerOver(this, '{@width}', '{@height}', '{$description}')" class="gallery_image_layer" id="il_{$id}">
+		<div class="gallery_image_layer_toolbar">
+			<div style="float:left"><span style="cursor: default" ondblclick="GalleryEditPhotoDescription('{$id}', {@table.id}, '{#LANGUAGE_CURRENT}', this.title); return false;" id="gallery_descr_{@table.id}_{$id}" title="{$description}">{$description_show}</span></div>
+			{if in_array($extension, array('flv', 'mp4', 'aac', 'mp3'))}
+				<a title="{$description}" href="javascript:void(0);" onclick="show_video('mediaspace', '{$url}');"><img border="0" src="/design/cms/img/icons/zoom.gif"></a>
+			{else}
+				<a rel="lightbox-gallery" title="{$description}" href="{$url}"><img border="0" src="/design/cms/img/icons/zoom.gif"></a>
+			{/if}
+			<a href="#" title="Редактировать" onclick="EditWindow('{$id}', {@table.id}, '', '{#CURRENT_URL_LINK}', '{#LANGUAGE_CURRENT}', '');return false;"><img border="0" src="/design/cms/img/icons/change.gif"></a>
+			<a href="#" title="Удалить" onclick="gallery_swf_upload_delete('{$id}','{@table.name}','photo', '{$extension}'); return false;"><img border="0" src="/design/cms/img/icons/del.gif"></a>
+		</div>
+		<div rel="image_holder" class="image_holder" style="text-align: center; height: {#CMS_THUMB_HEIGHT};">
+			<img style="{$thumb_style}" src="{$thumb_url}">
+		</div>
+	</div>
+</tmpl:image>
+</div>

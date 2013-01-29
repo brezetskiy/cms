@@ -1,0 +1,316 @@
+<script>
+
+$(document.body).click(function(e) {
+	var id = e.target.id;
+	var is_window_inside = 0;  
+	
+	jQuery.each($("#filter_{@instance_number}_select").find('*'), function(){
+		if(id != '' && id == $(this).attr('id')){ 
+			is_window_inside = 1;
+		}
+	});
+	
+	if(id == 'filter_{@instance_number}_select_button') is_window_inside = 1;
+	if(id == 'filter_{@instance_number}_select_button_image') is_window_inside = 1;
+	
+	if(is_window_inside == 0) $("#filter_{@instance_number}_select").hide();
+});
+
+</script>
+
+
+{if $show_title}<H2>{$table_title}</H2>{/if}
+
+
+<!-- Фильтр -->
+<div id="filter_form_{@instance_number}" style="display:{$show_filter};">
+	<br>
+	
+	<form method="POST" action="/action/admin/cms/table_filter/" id="filter_{@instance_number}">
+		<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+		<input type="hidden" name="_language" value="{#LANGUAGE_CURRENT}">
+		<input type="hidden" name="instance_number" value="{@instance_number}">
+		<input type="hidden" name="structure_id" value="{#CMS_STRUCTURE_ID}" id="structure_id">
+		<input type="hidden" name="table_id" value="{@table.id}" id="table_id">  
+		<input  type="submit" name="update" value="Apply" style="position: absolute; height: 0px; width: 0px; border: none; padding: 0px;" hidefocus="true" tabindex="-1"/>
+		
+		<table class="filter-form" width="100%" cellpadding="0" cellspacing="0">
+			<tmpl:filter_table>
+				<tr id="filter_{@instance_number}_title_{$id}" class="filter-table-title" style="{if !$show_as_dominant && !$show_as_checked}display:none;{/if}">
+					<th colspan="3" ondblclick="document.location.href='/Admin/CMS/DB/Tables/Fields/?table_id={$table_id}'">{$title}</th>
+				</tr>
+				
+				<tmpl:filter_field> 
+					<tr id="filter_{@instance_number}_row_{$table_id}_{$index}" class="filter-row" style="{if !$show_as_dominant && !$show_as_checked}display:none;{/if}">
+						<td width="30%" class="title {$class}"><span title="{$table_name}.{$field_name}">{$title}</span>{if !empty($field_language)}<img src="/design/cms/img/language/{$field_language}.gif" border="0" hspace="5">{/if}:</td>
+						<td width="65%">
+							<input type="hidden" id="{$id}_condition" name="{$name}[condition]" value="{$condition}">
+							  
+							{if $cms_type == 'checkbox_set' || $cms_type == 'radio' || $data_type == 'enum'}
+								<input type="hidden" id="filter_input_type_{$index}" value="list">
+							
+								<select style="width:325px;" id="{$id}_list" class="tree filter-wide chzn-select" name="{$name}[0]" onchange="cmsView.filterActivate('{$id}')">
+									<option value=""></option>
+									{html_options options=$options selected=$value_1}
+								</select>
+								 
+							{elseif $cms_type == 'fk_list' || $cms_type == 'fk_tree' || $cms_type == 'fk_cascade' || $cms_type == 'fk_nn_list' || $cms_type == 'fk_nn_tree'}
+								<input type="hidden" id="filter_input_type_{$index}" value="list">
+								
+								<select id="{$id}_list" class="tree filter-wide chzn-select" name="{$name}[0]{$multiple_1}" onchange="cmsView.filterActivate('{$id}')" {$multiple_2}>
+									<option value=""></option>
+									{html_options options=$options selected=$value_1}
+									{$tree}
+								</select>
+								
+							{elseif $pilot_type=='date'}
+								<input type="hidden" id="filter_input_type_{$index}" value="int">
+								
+								<input type="text" class="date filter-short" name="{$name}[0]" value="{$value_1}" onclick="scwShow(scwID('{$id}_from'),event);cmsView.filterActivate('{$id}');" id="{$id}_from">
+								<div id="to_input_{$id}" style="display:{$display};"> - <input type="text" class="date filter-short" name="{$name}[1]" value="{$value_2}" onclick="scwShow(scwID('{$id}_to'),event);cmsView.filterActivate('{$id}', 'between');" id="{$id}_to"></div>
+								
+								{if $condition == 'between'}
+									<a id="to_switcher_{$id}" href="javascript:void(0);" onclick="cmsView.filterBetween('{$id}');" title="Равно"><img src="/design/cms/img/filter/gray_spacer_active.png" align="absmiddle" border="0"></a>
+								{else}
+									<a id="to_switcher_{$id}" href="javascript:void(0);" onclick="cmsView.filterBetween('{$id}');" title="Внутри интервала"><img src="/design/cms/img/filter/gray_spacer.png" align="absmiddle" border="0"></a>
+								{/if}
+							{elseif $cms_type=='ajax_select'}
+								<input type="hidden" id="filter_input_type_{$index}" value="ajax_list">
+								<input type="hidden" id="{$id}" name="{$name}[0]" value="{$value_1}">
+								 
+								<input name="{$uniq_id}" type="text" id="{$id}_text" value="{$text_value}" maxLength="{$max_length}" size="{$size}" onblur="cmsView.filterActivate('{$id}');AjaxSelect.blur('{$id}');" onfocus="AjaxSelect.focus('{$id}');" onkeydown="AjaxSelect.keyDown('{$id}');" onkeyup="AjaxSelect.keyUp({$table_id}, '{$field_name}', '{$id}');" class="filter-wide">
+								<input type="checkbox" disabled id="{$id}_fixed" {if !empty($text_value)}checked{/if}>
+								<div class="ajax_select_hint" id="{$id}_hint" onmouseover="AjaxSelect.cancelBlur();" onmouseout="AjaxSelect.restoreBlur();"></div>
+								
+							{elseif $cms_type == 'checkbox'}
+								<input type="hidden" id="filter_input_type_{$index}" value="checkbox">
+								
+								<input type="hidden" name="{$name}[dummie]" value="1">
+								<input id="{$id}_checkbox" type="checkbox" name="{$name}[0]" value="{$checkbox_value}" {$checked} onclick="cmsView.filterActivate('{$id}')">
+							
+							{elseif $cms_type=='fk_ext_cascade' || $cms_type == 'fk_ext_tree'}
+								<input type="hidden" id="filter_input_type_{$index}" value="text">
+								
+								<input type="text" id="{$id}_text" value="{$text_value}" size="50" onkeydown="return ignoreKey();" onclick="cmsView.filterActivate('{$id}');CenterWindow('/tools/cms/admin/ext_select.php?field_name={$id}&table_id={$fk_table_id}&open_id='+document.getElementById('{$id}').value, 'tree', 400, 500, 1, 1);" class="filter-wide" style="width:90%;">
+								<a href="javascript:void(0);" onclick="cmsView.filterActivate('{$id}');CenterWindow('/tools/cms/admin/ext_select.php?field_name={$id}&table_id={$fk_table_id}&open_id='+document.getElementById('{$id}').value, 'tree', 400, 500, 1, 1);">
+									<img src="/design/cms/img/ui/structure_link.png" width="16" height="16" border="0" align="absmiddle" onmouseover="this.style.background='EAF3FB';" onmouseout="this.style.background='';" style="margin: -2px 0px 0px 2px;"">
+								</a>
+								<input type="hidden" id="{$id}" name="{$name}[0]" value="{$value_1}" size="50"><br> 
+								
+							{elseif $cms_type=='fk_ext_list'}
+								<input type="hidden" id="filter_input_type_{$index}" value="text">
+								
+								<input type="text" id="{$id}_text" value="{escape type='htmlspecialchars' text=$text_value}" size="50" onkeydown="return ignoreKey();" onclick="cmsView.filterActivate('{$id}');CenterWindow('/tools/cms/admin/ext_list.php?field_name={$id}&table_id={$fk_table_id}&open_id='+document.getElementById('{$id}').value, 'tree', 800, 600, 1, 1);" class="filter-wide" style="width:90%;">
+								<a href="javascript:void(0);" onclick="cmsView.filterActivate('{$id}');CenterWindow('/tools/cms/admin/ext_list.php?field_name={$id}&table_id={$fk_table_id}&open_id='+document.getElementById('{$id}').value, 'tree', 800, 600, 1, 1);">
+									<img src="/design/cms/img/ui/structure_link.png" width="16" height="16" border="0" align="absmiddle" onmouseover="this.style.background='EAF3FB';" onmouseout="this.style.background='';" style="margin: -2px 0px 0px 2px;">
+								</a>
+								<input type="hidden" id="{$id}" name="{$name}[0]" value="{$value_1}" size="50"><br>
+								
+							{elseif $pilot_type=='int' || $pilot_type=='decimal'}
+								<input type="hidden" id="filter_input_type_{$index}" value="int">
+								 
+								<input type="text" name="{$name}[0]" value="{$value_1}" onkeyup="cmsView.filterActivate('{$id}')" class="filter-short"  id="{$id}_from">
+								<div id="to_input_{$id}" style="display:{$display};"> - <input type="text" name="{$name}[1]" value="{$value_2}" onclick="cmsView.filterActivate('{$id}', 'between');" id="{$id}_to" class="filter-short"></div>
+								
+								{if $condition == 'between'}
+									<a id="to_switcher_{$id}" href="javascript:void(0);" onclick="cmsView.filterBetween('{$id}');" title="Равно"><img src="/design/cms/img/filter/gray_spacer_active.png" align="absmiddle" border="0"></a>
+								{else}
+									<a id="to_switcher_{$id}" href="javascript:void(0);" onclick="cmsView.filterBetween('{$id}');" title="Внутри интервала"><img src="/design/cms/img/filter/gray_spacer.png" align="absmiddle" border="0"></a>
+								{/if} 
+							{else} 
+								<input type="hidden" id="filter_input_type_{$index}" value="text">
+								<input id="{$id}_text" type="text" name="{$name}[0]" value="{$value_1}" onkeyup="cmsView.filterActivate('{$id}', 'like')" class="filter-wide">
+								
+							{/if} 
+						</td>
+						<td width="5%" align="center">
+							{if !$show_as_dominant} 
+							<a href="javascript:void(0);" onclick="cms_filter_field_hide('{@instance_number}', {$index});" title="Убрать поле из фильтра">
+								<img src="/design/cms/img/filter/box_minus.png" align="absmiddle" border="0" alt="Скрыть" onmouseover="this.src='/design/cms/img/filter/box_minus_active.png'" onmouseout="this.src='/design/cms/img/filter/box_minus.png'">
+							</a>
+							{else}
+								&nbsp;
+							{/if}
+						</td>
+					</tr>  
+				</tmpl:filter_field>
+			</tmpl:filter_table>  
+			
+			<tr class="filter-control">
+				<td class="filter-control-row" colspan="3">
+					<div class="filter-separator-section" >&nbsp;</div>
+					
+					{if !empty(@fields_select_box_total_exists)}
+						<a href="javascript:void(0);" onclick="cms_filter_fields_show('{@instance_number}');" class="button"><img src="/design/cms/img/filter/green_bottom.png" align="absmiddle" border="0" title="Отобразить все доступные фильтры"></a>
+						<a href="javascript:void(0);" onclick="cms_filter_fields_hide('{@instance_number}');" class="button"><img src="/design/cms/img/filter/green_top.png" align="absmiddle" border="0" title="Скрыть все фильтры"></a> 
+						
+						<div class="filter-separator-row">&nbsp;</div>
+							 
+						<a href="javascript:void(0);" id="filter_{@instance_number}_select_button" onclick="cms_filter_select_box('{@instance_number}');" class="button" title="Добавить условия поиска">
+							&nbsp; <img id="filter_{@instance_number}_select_button_image" src="/design/cms/img/filter/green_plus.png" align="absmiddle" border="0" style="margin-right:3px; ">
+							Добавить условие поиска &nbsp; 
+						</a>     
+						<div id="filter_{@instance_number}_select" class="filter-select-box">
+						<tmpl:filter_table>
+							<tmpl:filter_field>
+								{if !$show_as_dominant}  
+									{if !empty($table_title)}
+										<div id="filter_{@instance_number}_select_table_{$index}" class="table">{$table_title}</div>
+									{/if}   
+									
+									<label id="filter_{@instance_number}_select_label_{$index}" for="filter_{@instance_number}_select_input_{$index}">
+										<div id="filter_{@instance_number}_select_button_{$index}" class="filter-select-list" onclick="cms_filter_field_switch('{@instance_number}');"> 
+											<div id="filter_{@instance_number}_select_unit_{$index}" class="checkbox">
+												<input id="filter_{@instance_number}_select_input_{$index}" type="checkbox" value="{$table_id}_{$index}" {if $show_as_checked}checked{/if}>
+											</div>   
+											<div id="filter_{@instance_number}_select_title_{$index}" class="title">{$title}</div>
+											<div id="filter_{@instance_number}_select_devider_{$index}" style="clear:both;"></div>
+										</div>
+									</label>   
+								{elseif @fields_select_box_table_exists && !empty($table_title)}
+									<div id="filter_{@instance_number}_select_table_{$index}" class="table">{$table_title}</div>
+								{/if}
+							</tmpl:filter_field>
+						</tmpl:filter_table>
+						</div>
+						
+						<div class="filter-separator-row">&nbsp;</div>
+					{else}
+						<span class="comment">Дополнительные поля фильтрации не обнаружены</span>
+						<div class="filter-separator-row">&nbsp;</div>	
+					{/if}
+					
+					<a href="javascript:void(0);" onclick="$('#filter_{@instance_number}').submit();" class="button">
+						&nbsp; <img src="/design/cms/img/filter/search.png" align="absmiddle" border="0"> Поиск &nbsp; 
+					</a>
+					
+					<div style="float:right;"> 
+						<a href="javascript:void(0);" onclick="cmsView.showFilter({@instance_number});" class="button" title="Свернуть фильтр"><img src="/design/cms/img/filter/roll_down.png" align="absmiddle" border="0"></a>
+						<a href="javascript:void(0);" onclick="document.location.href='/action/admin/cms/table_filter_clean/?instance_number={@instance_number}&structure_id={#CMS_STRUCTURE_ID}&_return_path={#CURRENT_URL_LINK}';" class="button" title="Отменить фильтр"><img src="/design/cms/img/icons/del.gif" align="absmiddle" border="0"></a>
+					</div>
+				</td>
+			</tr> 
+		</table>
+		
+	</form>
+</div>
+
+
+{if $show_rows_limit}
+	<!-- Форма, в которой указывается количество строк на странице -->
+	<div style="float:right;">
+		<form action="/action/admin/cms/table_rows/" method="POST">
+		<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+		<input type="hidden" name="_language" value="{#LANGUAGE_CURRENT}">
+		<input type="hidden" name="structure_id" value="{#CMS_STRUCTURE_ID}">
+		<input type="hidden" name="table_id" value="{@table.id}">
+		Показывать рядов: <input type="text" name="rows_per_page" value="{@rows_per_page}" size=2>
+		</form>
+	</div>
+{/if}
+
+
+<!-- Путь к таблице -->
+{if $show_path == true}
+	<tmpl:path><a href="{$url}">{$name}</a> <img src="/design/cms/img/ui/selector.gif" width="6" height="9" alt=""> </tmpl:path> {$path_current}
+{/if}
+
+
+<form id="form_{@instance_number}" action="/action/admin/cms/table_update/" method="POST" class="cms_view_form">
+	<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+	<input type="hidden" name="_language" value="{#LANGUAGE_CURRENT}">
+	<input type="hidden" name="_current_url" value="{#CMS_STRUCTURE_URL}">
+	<input type="hidden" name="_table_language" value="{$table_language}">
+	<input type="hidden" name="_table_id" value="{@table.id}">
+	<tmpl:hidden_field>
+		<input type="hidden" name="{$name}" value="{$value}">
+	</tmpl:hidden_field>
+	
+	<!-- События -->
+	{if $event_counter > 0}
+		<div style="float:left;">
+			<img src="/design/cms/img/event/arrow.gif" width="14" height="21" border="0" alt="" style="margin-left:20px;">
+			<tmpl:event_button>
+				<a title="{$alt}" href="javascript:void(0);" onclick="if(!cmsView.click(this, '{$alert}')) return false; {$event}"><img 
+				id="{@table.id}_{$name}" class="event" longdesc="{$image}" lang="{$image_over}" alt="{$alt}" src="{$image}" 
+				rel="{$select_none}{$select_one}{$select_few}"></a>
+			</tmpl:event_button>
+		</div>
+	{/if}
+	
+	<!-- Переключение языков -->
+	<div style="float:right;padding-right:10px;">
+		<tmpl:table_language>
+		<a href="{$url}"><img {$class} src="/design/cms/img/language/{$language}.gif" border="0" hspace="5"></a>
+		</tmpl:table_language>
+	</div>
+	<br clear="all">
+	<table border="0" class="cms_view" cellspacing="2">
+		<thead>
+			<tr>
+				<tmpl:th1>
+				<td colspan="{$colspan}" rowspan="{$rowspan}" width="{$width}">{$title}</td>
+				</tmpl:th1>
+			</tr>
+			{if $merged_columns > 0}
+			<tr>
+				<tmpl:th2>
+				<td width="{$width}">{$title}</td>
+				</tmpl:th2>
+			</tr>
+			{/if}
+		</thead>
+		<tbody>
+		{if $show_parent_link}
+			<tr style="cursor:pointer;cursor:hand;" onclick="document.location.href='{$parent_link}&_event_insert_id={@return_id}&_event_table_id={@parent_table_id}'" class="odd" onmouseover="this.className='over';" onmouseout="this.className='odd';">
+				<tmpl:parent_cell>
+				<td align="{$align}"><img src="/design/cms/img/button/up.gif" border="0" alt="На уровень вверх" width="16" height="16"></td>
+				</tmpl:parent_cell>
+			</tr>
+		{elseif $total_rows == 0}
+			<tr>
+				<td class="no_content" colspan="{@total_columns}">Нет данных для отображения.</td>
+			</tr>
+		{/if}
+		{$grid}
+		</tbody>
+		<tfoot>
+		<tr class="bottom">
+			<td colspan="{@total_columns}">
+				<table width="100%" border="0" cellpadding="0" cellspacing="1">
+				<tr>
+					<td width="25%">{$from} - {$to} из {$out_of}</td>
+					<td width="50%">
+					{if $total_rows > @rows_per_page}
+						{if @current_page == 0}
+							<img class="disabled" align="middle" src="/design/cms/img/button/first.gif" border="0" alt="Первая">
+							<img class="disabled" align="middle" src="/design/cms/img/button/previous.gif" border="0" alt="Предыдущая">
+						{else}
+							<a accesskey="38" href="{$page_link.first}"><img align="middle" src="/design/cms/img/button/first.gif" border="0" alt="Первая [Ctrl] + [вверх]"></a>
+							<a accesskey="37" href="{$page_link.previous}"><img align="middle" src="/design/cms/img/button/previous.gif" border="0" alt="Предыдущая [Ctrl] + [<-]"></a>
+						{/if}
+						Страница:
+						<select style="font-family:Verdana;font-size:10px;" size="1" name="_tb_start_{@table.id}" onchange="location.href='?{@get_vars}&_tb_start_{@table.id}=' + this.value;">
+						{html_options options=$pages_list selected=@current_page}
+						</select> из {$total_pages + 1}
+						{if @current_page == $total_pages}
+							<img class="disabled" align="middle" src="/design/cms/img/button/next.gif" border="0" alt="Следующая">
+							<img class="disabled" align="middle" src="/design/cms/img/button/last.gif" border="0" alt="Последняя">
+						{else}
+							<a accesskey="39" href="{$page_link.next}"><img align="middle" src="/design/cms/img/button/next.gif" border="0" alt="Следующая  [Ctrl] + [->]"></a>
+							<a accesskey="40" href="{$page_link.last}"><img align="middle" src="/design/cms/img/button/last.gif" border="0" alt="Последняя [Ctrl] + [вниз]"></a>
+						{/if}
+					{/if}
+					</td>
+					{if $show_update_button > 0}
+						<td width="25%"><input name="_event[cms/table_update][]" id="save_sort" type="image" src="/design/cms/img/event/table/save_changes.gif" width="143" height="21" alt="Сохранить изменения"></td>
+					{else}
+						<td width="25%">&nbsp;</td>
+					{/if}
+				</tr>
+				</table>
+			</td>
+			</tr>
+		</tfoot>
+	</table>
+</form>
