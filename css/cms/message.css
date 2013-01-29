@@ -1,0 +1,30 @@
+
+.delta-message-border { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.35); border-radius: 15px 15px 15px 15px; padding: 15px; z-index: 10; display:none; }
+.delta-message-border .delta-message-container { background: none repeat scroll 0 0 #FFFFFF; position: relative; width:400px; }
+
+.delta-message-border .process-error{ color:#94000c; background-color:#ffefeb; padding:25px 25px 15px; border:2px solid #bd3209; border-radius:15px; } 
+.delta-message-border .process-warning{ color:#000; background-color:#fbecce; padding:25px 25px 15px;  border:2px solid #d58500; border-radius:15px; } 
+.delta-message-border .process-success{ color:#276630; background-color:#edf8ee; padding:25px 25px 15px;  border:2px solid #8cbb14; border-radius:15px; }   
+.delta-message-border .process-info{ color:#000; background-color:#fff; padding:25px 25px 15px; border:2px solid #5d6f7b; border-radius:15px; }   
+
+.delta-message-border .process-error .delta-message-container-content { padding: 5px 10px 20px 40px; text-align:left; font-size:12px; background-image:url(/img/cms/message/error.png);  background-position: 0px 0px; background-repeat:no-repeat; }
+.delta-message-border .process-warning .delta-message-container-content { padding: 5px 10px 20px 40px; text-align:left; font-size:12px; background-image:url(/img/cms/message/warning.png);  background-position: 0px 0px; background-repeat:no-repeat; }
+.delta-message-border .process-success .delta-message-container-content { padding: 5px 10px 20px 40px; text-align:left; font-size:12px; background-image:url(/img/cms/message/success.png);  background-position: 0px 0px; background-repeat:no-repeat; }
+.delta-message-border .process-info .delta-message-container-content { padding: 5px 10px 20px 40px; text-align:left; font-size:12px; background-image:url(/img/cms/message/info.png);  background-position: 0px 0px; background-repeat:no-repeat; }
+
+.delta-message-border .delta-message-container-button { text-align:right; font-size:12px; margin-top:10px;}
+
+.delta-message-border .delta-message-container-button button.process-button { border: 0 none; color: #FFFFFF; cursor: pointer; font-size: 12px; height: 23px; text-align: center; width: 115px;}
+.delta-message-border .delta-message-container-button button.process-button:hover { text-decoration:underline; }
+ 
+.delta-message-border .delta-message-container-button button.default-button { background: url("/img/cms/message/button_bg.png") no-repeat scroll 0 0 transparent; }
+.delta-message-border .delta-message-container-button button.success-button { background: url("/img/cms/message/button_bg_success.png") no-repeat scroll 0 0 transparent; }
+.delta-message-border .delta-message-container-button button.warning-button { background: url("/img/cms/message/button_bg_warning.png") no-repeat scroll 0 0 transparent; }
+.delta-message-border .delta-message-container-button button.error-button { background: url("/img/cms/message/button_bg_error.png") no-repeat scroll 0 0 transparent; }
+.delta-message-border .delta-message-container-button button.info-button { background: url("/img/cms/message/button_bg_info.png") no-repeat scroll 0 0 transparent; }
+
+
+.delta-message-border .process-info div.action-context { font-size:11px; color:#444; margin:5px 0px 10px; }    
+.delta-message-border .process-info div.action-error { font-size:11px; border:1px solid #94000c; color:#94000c; margin:10px 0px; padding:5px; background-color:#ffefeb; display:none; }
+
+.delta-message-border .process-info input.wide { width:90%; border:1px solid #7f9db9 }

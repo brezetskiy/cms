@@ -11625,3 +11625,241 @@ Process:
 Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
 Z:\home\localhost\cms1\index_site.php (48)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:46:32
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:46:32
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:46:34
+URL: http://cms1.localhost/extras/jquery/lightbox/jquery.lightbox.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/lightbox/jquery.lightbox.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:47:30
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:48:24
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:48:26
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:48:47
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:04
+URL: http://cms1.localhost/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:24
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:26
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:29
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:42
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 12:59:44
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-29 13:00:31
+URL: http://cms1.localhost/design/css/cms/adminbar.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: unknown           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: design/css/cms/adminbar.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------

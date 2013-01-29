@@ -1,0 +1,121 @@
+.se_menu {
+	background-color:#D6DFF7;
+	background-image:url(/img/cms/text_editor/sprites.png);
+	background-position:0 -962px;
+	background-repeat:repeat-x;
+	display:inline-block;
+	float:left;
+}
+
+.se_toolbar_start {
+	background-image:url(/img/cms/text_editor/sprites.png);
+	background-position:-27px -765px;
+	background-repeat:no-repeat; 
+	display:inline-block;
+	float:left;
+	height:28px;
+	width:10px;
+}
+
+.se_toolgroup{
+	display:inline-block;
+	float:left;
+	height:28px; 
+}
+
+.se_toolcomment{
+	display:inline-block;
+	float:left;
+	height:28px; 
+	color:#777;
+	font-size:12px;
+	padding:0px 5px 0px 5px;
+}
+
+.se_toolbar_end {
+	background-image:url(/img/cms/text_editor/sprites.png);
+	background-position:-29px -861px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	float:left;
+	height:28px;
+	width:4px;
+}
+
+.se_toolbar {
+	background-color:#D6DFF7;
+	background-image:url(/img/cms/text_editor/sprites.png);
+	background-position:0 -962px;
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+
+
+.se_button a,
+.se_button a:hover,
+.se_button a:focus,
+.se_button a:active,
+.se_button a.se_off
+{
+	border: solid 1px transparent;
+	border-radius: 3px;
+	outline: none;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	height: 18px;
+	vertical-align: top;
+
+	_border: none;
+	_margin: 3px 1px 1px 1px; 
+	cursor: default;
+	display: inline-block;
+}
+
+.se_button a,
+.se_button a.se_off
+{
+	filter: alpha(opacity=70); /* IE */
+	opacity: 0.70; /* Safari, Opera and Mozilla */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.se_button a.se_off:hover
+{	
+	border: solid 1px #316ac5;
+	background-color: #c1d2ee;
+	filter: alpha(opacity=100); /* IE */
+	opacity: 1; /* Safari, Opera and Mozilla */
+
+	_margin: 2px 0 0 0;
+}
+
+.se_button .se_icon {
+	background-image:url(/img/cms/text_editor/icons.png);
+	background-position:100px 50%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	height:16px;
+	margin-top:1px;
+	width:16px;
+}
+
+.se_button_save .se_icon{
+	background-position: 0 -32px;
+}
+
+.se_comment {
+	outline: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	height: 18px; 
+	vertical-align: top;
+
+	_border: none;
+	_margin: 3px 1px 1px 1px; 
+	cursor: default;
+	display: inline-block;
+}

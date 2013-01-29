@@ -8,7 +8,7 @@
 		<link href="<?php echo CMS_URL; ?>favicon.ico" rel="shortcut icon" />
 	
 		<!-- СТИЛИ ПЛАГИНОВ -->
-		<link rel="stylesheet" type="text/css" href="/extras/jquery/lightbox/jquery.lightbox.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="/extras/jquery/lightbox/jquery.lightbox.css"/>-->
 
 		<script type="text/javascript" src="/design/cformat/js/jquery-1.8.2.min.js"></script>
 		<!--<script src="/design/cformat/js/jquery.fancybox.js"></script>/-->
@@ -154,7 +154,7 @@
 					<div id="cart_layer" class="cart_layer"></div>
 					<div id="infolayer" class="infolayer">
 						<div>
-							<img class="close" onclick="" class="exit" align="right" src="/design/dev/img/cms/cross.png" alt="Закрыть"/>
+							<!--<img class="close" onclick="" class="exit" align="right" src="/design/dev/img/cms/cross.png" alt="Закрыть"/>-->
 							<div id="infolayer_title"></div>
 							<div class="line2"></div>
 						</div>
