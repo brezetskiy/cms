@@ -1,0 +1,196 @@
+<script language="JavaScript">
+function check(name){
+	if($('input[name=check_'+name+']').attr('checked')) {
+		$("input[name^='"+name+"'][type='checkbox']").attr('checked', true);   
+	} else {
+		$("input[name^='"+name+"'][type='checkbox']").attr('checked', false);  
+	}
+}
+
+function cleanModules(){
+	if(confirm('Очистить выбранные модули?')){
+		
+		return true;
+	}
+	return false;
+}
+</script>
+
+<h1>Удаление модулей из системы</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td width="40%">
+			<tmpl:delete_1>
+			<input type="checkbox" name="modules[]" value="{$id}" id="del_{$id}"><label for="del_{$id}">{$name} ({$description})</label><br>
+			</tmpl:delete_1>
+		</td>
+		<td>
+			<tmpl:delete_2>
+			<input type="checkbox" name="modules[]" value="{$id}" id="del_{$id}"><label for="del_{$id}">{$name} ({$description})</label><br>
+			</tmpl:delete_2>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" value="Удалить" onclick="return confirm('Удалить выбранные модули?');">&nbsp;
+			<input id="check_modules" type="checkbox" name="check_modules" onclick="check('modules');"><label for="check_modules">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>
+
+
+
+<h1>Удаление лишних данных</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete_extras/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td width="40%">	
+		{if $show_dirs}
+			<h3>Директории</h3>
+			<div>
+				<input type="checkbox" name="delete[]" value="static" id="static"><label for="static">/static/ {$static_size} Кб</label><br>
+				<input type="checkbox" name="delete[]" value="import" id="import"><label for="import">/system/import/ {$import_size} Кб</label><br>
+				<input type="checkbox" name="delete[]" value="tmp" id="tmp"><label for="tmp">Временные файлы: {$tmp_size} Кб</label><br>
+				<input type="checkbox" name="delete[]" value="cvs" id="cvs"><label for="cvs">История изменений: {$cvs_size} Кб</label><br>
+				<input type="checkbox" name="delete[]" value="logs" id="logs"><label for="logs">Логи и отчёты: {$logs_size} Кб</label><br>
+				<input type="checkbox" name="delete[]" value="cache" id="cache"><label for="cache">Директория с закешированными файлами: {$cache} Кб</label><br/>
+				<input type="checkbox" name="delete[]" value="auth" id="auth"><label for="auth">Статистика авторизаций: - </label><br/>
+				<input type="checkbox" name="delete[]" value="mailq" id="mailq"><label for="mailq">Очередь почтовых сообщений: -</label>
+			</div>
+		{/if}
+		</td>
+		<td>
+		{if $show_tables}
+			<h3>Таблицы</h3> 
+			<div>
+				<tmpl:table>
+				<input type="checkbox" name="tables[]" value="{$table_name}.{$table_type}" id="{$table_type}{$table_name}"><label for="{$table_type}{$table_name}">{$table_name} [{$table_type}]</label><br>
+				</tmpl:table>
+			</div>
+		{/if}
+		</td>
+	</tr> 
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" value="Удалить" onclick="return confirm('Удалить выбранные данные?');">&nbsp;
+			<input id="check_delete" type="checkbox" name="check_delete" onclick="check('delete');"><label for="check_delete">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>
+
+
+
+<h1>Удаление пользоваталей</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete_user/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td  width="40%">
+			<tmpl:group_1>
+			<input type="checkbox" name="users[]" value="{$id}" id="users_{$id}"><label for="users_{$id}">{$group_name}<sup>{$user_count}</sup></label><br>
+			</tmpl:group_1>
+		</td>
+		<td>
+			<tmpl:group_2>
+			<input type="checkbox" name="users[]" value="{$id}" id="users_{$id}"><label for="users_{$id}">{$group_name}<sup>{$user_count}</sup></label><br>
+			</tmpl:group_2>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+	<input type="submit" value="Удалить" onclick="return confirm('Удалить пользователей из выбранных групп?');">
+	<input id="check_users" type="checkbox" name="check_users" onclick="check('users');"><label for="check_users">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>	
+
+
+<h1>Удаление сайтов</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete_site/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td  width="40%">
+			<tmpl:site_1>
+			<input type="checkbox" name="site[]" value="{$id}" id="site_{$id}"><label for="site_{$id}">{$url}</label><br>
+			</tmpl:site_1>
+		</td>
+		<td>
+			<tmpl:site_2>
+			<input type="checkbox" name="site[]" value="{$id}" id="site_{$id}"><label for="site_{$id}">{$url}</label><br>
+			</tmpl:site_2>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+	<input type="submit" value="Удалить" onclick="return confirm('Удалить выбранные сайты?');">
+	<input id="check_site" type="checkbox" name="check_site" onclick="check('site');"><label for="check_site">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>	
+
+
+<h1>Удаление дизайнов</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete_template/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td  width="40%">
+			<tmpl:template_1>
+			<input type="checkbox" name="template[]" value="{$id}" id="template_{$id}"><label for="template_{$id}">{$name}</label><br>
+			</tmpl:template_1>
+		</td>
+		<td>
+			<tmpl:template_2>
+			<input type="checkbox" name="template[]" value="{$id}" id="template_{$id}"><label for="template_{$id}">{$name}</label><br>
+			</tmpl:template_2>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+	<input type="submit" value="Удалить" onclick="return confirm('Удалить выбранные дизайны?');">
+	<input id="check_template" type="checkbox" name="check_template" onclick="check('template');"><label for="check_template">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>	
+
+
+<h1>Удаление новостей</h1>
+<form method="POST" action="/{#LANGUAGE_URL}action/admin/sdk/module_delete_news/">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<table width="100%" border="0" class="vertical">
+	<tr valign="top">
+		<td  width="40%">
+			<tmpl:news_1>
+			<input type="checkbox" name="news[]" value="{$id}" id="news_{$id}"><label for="news_{$id}">{$name}<sup>{$message_count}</sup></label><br>
+			</tmpl:news_1>
+		</td>
+		<td>
+			<tmpl:news_2>
+			<input type="checkbox" name="news[]" value="{$id}" id="news_{$id}"><label for="news_{$id}">{$name}<sup>{$message_count}</sup></label>{$name}</label><br>
+			</tmpl:news_2>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+	<input type="submit" value="Удалить" onclick="return confirm('Удалить выбранные новости?');">
+	<input id="check_news" type="checkbox" name="check_news" onclick="check('news');"><label for="check_news">Выделить все</label>	
+		</td>
+	</tr>
+</table>
+</form>	
+

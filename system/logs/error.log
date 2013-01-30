@@ -24326,3 +24326,1017 @@ Process:
 Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
 Z:\home\localhost\cms1\index_site.php (48)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:39
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:39
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:39
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:39
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:39
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:52
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:52
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:52
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:52
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:17:52
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/sites/?id=63147&_return_path=%2Fadmin%2Fsite%2Fsites%2F%3F&_table_id=1146&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:37
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/structure/?id=0&_return_path=/admin/site/structure/%3F&_table_id=29&_language=undefined&_REWRITE_URL=site%2Fstructure%2F&_event_type=&_tb_order_direction%5B29%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:37
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/structure/?id=0&_return_path=/admin/site/structure/%3F&_table_id=29&_language=undefined&_REWRITE_URL=site%2Fstructure%2F&_event_type=&_tb_order_direction%5B29%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:37
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/structure/?id=0&_return_path=/admin/site/structure/%3F&_table_id=29&_language=undefined&_REWRITE_URL=site%2Fstructure%2F&_event_type=&_tb_order_direction%5B29%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:37
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/structure/?id=0&_return_path=/admin/site/structure/%3F&_table_id=29&_language=undefined&_REWRITE_URL=site%2Fstructure%2F&_event_type=&_tb_order_direction%5B29%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:37
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/site/structure/?id=0&_return_path=/admin/site/structure/%3F&_table_id=29&_language=undefined&_REWRITE_URL=site%2Fstructure%2F&_event_type=&_tb_order_direction%5B29%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:48:58
+URL: http://cms1.localhost/admin/site/structure/?structure_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса CoolGallery
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\site\structure.ru.php (187) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:54
+URL: http://cms1.localhost/js/gallery/coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/gallery/coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:54
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:54
+URL: http://cms1.localhost/extras/longtailvideo/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/longtailvideo/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:54
+URL: http://cms1.localhost/extras/swfupload/handlers_coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:54
+URL: http://cms1.localhost/admin/site/structure/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: admin/site/structure/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:50:59
+URL: http://cms1.localhost/extras/longtailvideo/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=28           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/longtailvideo/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:00
+URL: http://cms1.localhost/js/gallery/coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=28           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/gallery/coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:00
+URL: http://cms1.localhost/admin/site/structure/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=28           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: admin/site/structure/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:00
+URL: http://cms1.localhost/extras/swfupload/handlers_coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=28           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:00
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=28           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:01
+URL: http://cms1.localhost/extras/swfupload/handlers_coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=37           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:01
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=37           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:01
+URL: http://cms1.localhost/js/gallery/coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=37           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/gallery/coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:01
+URL: http://cms1.localhost/extras/longtailvideo/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=37           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/longtailvideo/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 17:51:01
+URL: http://cms1.localhost/admin/site/structure/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=37           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: admin/site/structure/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:22:56
+URL: http://cms1.localhost/action/admin/cms/table_delete/?_return_path=%2Fadmin%2Fcms%2Fstructure%2F%3F&_language=ru&_table_id=1&1%5Bid%5D%5B0%5D=736&_language_ru=
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsEditDel
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\actions\admin\cms\table_delete.act.php (45) => 
+Z:\home\localhost\cms1\system\actions\admin\cms\table_delete.act.php (36) => 
+Z:\home\localhost\cms1\actions_admin.php (138)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:24:26
+URL: http://cms1.localhost/action/admin/cms/table_delete/?_return_path=%2Fadmin%2Fcms%2Fstructure%2F%3F&_language=ru&_table_id=1&1%5Bid%5D%5B0%5D=736&_language_ru=
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Search
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\system\libs\cmsEditDel.class.php (291) => 
+Z:\home\localhost\cms1\system\actions\admin\cms\table_delete.act.php (46) => 
+Z:\home\localhost\cms1\system\actions\admin\cms\table_delete.act.php (36) => 
+Z:\home\localhost\cms1\actions_admin.php (138)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:28:01
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595632812070-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/?           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:32:11
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595635312900-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/module/?           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:32:44
+URL: http://cms1.localhost/admin/cms/module/Info/?module_id=87
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/module/?           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Module
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\module\info.ru.php (11) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:32:45
+URL: http://cms1.localhost/admin/cms/module/Info/?module_id=87
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/module/?           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Module
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\module\info.ru.php (11) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:32:46
+URL: http://cms1.localhost/admin/cms/module/Info/?module_id=87
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/module/?           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса Module
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\module\info.ru.php (11) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:36:31
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595637916100-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/?structure_id=1289           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:37:21
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595638414890-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:37:38
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595638588970-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/CMS/Structure/?structure_id=736&_event_insert_id=727           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:52:57
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595647770120-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:52:58
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595647782551-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:53:04
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595647847242-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:53:11
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595647916433-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:53:26
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595648063714-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:53:50
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595648301040-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:53:59
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595648397231-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:54:22
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595648621670-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 18:54:27
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595648673541-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/regexp/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:12:38
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595659584990-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:24:13
+URL: http://cms1.localhost/action/admin/sdk/search_index/?PHPSESSID=ss2c6lvi7c9tm2iush3dfg62c1&JsHttpRequest=13595666530620-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:25:08
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359456180
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:25:20
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359566714
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:25:23
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359566714
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:27:21
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359566714
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/fileswitherrors/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:36:41
+URL: http://cms1.localhost/admin/cms/db/Tables/Fields/?table_id=510
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/db/Tables/?db_alias=default           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsDB
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\db\tables\fields.ru.php (27) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:37:05
+URL: http://cms1.localhost/admin/cms/db/Tables/Fields/?table_id=510
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/db/Tables/?db_alias=default           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsDB
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\db\tables\fields.ru.php (27) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-30 19:37:50
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359566714
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
