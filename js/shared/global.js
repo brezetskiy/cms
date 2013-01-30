@@ -482,59 +482,6 @@ function toggleAdminBar(mode) {
 	return false;
 }
 
-//close pop-up box
-function closePopup()
- {
-   $('#opaco').toggleClass('popup-hidden').removeAttr('style');
-   $('#popup').toggleClass('popup-hidden');
-   return false;
- }
-
-//open pop-up
-function showPopup(popup_type)
- {
-   //when IE - fade immediately
-   if($.browser.msie)
-   {
-     $('#opaco').height($(document).height()).toggleClass('popup-hidden');
-   }
-   else
-   //in all the rest browsers - fade slowly
-   {
-     $('#opaco').height($(document).height()).toggleClass('popup-hidden').fadeTo('slow', 0.7);
-   }
-
-   $('#popup')
-     .html($('#popup_' + popup_type).html())
-     .alignCenter()
-     .toggleClass('popup-hidden');
-
-   $('#popup').append("<div id='popup-close'></div>");
-   return false;
- };
- 
-$(document).ready(function(){
-  //align element in the middle of the screen
-  $.fn.alignCenter = function() {
-   //get margin left
-   var marginLeft = Math.max(40, parseInt($(window).width()/2 - $(this).width()/2)) + 'px';
-   //get margin top
-   var marginTop = Math.max(40, parseInt($(window).height()/2 - $(this).height()/2)) + 'px';
-   //return updated element
-   return $(this).css({'margin-left':marginLeft, 'margin-top':marginTop});
-  };
-  
-   $('#popup-close').live("click", function(){
-		$('#popup').html('');
-		closePopup();
-   })  
-   
-   $('#opaco').live("click", function(){
-		$('#popup').html('');
-		closePopup();
-   })
-   
-}); 
 
 /**
  * считывает данные с в указанной форме и передаёт их через ajax в скрипт
