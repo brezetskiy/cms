@@ -1,0 +1,27 @@
+<script language="JavaScript">
+function saveActions() {
+	AjaxRequest.send('form_actions', '/{#LANGUAGE_URL}action/admin/cms/group_actions/', 'Идёт сохранение данных', true, {});
+}
+</script>
+<h1>Привилегии пользователей группы "{$group}"</h1>
+<a href="../"><img src="/design/cms/img/button/up.gif" border="0" align="absmiddle"> Вернуться к списку групп</a><br>
+<form action="/{#LANGUAGE_URL}action/admin/cms/group_actions/" id="form_actions" onsubmit="saveActions();return false;">
+<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+<input type="hidden" name="group_id" value="{$group_id}">
+	<table class="vertical" width="100%">
+		<tmpl:action>
+			<tr>
+				{if !empty($module)}
+					<td class="title"><b>{$module}:</b></td>
+				{else}
+					<td></td>
+				{/if}
+				<td><input type="checkbox" {$checked} name="action[]" value="{$id}" id="action_{$id}"><label for="action_{$id}">{$title}</label></td>
+			</tr>
+		</tmpl:action>
+		<tr>
+			<td></td>
+			<td><input align="right" type="submit" value="Сохранить"></td>
+		</tr>
+	</table>
+</form>

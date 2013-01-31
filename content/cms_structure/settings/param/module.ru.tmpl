@@ -1,0 +1,66 @@
+<div id="idTabs" >
+	<h1>Настройка параметров модуля {$description} ({$name})</h1>
+	<a href="../"><img height="16" width="16" border="0" alt="На уровень вверх" src="/design/cms/img/button/up.gif"> К списку модулей</a>
+	<form name="Form" id="Form" enctype="multipart/form-data" action="/{#LANGUAGE_URL}action/admin/cms/cms_settings/" method="POST">
+	<input type="hidden" name="_return_path" value="{#CURRENT_URL_FORM}">
+	<input type="hidden" name="module_id" value="{$module_id}">
+	<br /> 
+	<ul style="padding:0; margin:0;">
+	<tmpl:capture>
+		<li class="{$divclass}">
+			<a class="{$divclass}" href="#{$id}">{$divname}</a> 
+		</li>
+	</tmpl:capture>
+	</ul>
+	<div class="delfloat"></div>
+	<tmpl:capture>
+		<table id="{$id}" class=cms_view>
+			<thead>
+			<tr><td colspan=2>{$module} - {$divname}</td></tr>
+			</thead>
+			<tmpl:row>
+			<tr class="{$class}">
+				<td width="50%">{$description}</td>
+				<td>
+					{if $type=='file'}
+						<input type="file" name="{$id}" class="wide"><br>
+						{$download_file}
+						<input type="checkbox" name="{$id}_del" value="1" id="delete_file_{$id}"><label for="delete_file_{$id}">Удалить</label><br>
+					{elseif $type=='bool'}
+						<input type="checkbox" name="{$id}" value=1 {$checked}><br>
+					{elseif $type=='fkey'}
+						<select name="{$id}" class="wide">
+							<option value="0">Сделайте выбор</option>
+							{html_options options=$fkey selected=$value}<br>
+						</select>
+					{elseif $type=='enum'}
+						<select name="{$id}" class="wide">
+							{html_options options=$enum_values selected=$value}<br>
+						</select>
+					{elseif $type=='passwd'}
+						<input type="password" name="{$id}" value="{$value}" class="wide">
+					{elseif $type=='time'}
+						<input type="text" name="{$id}" value="{$value}">
+						<select name="{$id}_unit">{html_options options=@time_unit selected=$time_unit}</select>
+					{elseif $type=='byte'}
+						<input type="text" name="{$id}" value="{$value}">
+						<select name="{$id}_unit">{html_options options=@byte_unit selected=$byte_unit}</select>
+					{else}
+						<input type="text" name="{$id}" value="{$value}" class="wide">
+					{/if}
+					<span class=comment>{$name}{if !empty($unit)}, {$unit}{/if}</span>
+				</td>
+			</tr>
+			</tmpl:row>
+			<tfoot>
+			<tr class="odd">
+				<td colspan="2" align="right"><input type="submit" value="Сохранить"></td>
+			</tr>
+			</tfoot>
+		</table>
+	</tmpl:capture>
+	</form>
+</div>
+<script type="text/javascript"> 
+	$("#idTabs ul").idTabs(); 
+</script>

@@ -25340,3 +25340,842 @@ Process:
 Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
 Z:\home\localhost\cms1\index_admin.php (175)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:02
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/settings/modparam/?id=484&_return_path=%2Fadmin%2Fcms%2Fsettings%2FModparam%2F%3Fmodule_id%3D50&_table_id=633&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:02
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/settings/modparam/?id=484&_return_path=%2Fadmin%2Fcms%2Fsettings%2FModparam%2F%3Fmodule_id%3D50&_table_id=633&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:02
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/settings/modparam/?id=484&_return_path=%2Fadmin%2Fcms%2Fsettings%2FModparam%2F%3Fmodule_id%3D50&_table_id=633&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:03
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/settings/modparam/?id=484&_return_path=%2Fadmin%2Fcms%2Fsettings%2FModparam%2F%3Fmodule_id%3D50&_table_id=633&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:03
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/settings/modparam/?id=484&_return_path=%2Fadmin%2Fcms%2Fsettings%2FModparam%2F%3Fmodule_id%3D50&_table_id=633&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:10
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=pnh7kpl5sb2dru5qttsardk217&JsHttpRequest=13596498700060-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/settings/Modparam/?module_id=50           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:31:36
+URL: http://cms1.localhost/admin/cms/development/dbstructuresearch/?
+IP: 127.0.0.1 (127.0.0.1)
+File: content\cms_structure\cms\development\dbstructuresearch.ru.php
+Mtime: 1359566714
+Line: 26
+Type: E_WARNING
+Refferer: http://cms1.localhost/admin/cms/development/search/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `utf8' not supported, assuming iso-8859-1
+Process: 
+Z:\home\localhost\cms1\content\cms_structure\cms\development\dbstructuresearch.ru.php (26) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:32:56
+URL: http://cms1.localhost/admin/cms/language/templates/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\SQLParserMySQLi.class.php
+Mtime: 1359467120
+Line: 183
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/cms/language/messages/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Query:
+SELECT SQL_CALC_FOUND_ROWS 
+		id,
+		if(
+			type='dir',
+			concat('<img border=0 src=/design/cms/img/icons/folder.gif> ', filename),
+			concat('<img border=0 src=/design/cms/img/icons/ie.gif> ', filename)
+		) as filename,
+		if (
+			type='dir',
+			concat('?parent_id=', id),
+			concat('./Translate/?template_id=', id)
+		) as link,
+		(
+			select count(t_template.id)
+			from cms_language_template_relation as t_relation
+			inner join cms_language_template as t_template on t_relation.id=t_template.id
+			where 
+				t_relation.parent=tb_template.id and 
+				t_template.translate_en='false'
+		) as translate_en,
+		(
+			select count(t_template.id)
+			from cms_language_template_relation as t_relation
+			inner join cms_language_template as t_template on t_relation.id=t_template.id
+			where 
+				t_relation.parent=tb_template.id and 
+				t_template.translate_uk='false'
+		) as translate_uk
+	
+from cms_language_template as tb_template
+	
+where parent_id='0'
+	
+order by type asc, filename asc
+LIMIT 0, 200
+/* http://http://cms1.localhost//admin/cms/language/templates/? 127.0.0.1 */
+Level: Error
+Code: 1054
+Message: Unknown column 't_template.translate_en' in 'where clause'
+Process: 
+Z:\home\localhost\cms1\system\libs\SQLParserMySQLi.class.php (183) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (580) => 
+Z:\home\localhost\cms1\content\cms_structure\cms\language\templates.ru.php (57) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:33:39
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/language/messages/?id=1&_return_path=%2Fadmin%2Fcms%2Flanguage%2Fmessages%2F%3F&_table_id=472&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:33:39
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/language/messages/?id=1&_return_path=%2Fadmin%2Fcms%2Flanguage%2Fmessages%2F%3F&_table_id=472&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:33:40
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/language/messages/?id=1&_return_path=%2Fadmin%2Fcms%2Flanguage%2Fmessages%2F%3F&_table_id=472&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:33:40
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/language/messages/?id=1&_return_path=%2Fadmin%2Fcms%2Flanguage%2Fmessages%2F%3F&_table_id=472&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:33:40
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/cms/language/messages/?id=1&_return_path=%2Fadmin%2Fcms%2Flanguage%2Fmessages%2F%3F&_table_id=472&_language=ru&           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:37:03
+URL: http://cms1.localhost/admin/user/groups/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/info/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsFilterLink
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\user\groups.ru.php (17) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (606) => 
+Z:\home\localhost\cms1\content\cms_structure\user\groups.ru.php (44) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:38:01
+URL: http://cms1.localhost/admin/user/yearstat/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/eventgroup/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса FusionChart
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (117) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:38:20
+URL: http://cms1.localhost/admin/user/yearstat/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/eventgroup/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса FusionChart
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (117) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:39:48
+URL: http://cms1.localhost/admin/user/yearstat/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/safety/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса FusionChart
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (117) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:40:21
+URL: http://cms1.localhost/admin/user/yearstat/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/admin/user/safety/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (125) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:40:30
+URL: http://cms1.localhost/admin/user/yearstat/?site_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/admin/user/yearstat/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (125) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:40:32
+URL: http://cms1.localhost/Admin/User/Yearstat/Userstat/?month=7&year=2011&site_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/admin/user/yearstat/?site_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat\userstat.ru.php (159) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:41:03
+URL: http://cms1.localhost/Admin/User/Yearstat/Userstat/?month=7&year=2011&site_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/admin/user/yearstat/?site_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat\userstat.ru.php (159) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:41:05
+URL: http://cms1.localhost/Admin/User/Yearstat/Userstat/Day/?day=5&month=7&year=2011&site_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/Admin/User/Yearstat/Userstat/?month=7&year=2011&site_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat\userstat\day.ru.php (123) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:41:19
+URL: http://cms1.localhost/Admin/User/Yearstat/Userstat/Day/?day=5&month=7&year=2011&site_id=63147
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/Admin/User/Yearstat/Userstat/?month=7&year=2011&site_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat\userstat\day.ru.php (123) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:41:37
+URL: http://cms1.localhost/admin/user/yearstat/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\fusionchart.class.php
+Mtime: 1359650419
+Line: 115
+Type: E_NOTICE
+Refferer: http://cms1.localhost/admin/user/safety/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `utf8' to `utf8' is not allowed
+Process: 
+Z:\home\localhost\cms1\system\libs\fusionchart.class.php (115) => 
+Z:\home\localhost\cms1\content\cms_structure\user\yearstat.ru.php (125) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:42:40
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=pnh7kpl5sb2dru5qttsardk217&JsHttpRequest=13596505606820-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/eventgroup/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:44:42
+URL: http://cms1.localhost/admin/user/groups/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/actions/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса cmsFilterLink
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\content\cms_structure\user\groups.ru.php (17) => 
+Z:\home\localhost\cms1\system\libs\cmsShowView.class.php (606) => 
+Z:\home\localhost\cms1\content\cms_structure\user\groups.ru.php (44) => 
+Z:\home\localhost\cms1\index_admin.php (175)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:30
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=pnh7kpl5sb2dru5qttsardk217&JsHttpRequest=13596508501830-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/groups/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:46
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:46
+URL: http://cms1.localhost/js/gallery/coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/gallery/coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:46
+URL: http://cms1.localhost/admin/user/users/Info/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: admin/user/users/Info/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:47
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:47
+URL: http://cms1.localhost/extras/longtailvideo/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/longtailvideo/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:47:47
+URL: http://cms1.localhost/extras/swfupload/handlers_coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/extras/swfupload/handlers_coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/extras/longtailvideo/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/longtailvideo/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/js/gallery/coolgallery.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/gallery/coolgallery.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:48:52
+URL: http://cms1.localhost/admin/user/users/Info/swfobject.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/user/users/Info/?user_id=40871           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: admin/user/users/Info/swfobject.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:54:27
+URL: http://cms1.localhost/extras/jquery/jquery.autocomplete.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/settings/documents/?id=0&_return_path=/admin/settings/documents/%3F&_table_id=2326&_language=undefined&_REWRITE_URL=settings%2Fdocuments%2F&_event_type=&_tb_order_direction%5B2326%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.autocomplete.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:54:27
+URL: http://cms1.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/settings/documents/?id=0&_return_path=/admin/settings/documents/%3F&_table_id=2326&_language=undefined&_REWRITE_URL=settings%2Fdocuments%2F&_event_type=&_tb_order_direction%5B2326%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:54:28
+URL: http://cms1.localhost/extras/swfupload/handlers_cms.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/settings/documents/?id=0&_return_path=/admin/settings/documents/%3F&_table_id=2326&_language=undefined&_REWRITE_URL=settings%2Fdocuments%2F&_event_type=&_tb_order_direction%5B2326%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/handlers_cms.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:54:28
+URL: http://cms1.localhost/extras/swfupload/swfupload.2.2.0.beta3.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/settings/documents/?id=0&_return_path=/admin/settings/documents/%3F&_table_id=2326&_language=undefined&_REWRITE_URL=settings%2Fdocuments%2F&_event_type=&_tb_order_direction%5B2326%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/swfupload/swfupload.2.2.0.beta3.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:54:28
+URL: http://cms1.localhost/extras/jquery/css/chosen/style.css?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/Edit/settings/documents/?id=0&_return_path=/admin/settings/documents/%3F&_table_id=2326&_language=undefined&_REWRITE_URL=settings%2Fdocuments%2F&_event_type=&_tb_order_direction%5B2326%5D=           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/css/chosen/style.css
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:57:09
+URL: http://cms1.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса CVS
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\tools\ckeditor\ckeditor.php (45)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-01-31 18:57:58
+URL: http://cms1.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383405
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms1/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms1\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
