@@ -66,7 +66,7 @@
 				{$function} 
 			</tmpl:onload>
 			
-			$('.cms_view').tableDnD({'dragHandle':'move', 'onDrop': function (table) {AjaxRequest.send($(table).parents('form.cms_view_form:first').attr('id'), '/action/admin/cms/table_sort/', 'Сохранение', true, {})}});
+			$('.cms_view').tableDnD({'dragHandle':'move', 'onDrop': function (table, row) { console.log(table); console.log(row); /*AjaxRequest.send($(table).parents('form.cms_view_form:first').attr('id'), '/action/admin/cms/table_sort/', 'Сохранение', true, {})*/ }, 'onDragStart': function(table, row) {console.log(row);}   });
 			cmsView.init();
 		  	
 			$(".chzn-select").chosen({allow_single_deselect:true});   
