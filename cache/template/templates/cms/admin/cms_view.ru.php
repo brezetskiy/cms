@@ -312,7 +312,7 @@ $(document.body).click(function(e) {
 		</thead>
 		<tbody>
 		<?php if($this->vars['show_parent_link']): ?>
-			<tr style="cursor:pointer;cursor:hand;" onclick="document.location.href='<?php echo $this->vars['parent_link']; ?>&_event_insert_id=<?php echo $this->global_vars['return_id']; ?>&_event_table_id=<?php echo $this->global_vars['parent_table_id']; ?>'" class="odd" onmouseover="this.className='over';" onmouseout="this.className='odd';">
+			<tr style="cursor:pointer;cursor:hand;" onclick="document.location.href='<?php echo $this->vars['parent_link']; ?>&_event_insert_id=<?php echo $this->global_vars['return_id']; ?>&_event_table_id=<?php echo $this->global_vars['parent_table_id']; ?>'" class="nodrop nodrag odd" onmouseover="this.className='nodrop nodrag over';" onmouseout="this.className='nodrop nodrag odd';">
 				<?php
 			reset($this->vars['/parent_cell/'][$__key]);
 			while(list($_parent_cell_key,) = each($this->vars['/parent_cell/'][$__key])):

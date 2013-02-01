@@ -262,7 +262,7 @@ $(document.body).click(function(e) {
 		</thead>
 		<tbody>
 		{if $show_parent_link}
-			<tr style="cursor:pointer;cursor:hand;" onclick="document.location.href='{$parent_link}&_event_insert_id={@return_id}&_event_table_id={@parent_table_id}'" class="odd" onmouseover="this.className='over';" onmouseout="this.className='odd';">
+			<tr style="cursor:pointer;cursor:hand;" onclick="document.location.href='{$parent_link}&_event_insert_id={@return_id}&_event_table_id={@parent_table_id}'" class="nodrop nodrag odd" onmouseover="this.className='nodrop nodrag over';" onmouseout="this.className='nodrop nodrag odd';">
 				<tmpl:parent_cell>
 				<td align="{$align}"><img src="/design/cms/img/button/up.gif" border="0" alt="На уровень вверх" width="16" height="16"></td>
 				</tmpl:parent_cell>

@@ -35,10 +35,12 @@ class Action {
 		global $_RESULT;
 		
 		$message = cms_message($module, $message);
-		
 		if  (defined('AJAX') && AJAX) {
 			if (CMS_USE_DELTA_MESSAGE) {
-				$_SESSION['ActionReturn']['delta'][$stack][] = @iconv("windows-1251", "utf-8", $message);
+				//$_SESSION['ActionReturn']['delta'][$stack][] = @iconv("windows-1251", "utf-8", $message);
+                                //$_SESSION['ActionReturn']['delta'][$stack][] = $message;
+                                $_RESULT['action_ok'.$stack] = $message; 
+                                //x($message);
 			} else {
 				$_RESULT['action_'.$stack] = (isset($_RESULT['action_'.$stack])) ? $message+';'.$_RESULT['action_'.$stack] : $message;
 			}

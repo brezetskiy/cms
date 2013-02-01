@@ -26179,3 +26179,88 @@ Process:
 Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
 Z:\home\localhost\cms1\tools\ckeditor\ckeditor.php (60)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-01 14:47:36
+URL: http://cms1.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=28&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383405
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/Admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms1/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms1\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms1\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-01 17:17:18
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=2b2m93dssism11nr6buc4bifc3&JsHttpRequest=13597318386830-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-01 17:20:59
+URL: http://cms1.localhost/action/admin/cms/table_sort/?PHPSESSID=2b2m93dssism11nr6buc4bifc3&JsHttpRequest=13597320594720-xml
+IP: 127.0.0.1 (127.0.0.1)
+File: system\config.inc.php
+Mtime: 1359397348
+Line: 264
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Ошибка автозагрузки класса JsHttpRequest
+Process: 
+Z:\home\localhost\cms1\system\config.inc.php (264) => 
+Z:\home\localhost\cms1\actions_admin.php (35)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-01 18:50:32
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-01 18:50:58
+URL: http://cms1.localhost/extras/jquery/jquery.jgrowl.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383405
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms1.localhost/admin/site/structure/?structure_id=63147           
+UserAgent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.js
+Process: 
+Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms1\index_site.php (48)
+[END]--------------------------------------------------

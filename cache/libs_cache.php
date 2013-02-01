@@ -6,6 +6,7 @@ $_LIBS_CACHE = array(
 	'authoid' => '\AuthOID.class.php',
 	'authotp' => '\AuthOTP.class.php',
 	'authphone' => '\AuthPhone.class.php',
+	'cvs' => '\CVS.class.php',
 	'currency' => '\Currency.class.php',
 	'filesystem' => '\Filesystem.class.php',
 	'module' => '\Module.class.php',

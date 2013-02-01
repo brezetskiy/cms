@@ -539,22 +539,23 @@ function toggleAdminBar(mode) {
 		if (form_id != 'form_order_form')
 		{
 			if (this.req.responseText.replace(/(^\s+)|(\s+$)/g, "") != '') {
-				//centerDiv('ajaxPreloader');
+				centerDiv('ajaxPreloader');
 				//alert(this.req.responseText);
-				showPopup('reference');
-				$('#popup').append("<div id='popup-message'>"+this.req.responseText+"</div>");
-				//$('#ajaxPreloader').css('text-align', 'left').html('<div style="text-align:right;"><a href="javascript:void(0);" onclick="$(\'#ajaxPreloader\').css(\'display\', \'none\')">[x] Закрыть</a></div>'+this.req.responseText).show();
+				//showPopup('reference');
+				//$('#popup').append("<div id='popup-message'>"+this.req.responseText+"</div>");
+				$('#ajaxPreloader').css('text-align', 'left').html('<div style="text-align:right;"><a href="javascript:void(0);" onclick="$(\'#ajaxPreloader\').css(\'display\', \'none\')">[x] Закрыть</a></div>'+this.req.responseText).show();
 			} else {
-				if (form_id != null)
+                            $('#ajaxPreloader').css('display', 'none');
+				/*if (form_id != null)
 				{
 					$('#' + form_id).each(function(){
 						this.reset();
 					});
-					showPopup('reference');
+					//showPopup('reference');
 				//$('#popup').append("<div id='popup-message'>"+this.req.responseText+"</div>");
-				$('#popup').append("<div id='" + form_id + "'></div>");
+				//$('#popup').append("<div id='" + form_id + "'></div>");
 				$('#ajaxPreloader').css('display', 'none');
-				};
+				};*/
 			}
 		};
 
@@ -563,14 +564,15 @@ function toggleAdminBar(mode) {
 			if (key == 'javascript') {
 //				alert(JSON.parse(this.req.responseJS[key]));
 				exec = this.req.responseJS[key];
-			} else if (key == 'action_ok') {
-				$.jGrowl(this.req.responseJS[key], {position:'center','life':3000});
+			} /*else if (key == 'action_ok') {
+				$.jGrowl(this.req.responseJS[key], {'life':3000});
 			} else if (key == 'action_warning') {
-				$.jGrowl(this.req.responseJS[key], {position:'center','life':3000});
+				$.jGrowl(this.req.responseJS[key], {'life':3000});
 			} else if (key == 'action_error') {
-				$.jGrowl(this.req.responseJS[key], {position:'center','life':3000});
-			} else {
-				$('#'+key).html(this.req.responseJS[key]);
+				$.jGrowl(this.req.responseJS[key], {'life':3000});
+			}*/ else {
+                            if (this.req.responseJS[key] != '') $.jGrowl(this.req.responseJS[key], {'life':3000});
+				//$('#'+key).html(this.req.responseJS[key]);
 			}
 		}
 		

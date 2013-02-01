@@ -36,7 +36,7 @@
 	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.min.js"></script>
 	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/lightbox/jquery.lightbox.js"></script>-->
 	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jqModal.js"></script>
-	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jgrowl.min.js"></script>-->
+	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.jgrowl.js"></script>
 	<script language="JavaScript" type="text/javascript" src="/extras/jquery/jquery.tablednd.js"></script>
 	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.core.js"></script>-->
 	<!--<script language="JavaScript" type="text/javascript" src="/extras/jquery/effects.slide.js"></script>-->
@@ -81,7 +81,16 @@
 			endwhile;
 			?>
 			
-			$('.cms_view').tableDnD({'dragHandle':'move', 'onDrop': function (table) {AjaxRequest.send($(table).parents('form.cms_view_form:first').attr('id'), '/action/admin/cms/table_sort/', 'Сохранение', true, {})}});
+                        //var
+                        var start_tr = 0;
+			$('.cms_view').tableDnD({
+                            'dragHandle':'move', 
+                            'onDrop': function (table, row) { 
+                                if ( $(table).find('tbody tr').index($(row)) != start_tr)
+                                    AjaxRequest.send($(table).parents('form.cms_view_form:first').attr('id'), '/action/admin/cms/table_sort/', 'Сохранение', true, {})
+                            }, 
+                            'onDragStart': function(table, row) {start_tr = $(table).find('tbody tr').index($(row));}   
+                        });
 			cmsView.init();
 		  	
 			$(".chzn-select").chosen({allow_single_deselect:true});   
