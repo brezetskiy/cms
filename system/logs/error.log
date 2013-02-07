@@ -26264,3 +26264,1516 @@ Process:
 Z:\home\localhost\cms1\system\libs\Site.class.php (97) => 
 Z:\home\localhost\cms1\index_site.php (48)
 [END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:35
+URL: http://cms.localhost/services/?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/design/cformat/simple_inside.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\index_site.php (132)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:44
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:44
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:44
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:44
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:56
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:56
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:56
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:52:56
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:53:05
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:53:05
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:53:05
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:53:05
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:53:40
+URL: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:54:02
+URL: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:57:41
+URL: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 15:58:44
+URL: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Template.class.php
+Mtime: 1359383398
+Line: 125
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Файл с шаблоном Z:/home/localhost/cms/templates/ckeditor/ckeditor.ru.tmpl - не существует.
+Process: 
+Z:\home\localhost\cms\system\libs\Template.class.php (125) => 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (60)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:11:19
+URL: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor%2Fcontent&id=63147&table_name=site_structure&field_name=content_ru
+IP: 127.0.0.1 (127.0.0.1)
+File: tools\ckeditor\ckeditor.php
+Mtime: 1360244905
+Line: 114
+Type: E_WARNING
+Refferer: http://cms.localhost/admin/site/structure/           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: require_once(Z:/home/localhost/cms/system/inc/editor/editor.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+Process: 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (114) => 
+Z:\home\localhost\cms\tools\ckeditor\ckeditor.php (114)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:16
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/skin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/skin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:16
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/editor.css?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/editor.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-structure-link/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-structure-link/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/iframedialog/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/iframedialog/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-image/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-image/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-cvs/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-cvs/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-flash/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-flash/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-attach/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-attach/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-quit/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-quit/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:13:17
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-language/plugin.js?t=1360246396508
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-language/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:56
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/skin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/skin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/editor.css?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/editor.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-language/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-language/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/iframedialog/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/iframedialog/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-attach/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-attach/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-quit/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-quit/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-structure-link/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-structure-link/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-cvs/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-cvs/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-image/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-image/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:28:57
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-flash/plugin.js?t=1360247336633
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-flash/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/skin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/skin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/editor.css?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/editor.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-language/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-language/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/iframedialog/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/iframedialog/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-quit/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-quit/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-attach/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-attach/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-structure-link/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-structure-link/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-cvs/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-cvs/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-image/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-image/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:29:01
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-flash/plugin.js?t=1360247340786
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-flash/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/skin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/skin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/skins/office2003/editor.css?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/skins/office2003/editor.css
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-quit/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-quit/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-structure-link/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-structure-link/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-cvs/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-cvs/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-image/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-image/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-flash/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-flash/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-attach/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-attach/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:20
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-language/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-language/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:21
+URL: http://cms.localhost/extras/ckeditor/plugins/iframedialog/plugin.js?t=1360247420178
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/iframedialog/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:45
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-structure-link/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-structure-link/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/iframedialog/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/iframedialog/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-attach/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-attach/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-cvs/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-cvs/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-image/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-image/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-language/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-language/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-flash/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-flash/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 16:30:46
+URL: http://cms.localhost/extras/ckeditor/plugins/cms-quit/plugin.js?t=1360247445489
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/tools/ckeditor/ckeditor.php?event=editor/content&id=63147&table_name=site_structure&field_name=content_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/ckeditor/plugins/cms-quit/plugin.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 17:57:58
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:12
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:12
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:12
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:12
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:36
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:36
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:37
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:38
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:38
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:39
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Ftools%2Fckeditor%2Fckeditor.php%3Fevent%3Deditor%252Fcontent%26id%3D63147%26table_name%3Dsite_structure%26field_name%3Dcontent_ru           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:43
+URL: http://cms.localhost/js/user/oid_widget.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2Fsite%2Fstructure%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/oid_widget.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:43
+URL: http://cms.localhost/extras/jquery/jquery.jgrowl.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2Fsite%2Fstructure%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery.jgrowl.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:43
+URL: http://cms.localhost/js/user/user.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2Fsite%2Fstructure%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: js/user/user.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:44
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2Fsite%2Fstructure%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------
+
+
+[BEGIN]--------------------------------------------------
+Date: 2013-02-07 18:14:44
+URL: http://cms.localhost/extras/jquery/jquery-1.4.2.min.js?
+IP: 127.0.0.1 (127.0.0.1)
+File: system\libs\Site.class.php
+Mtime: 1359383398
+Line: 97
+Type: E_USER_ERROR
+Refferer: http://cms.localhost/index_admin_login.php?return_path=%2Fadmin%2Fsite%2Fstructure%2F%3F           
+UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; Edition Yx 01) Presto/2.12.388 Version/12.13   
+Message: Impossible to serve url which ends on .js and .css as html request. URL: extras/jquery/jquery-1.4.2.min.js
+Process: 
+Z:\home\localhost\cms\system\libs\Site.class.php (97) => 
+Z:\home\localhost\cms\index_site.php (48)
+[END]--------------------------------------------------

@@ -1,4 +1,3 @@
-﻿
 <div class="form">
 	<div class="block">
 		<form name="LoginForm" action="/<?php echo LANGUAGE_URL; ?>action/cms/login/" method="POST">
