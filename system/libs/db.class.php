@@ -144,10 +144,10 @@ abstract class db {
 			CREATE TEMPORARY TABLE IF NOT EXISTS `tmp_db_profile` (
 			  `query_id` int(10) NOT NULL,
 			  `duration` float(15,8) NOT NULL,
-			  `query` varchar(255) collate cp1251_ukrainian_ci NOT NULL,
+			  `query` varchar(255) collate utf8_general_ci NOT NULL,
 			  PRIMARY KEY (`query_id`),
 			  KEY `query` (`query`)
-			) ENGINE=MyISAM DEFAULT CHARSET=cp1251 COLLATE=cp1251_ukrainian_ci
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci
 		";
 		$this->query($query);
 		
@@ -155,11 +155,11 @@ abstract class db {
 			CREATE TEMPORARY TABLE IF NOT EXISTS `tmp_db_stat` (
 			  `query_id` int(10) NOT NULL,
 			  `seq` int(10) NOT NULL,
-			  `state` varchar(255) collate cp1251_ukrainian_ci NOT NULL,
+			  `state` varchar(255) collate utf8_general_ci NOT NULL,
 			  `duration` float(15,8) NOT NULL,
 			  PRIMARY KEY (`query_id`, `seq`),
 			  KEY `state` (`state`)
-			) ENGINE=MyISAM DEFAULT CHARSET=cp1251 COLLATE=cp1251_ukrainian_ci
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci
 		";
 		$this->query($query);
 		

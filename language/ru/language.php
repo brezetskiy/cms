@@ -1,5 +1,5 @@
 <?php
-define('LANGUAGE_CHARSET', 'cp1251');
+define('LANGUAGE_CHARSET', 'utf-8');
 define('LANGUAGE_TIME', 'H:i');
 define('LANGUAGE_TIME_SQL', '%H:%i');
 define('LANGUAGE_DATE', 'd.m.Y');

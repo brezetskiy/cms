@@ -31,7 +31,7 @@ class dbMySQLi extends db {
 	*/
 	public function __construct($host, $login, $password, $db_name, $port = 3306) {
 		$this->db_name = $db_name;
-		 
+ 
 		$this->link = @mysqli_connect($host, $login, $password, $this->db_name, $port);
 		if(false === $this->link) {
 			@header("HTTP/1.1 503 Service Temporarily Unavailable");
@@ -50,7 +50,7 @@ class dbMySQLi extends db {
 			}
 			exit;
 		}
-		
+                
 		mysqli_query($this->link, "SET NAMES '".CMS_CHARSET."' COLLATE '".CMS_COLLATION."'");
 		mysqli_query($this->link, "SET CHARACTER SET '".CMS_CHARSET."'");
 		if (IS_DEVELOPER) {

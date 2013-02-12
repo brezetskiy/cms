@@ -283,12 +283,16 @@ if (substr(PHP_OS, 0, 3) == 'WIN') {
  * Подгрузка конфигурации
  * cache можна удалять, потому нужно проверить наличие файлы и, если его нету, создать.
  */
+$query = "SELECT id, code, file FROM cms_language";
+
 if (!file_exists(CACHE_ROOT . 'config.inc.php')){
-    //$fp = fopen(CACHE_ROOT . 'config.inc.php', 'w+');
-    //fclose($fp);
+    $fp = fopen(CACHE_ROOT . 'config.inc.php', 'w+');
+    fclose($fp);   
+    
     if (!copy('system/config.ini', CACHE_ROOT . 'config.inc.php')){
         die ("Не могу записать в папку кэша");
     }
+    
 } 
 
 require_once(CACHE_ROOT . 'config.inc.php');
@@ -460,5 +464,19 @@ if (
 } else {
 	define('IS_DEVELOPER', 0);
 }
+
+if (!isset($DB)){
+    require_once LIBS_ROOT . '/db.class.php';
+    $DB = DB::factory('default');
+};     
+    
+Install::updateMyConfig();
+
+$query = "
+    SELECT *
+    FROM site_structure
+";
+x( $query );
+x( $DB->query($query) );
 
 ?>
