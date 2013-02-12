@@ -58,7 +58,7 @@ if (!empty($data)) {
 /**
  * Новости
  */
-$News = new News();
+/*$News = new News();
 $data = $News->getHeadlines(NEWS_MAIN_PAGE_COUNT, array('Main'));
 $TmplDesign->iterateArray('/news/', null, $data);
 
@@ -66,5 +66,5 @@ if(in_array(27, $Site->parents)) {
 	$TmplDesign->set('show_news', false);
 	$TmplDesign->set('show_calendar', true);
 }
-
+*/
 ?>

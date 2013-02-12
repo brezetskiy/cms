@@ -472,11 +472,4 @@ if (!isset($DB)){
     
 Install::updateMyConfig();
 
-$query = "
-    SELECT *
-    FROM site_structure
-";
-x( $query );
-x( $DB->query($query) );
-
 ?>

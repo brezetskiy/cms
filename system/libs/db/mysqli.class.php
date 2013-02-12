@@ -53,6 +53,7 @@ class dbMySQLi extends db {
                 
 		mysqli_query($this->link, "SET NAMES '".CMS_CHARSET."' COLLATE '".CMS_COLLATION."'");
 		mysqli_query($this->link, "SET CHARACTER SET '".CMS_CHARSET."'");
+                mysqli_query($this->link, "SET NAMES utf8");
 		if (IS_DEVELOPER) {
 			mysqli_query($this->link, "SET SQL_MODE='strict_all_tables'");
 		}
