@@ -68,7 +68,7 @@
 			
                         //var
                         var start_tr = 0;
-			$('.cms_view').tableDnD({
+			$('.cms_view:not(.no_priority)').tableDnD({
                             'dragHandle':'move', 
                             'onDrop': function (table, row) { 
                                 if ( $(table).find('tbody tr').index($(row)) != start_tr)

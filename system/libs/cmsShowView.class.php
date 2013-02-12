@@ -614,6 +614,9 @@ class cmsShowView {
 		if (isset($this->param['data_filter']) && !empty($this->param['data_filter'])) {
 			$this->data = call_user_func_array($this->param['data_filter'], array($this->data));
 		}
+                
+                //Добавляем класс запрета приоритета
+                if ( !isset($this->fields['priority']) ) $this->Template->setGlobal('no_priority', 1);                
 		
 		// Проверка наличия нужной информации в результате запроса
 		$this->checkData();
